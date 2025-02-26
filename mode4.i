@@ -1,9 +1,73 @@
-#include "mode4.h"
-#include "font.h"
+# 1 "mode4.c"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "mode4.c"
+# 1 "mode4.h" 1
 
-// Sets a pixel in mode 4
+
+
+# 1 "gba.h" 1
+
+
+
+
+typedef signed char s8;
+typedef unsigned char u8;
+typedef signed short s16;
+typedef unsigned short u16;
+typedef signed int s32;
+typedef unsigned int u32;
+typedef signed long long s64;
+typedef unsigned long long u64;
+
+
+
+
+
+
+extern volatile unsigned short* videoBuffer;
+# 40 "gba.h"
+int collision(int x1, int y1, int width1, int height1, int x2, int y2, int width2, int height2);
+
+
+void waitForVBlank();
+# 59 "gba.h"
+extern unsigned short oldButtons;
+extern unsigned short buttons;
+
+
+
+
+typedef volatile struct {
+    volatile void* src;
+    volatile void* dest;
+    unsigned int ctrl;
+} DMAChannel;
+# 93 "gba.h"
+void DMANow(int channel, volatile void* src, volatile void* dest, unsigned int ctrl);
+# 5 "mode4.h" 2
+
+
+
+
+void flipPages();
+void setPixel4(int x, int y, u8 colorIndex);
+void drawRect4(int x, int y, int width, int height, volatile u8 colorIndex);
+void fillScreen4(volatile u8 colorIndex);
+void drawImage4(int x, int y, int width, int height, const u16* image);
+void drawFullscreenImage4(const u16* image);
+
+void drawChar4(int x, int y, char ch, u8 colorIndex);
+void drawString4(int x, int y, char* str, u8 colorIndex);
+# 2 "mode4.c" 2
+# 1 "font.h" 1
+
+extern const unsigned char fontdata_6x8[12288];
+# 3 "mode4.c" 2
+
+
 void setPixel4(int x, int y, unsigned char colorIndex) {
-    unsigned short *pixel = videoBuffer + OFFSET(x / 2, y, SCREENWIDTH / 2);
+    unsigned short *pixel = videoBuffer + ((y) * (240 / 2) + (x / 2));
     if (x & 1) {
         *pixel = (*pixel & 0x00FF) | (colorIndex << 8);
     } else {
@@ -11,7 +75,7 @@ void setPixel4(int x, int y, unsigned char colorIndex) {
     }
 }
 
-// Draws a rectangle in mode 4
+
 void drawRect4(int x, int y, int width, int height, volatile unsigned char colorIndex) {
     unsigned short pixelData = (colorIndex << 8) | colorIndex;
 
@@ -22,14 +86,14 @@ void drawRect4(int x, int y, int width, int height, volatile unsigned char color
                 DMANow(3,
                        &pixelData,
                        &videoBuffer[(currentY * 240 + x) / 2],
-                       (width / 2) | DMA_SOURCE_FIXED | DMA_16);
-            } 
+                       (width / 2) | (2 << 23) | (0 << 26));
+            }
             else {
                 if (width > 1) {
                     DMANow(3,
                            &pixelData,
                            &videoBuffer[(currentY * 240 + x) / 2],
-                           ((width - 1) / 2) | DMA_SOURCE_FIXED | DMA_16);
+                           ((width - 1) / 2) | (2 << 23) | (0 << 26));
                 }
                 setPixel4(x + width - 1, currentY, colorIndex);
             }
@@ -43,14 +107,14 @@ void drawRect4(int x, int y, int width, int height, volatile unsigned char color
                     DMANow(3,
                            &pixelData,
                            &videoBuffer[(currentY * 240 + (x + 1)) / 2],
-                           (remain / 2) | DMA_SOURCE_FIXED | DMA_16);
-                } 
+                           (remain / 2) | (2 << 23) | (0 << 26));
+                }
                 else {
                     if (remain > 1) {
                         DMANow(3,
                                &pixelData,
                                &videoBuffer[(currentY * 240 + (x + 1)) / 2],
-                               ((remain - 1) / 2) | DMA_SOURCE_FIXED | DMA_16);
+                               ((remain - 1) / 2) | (2 << 23) | (0 << 26));
                     }
                     setPixel4(x + width - 1, currentY, colorIndex);
                 }
@@ -59,37 +123,37 @@ void drawRect4(int x, int y, int width, int height, volatile unsigned char color
     }
 }
 
-// Fills the screen in mode 4 using specified palette index
+
 void fillScreen4(volatile unsigned char colorIndex) {
     volatile unsigned int color = (colorIndex << 24) | (colorIndex << 16) |
-                                  (colorIndex << 8)  | colorIndex;
-    
-    DMA[3].src = &color;
-    DMA[3].dest = videoBuffer;
-    DMA[3].ctrl = DMA_ON | DMA_SOURCE_FIXED | DMA_32 | (38400 / 4);
+                                  (colorIndex << 8) | colorIndex;
+
+    ((DMAChannel*)0x040000B0)[3].src = &color;
+    ((DMAChannel*)0x040000B0)[3].dest = videoBuffer;
+    ((DMAChannel*)0x040000B0)[3].ctrl = (1 << 31) | (2 << 23) | (1 << 26) | (38400 / 4);
 
 
 }
 
-// Draws an image in mode 4
+
 void drawImage4(int x, int y, int width, int height, const unsigned short *image) {
     int imageRowWords = width / 2;
-    int videoRowWords = SCREENWIDTH / 2;
+    int videoRowWords = 240 / 2;
     for (int j = 0; j < height; j++) {
-        DMANow(3, 
-            image + j * imageRowWords, 
-            videoBuffer + OFFSET(x / 2, y + j, videoRowWords), 
+        DMANow(3,
+            image + j * imageRowWords,
+            videoBuffer + ((y + j) * (videoRowWords) + (x / 2)),
             imageRowWords);
     }
 }
 
-// Draws a full-screen image in mode 4
+
 void drawFullscreenImage4(const unsigned short *image) {
-    unsigned int numWords = (SCREENWIDTH * SCREENHEIGHT) / 2;
+    unsigned int numWords = (240 * 160) / 2;
     DMANow(3, image, videoBuffer, numWords);
 }
 
-// Draws the specified character at the specified location in Mode 4
+
 void drawChar4(int x, int y, char ch, u8 colorIndex) {
     for (int c = 0; c < 6; c++) {
         for (int r = 0; r < 8; r++) {
@@ -98,7 +162,7 @@ void drawChar4(int x, int y, char ch, u8 colorIndex) {
     }
 }
 
-// Draws the specified string at the specified location in Mode 3
+
 void drawString4(int x, int y, char* str, u8 colorIndex) {
     while (*str) {
         drawChar4(x, y, *str, colorIndex);
@@ -107,12 +171,12 @@ void drawString4(int x, int y, char* str, u8 colorIndex) {
     }
 }
 
-// Flips page being displayed and page being drawn to
+
 void flipPage() {
-    if (REG_DISPCTL & DISP_BACKBUFFER) {
-        videoBuffer = BACKBUFFER;
+    if ((*(volatile unsigned short*) 0x04000000) & (1 << 4)) {
+        videoBuffer = ((unsigned short*) 0x0600A000);
     } else {
-        videoBuffer = FRONTBUFFER;
+        videoBuffer = ((unsigned short*) 0x06000000);
     }
-    REG_DISPCTL ^= DISP_BACKBUFFER;
+    (*(volatile unsigned short*) 0x04000000) ^= (1 << 4);
 }
