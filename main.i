@@ -263,16 +263,20 @@ void drawPauseScreen();
 void drawWinScreen();
 void drawLoseScreen();
 
+
+
+
 typedef struct {
     int x, y;
-    int oldx, oldy;
+    int oldX, oldY;
+    int dx;
     int width, height;
     const unsigned short* imageData;
 } Ghost;
 
 typedef struct {
     int x, y;
-    int oldx, oldy;
+    int oldX, oldY;
     int width, height;
     int dx;
     const unsigned short* imageData;
@@ -281,7 +285,13 @@ typedef struct {
 typedef struct {
     int x, y;
     int width, height;
+    int active;
 } Cross;
+
+typedef struct {
+    int x, y;
+    int width, height;
+} Wall;
 # 4 "main.c" 2
 # 1 "font.h" 1
 
@@ -299,25 +309,127 @@ void drawFullscreenImage4(const u16* image);
 void drawChar4(int x, int y, char ch, u8 colorIndex);
 void drawString4(int x, int y, char* str, u8 colorIndex);
 # 6 "main.c" 2
-# 1 "StartScreen.h" 1
-# 21 "StartScreen.h"
-extern const unsigned short StartScreenBitmap[19200];
+# 1 "start1.h" 1
+# 21 "start1.h"
+extern const unsigned short start1Bitmap[19200];
 
 
-extern const unsigned short StartScreenPal[256];
+extern const unsigned short start1Pal[256];
 # 7 "main.c" 2
+# 1 "start2.h" 1
+# 21 "start2.h"
+extern const unsigned short start2Bitmap[19200];
 
 
-extern const unsigned short StartScreenBitmap[19200];
+extern const unsigned short start2Pal[256];
+# 8 "main.c" 2
+# 1 "start3.h" 1
+# 21 "start3.h"
+extern const unsigned short start3Bitmap[19200];
 
 
-extern const unsigned short StartScreenPal[256];
+extern const unsigned short start3Pal[256];
+# 9 "main.c" 2
+# 1 "analogSound.h" 1
+# 257 "analogSound.h"
+enum note {
+
+  REST = 0,
+  NOTE_C2 =44,
+  NOTE_CS2 =157,
+  NOTE_D2 =263,
+  NOTE_DS2 =363,
+  NOTE_E2 =457,
+  NOTE_F2 =547,
+  NOTE_FS2 =631,
+  NOTE_G2 =711,
+  NOTE_GS2 =786,
+  NOTE_A2 =856,
+  NOTE_AS2 =923,
+  NOTE_B2 =986,
+  NOTE_C3 =1046,
+  NOTE_CS3 =1102,
+  NOTE_D3 =1155,
+  NOTE_DS3 =1205,
+  NOTE_E3 =1253,
+  NOTE_F3 =1297,
+  NOTE_FS3 =1339,
+  NOTE_G3 =1379,
+  NOTE_GS3 =1417,
+  NOTE_A3 =1452,
+  NOTE_AS3 =1486,
+  NOTE_B3 =1517,
+  NOTE_C4 =1547,
+  NOTE_CS4 =1575,
+  NOTE_D4 =1602,
+  NOTE_DS4 =1627,
+  NOTE_E4 =1650,
+  NOTE_F4 =1673,
+  NOTE_FS4 =1694,
+  NOTE_G4 =1714,
+  NOTE_GS4 =1732,
+  NOTE_A4 =1750,
+  NOTE_AS4 =1767,
+  NOTE_B4 =1783,
+  NOTE_C5 =1798,
+  NOTE_CS5 =1812,
+  NOTE_D5 =1825,
+  NOTE_DS5 =1837,
+  NOTE_E5 =1849,
+  NOTE_F5 =1860,
+  NOTE_FS5 =1871,
+  NOTE_G5 =1881,
+  NOTE_GS5 =1890,
+  NOTE_A5 =1899,
+  NOTE_AS5 =1907,
+  NOTE_B5 =1915,
+  NOTE_C6 =1923,
+  NOTE_CS6 =1930,
+  NOTE_D6 =1936,
+  NOTE_DS6 =1943,
+  NOTE_E6 =1949,
+  NOTE_F6 =1954,
+  NOTE_FS6 =1959,
+  NOTE_G6 =1964,
+  NOTE_GS6 =1969,
+  NOTE_A6 =1974,
+  NOTE_AS6 =1978,
+  NOTE_B6 =1982,
+  NOTE_C7 =1985,
+  NOTE_CS7 =1989,
+  NOTE_D7 =1992,
+  NOTE_DS7 =1995,
+  NOTE_E7 =1998,
+  NOTE_F7 =2001,
+  NOTE_FS7 =2004,
+  NOTE_G7 =2006,
+  NOTE_GS7 =2009,
+  NOTE_A7 =2011,
+  NOTE_AS7 =2013,
+  NOTE_B7 =2015,
+  NOTE_C8 =2017
+} NOTES;
+
+typedef struct noteWithDuration {
+  enum note note;
+  unsigned char duration;
+} NoteWithDuration;
+
+void initSound();
+void playDrumSound(unsigned char r, unsigned char s, unsigned char b, unsigned char length, unsigned char steptime);
+void playNoteWithDuration(NoteWithDuration *n, unsigned char duty);
+void playChannel1(unsigned short note, unsigned char length, unsigned char sweepShift, unsigned char sweepTime, unsigned char sweepDir, unsigned char envStepTime, unsigned char envDir, unsigned char duty);
+void playAnalogSound(unsigned short sound);
+# 10 "main.c" 2
+
 
 void goToStartState();
 void goToGameState();
 void goToPauseState();
 void goToWinState();
 void goToLoseState();
+
+GameState state;
 
 unsigned short buttons;
 unsigned short oldButtons;
@@ -333,10 +445,10 @@ int main() {
 
         switch (state) {
             case START:
-                goToStartState();
+                start();
                 break;
             case GAME:
-                goToGameState();
+                updateGameLoop();
                 break;
             case PAUSE:
                 goToPauseState();
@@ -355,11 +467,12 @@ int main() {
 
 void initialize() {
     (*(volatile unsigned short*) 0x04000000) = ((4) & 7) | (1 << (8 + (2 % 4))) | (1 << 4);
+    ((unsigned short*) 0x05000000)[1] = (((31) & 31) | ((0) & 31) << 5 | ((31) & 31) << 10);
     buttons = (*(volatile unsigned short*) 0x04000130);
     oldButtons = 0;
-
     goToStartState();
 
+    initSound();
 }
 
 void start() {
@@ -370,30 +483,90 @@ void start() {
     }
 }
 
-
 void goToStartState() {
-    DMANow(3, StartScreenPal, ((unsigned short*) 0x05000000), 512 / 2);
+    oldButtons = (*(volatile unsigned short*) 0x04000130);
+    buttons = (*(volatile unsigned short*) 0x04000130);
 
-    drawFullscreenImage4(StartScreenBitmap);
+    const unsigned short* startPalettes[3] = { start1Pal, start2Pal, start3Pal };
+    const unsigned short* startBitmaps[3] = { start1Bitmap, start2Bitmap, start3Bitmap };
+    int startPalLens[3] = { 512, 512, 512 };
 
-    waitForVBlank();
-    flipPage();
+    int frame = 0;
+    while (1) {
+        DMANow(3, startPalettes[frame], ((unsigned short*) 0x05000000), startPalLens[frame] / 2);
+        drawFullscreenImage4(startBitmaps[frame]);
+        waitForVBlank();
+        flipPage();
 
-    state = START;
+        for (volatile int i = 0; i < 30000; i++);
+
+        oldButtons = buttons;
+        buttons = (*(volatile unsigned short*) 0x04000130);
+        if ((!(~(oldButtons) & ((1 << 3))) && (~(buttons) & ((1 << 3)))))
+            break;
+
+        frame = (frame + 1) % 3;
+    }
+
+    goToGameState();
 }
 
+
+
 void goToGameState() {
+    initGame();
     state = GAME;
 }
 
-void goToPauseState() {
-    state = PAUSE;
+void updateGameLoop() {
+    updateGame();
+    drawGame();
+
+    if ((!(~(oldButtons) & ((1 << 3))) && (~(buttons) & ((1 << 3))))) {
+        goToPauseState();
+        return;
+    }
+
+    waitForVBlank();
+    flipPage();
 }
+
+
+
+void goToPauseState() {
+    fillScreen4(0);
+    drawString4(136, 8, "got too stressed?", 1);
+    drawString4(130, 18, "you're paused now!", 1);
+    waitForVBlank();
+    flipPage();
+
+    while (1) {
+        oldButtons = buttons;
+        buttons = (*(volatile unsigned short*) 0x04000130);
+        if ((!(~(oldButtons) & ((1 << 3))) && (~(buttons) & ((1 << 3))))) {
+            state = GAME;
+            break;
+        }
+        waitForVBlank();
+    }
+}
+
 
 void goToWinState() {
     state = WIN;
 }
 
 void goToLoseState() {
+    fillScreen4(0);
+    drawString4(50, 38, "The Hunter caught you!", 1);
+    drawString4(45, 58, "Press START to try again.", 1);
+
+    waitForVBlank();
+    flipPage();
+
     state = LOSE;
+
+    if ((!(~(oldButtons) & ((1 << 3))) && (~(buttons) & ((1 << 3))))) {
+        goToStartState();
+    }
 }

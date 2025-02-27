@@ -8,15 +8,31 @@
 	.eabi_attribute 30, 2
 	.eabi_attribute 34, 0
 	.eabi_attribute 18, 4
-	.file	"Normal.c"
+	.file	"Yay.c"
 	.text
-	.global	NormalPal
-	.global	NormalBitmap
+	.global	YayPal
+	.global	YayBitmap
 	.section	.rodata
 	.align	2
-	.type	NormalPal, %object
-	.size	NormalPal, 512
-NormalPal:
+	.type	YayPal, %object
+	.size	YayPal, 512
+YayPal:
+	.short	0
+	.short	14302
+	.short	27358
+	.short	32767
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
+	.short	0
 	.short	0
 	.short	32767
 	.short	0
@@ -34,21 +50,6 @@ NormalPal:
 	.short	0
 	.short	0
 	.short	0
-	.short	14833
-	.short	4296
-	.short	30653
-	.short	14693
-	.short	3204
-	.short	7468
-	.short	11866
-	.short	20319
-	.short	10638
-	.short	8455
-	.short	3344
-	.short	5587
-	.short	5386
-	.short	18887
-	.short	10570
 	.short	0
 	.short	0
 	.short	0
@@ -272,14 +273,9 @@ NormalPal:
 	.short	0
 	.short	0
 	.short	0
-	.short	0
-	.type	NormalBitmap, %object
-	.size	NormalBitmap, 256
-NormalBitmap:
-	.short	0
-	.short	0
-	.short	0
-	.short	0
+	.type	YayBitmap, %object
+	.size	YayBitmap, 256
+YayBitmap:
 	.short	0
 	.short	0
 	.short	0
@@ -295,105 +291,109 @@ NormalBitmap:
 	.short	0
 	.short	0
 	.short	256
-	.short	257
+	.short	0
+	.short	0
+	.short	0
+	.short	768
+	.short	771
+	.short	771
+	.short	3
 	.short	257
 	.short	1
 	.short	0
 	.short	0
-	.short	0
-	.short	0
-	.short	257
-	.short	257
-	.short	257
-	.short	257
-	.short	0
-	.short	0
-	.short	0
-	.short	0
-	.short	257
-	.short	257
-	.short	257
-	.short	257
-	.short	0
-	.short	0
-	.short	0
+	.short	771
+	.short	771
+	.short	771
+	.short	771
 	.short	256
-	.short	257
-	.short	257
-	.short	257
-	.short	257
-	.short	1
-	.short	0
-	.short	0
-	.short	256
-	.short	1
-	.short	257
-	.short	257
-	.short	256
-	.short	1
-	.short	0
-	.short	0
-	.short	256
-	.short	1
-	.short	257
-	.short	257
-	.short	256
-	.short	1
-	.short	0
-	.short	0
-	.short	256
-	.short	1
-	.short	257
-	.short	257
-	.short	256
-	.short	1
-	.short	0
-	.short	0
-	.short	256
-	.short	257
-	.short	1
-	.short	256
-	.short	257
-	.short	1
-	.short	0
-	.short	0
-	.short	256
-	.short	257
-	.short	1
-	.short	256
-	.short	257
-	.short	1
-	.short	0
-	.short	0
-	.short	256
-	.short	257
-	.short	1
-	.short	256
-	.short	257
-	.short	1
-	.short	0
-	.short	0
-	.short	256
-	.short	257
-	.short	257
-	.short	257
-	.short	257
-	.short	1
-	.short	0
-	.short	0
-	.short	256
-	.short	257
-	.short	257
-	.short	257
-	.short	257
-	.short	1
 	.short	0
 	.short	0
 	.short	0
-	.short	257
-	.short	256
-	.short	1
-	.short	257
+	.short	771
+	.short	771
+	.short	771
+	.short	771
+	.short	0
+	.short	0
+	.short	0
+	.short	768
+	.short	771
+	.short	771
+	.short	771
+	.short	771
+	.short	3
+	.short	0
+	.short	0
+	.short	768
+	.short	259
+	.short	769
+	.short	259
+	.short	769
+	.short	3
+	.short	0
+	.short	0
+	.short	768
+	.short	259
+	.short	769
+	.short	259
+	.short	769
+	.short	3
+	.short	0
+	.short	0
+	.short	768
+	.short	770
+	.short	771
+	.short	771
+	.short	515
+	.short	3
+	.short	0
+	.short	0
+	.short	768
+	.short	771
+	.short	0
+	.short	0
+	.short	771
+	.short	3
+	.short	0
+	.short	0
+	.short	768
+	.short	771
+	.short	3
+	.short	768
+	.short	771
+	.short	3
+	.short	0
+	.short	0
+	.short	768
+	.short	771
+	.short	771
+	.short	771
+	.short	771
+	.short	3
+	.short	0
+	.short	0
+	.short	768
+	.short	771
+	.short	771
+	.short	771
+	.short	771
+	.short	3
+	.short	0
+	.short	0
+	.short	768
+	.short	771
+	.short	771
+	.short	771
+	.short	771
+	.short	3
+	.short	0
+	.short	0
+	.short	0
+	.short	771
+	.short	768
+	.short	3
+	.short	771
 	.short	0
 	.short	0
 	.short	0

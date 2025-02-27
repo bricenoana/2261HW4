@@ -11,16 +11,20 @@ void drawPauseScreen();
 void drawWinScreen();
 void drawLoseScreen();
 
+#define NUM_CROSSES 5
+#define PURPLE 1
+
 typedef struct {
     int x, y;
-    int oldx, oldy;
+    int oldX, oldY;
+    int dx;
     int width, height;
     const unsigned short* imageData;
 } Ghost;
 
 typedef struct {
     int x, y;
-    int oldx, oldy;
+    int oldX, oldY;
     int width, height;
     int dx;
     const unsigned short* imageData;
@@ -29,6 +33,14 @@ typedef struct {
 typedef struct {
     int x, y;
     int width, height;
+    int active;
 } Cross;
+
+typedef struct {
+    int x, y;
+    int width, height;
+} Wall;
+
+
 
 #endif // GAME_H
