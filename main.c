@@ -30,7 +30,7 @@ int main() {
     
         switch (state) {
             case START:
-                start();  // your start state function
+                start();
                 break;
             case GAME:
                 updateGameLoop();
@@ -85,13 +85,12 @@ void goToStartState() {
         flipPage();
         
         for (volatile int i = 0; i < 30000; i++);
-
-        oldButtons = buttons;
-        buttons = REG_BUTTONS;
-        if (BUTTON_PRESSED(BUTTON_START))
-            break;
-        
-        frame = (frame + 1) % 3;
+            oldButtons = buttons;
+            buttons = REG_BUTTONS;
+            if (BUTTON_PRESSED(BUTTON_START))
+                break;
+            
+            frame = (frame + 1) % 3;
     }
 
     goToGameState();
@@ -170,12 +169,11 @@ void goToScoreboardState() {
     waitForVBlank();
     flipPage();
     
-    // Wait until START is pressed, then simply resume the game.
     while (1) {
         oldButtons = buttons;
         buttons = REG_BUTTONS;
         if (BUTTON_PRESSED(BUTTON_START)) {
-            state = GAME;  // Resume game without calling initGame()
+            state = GAME;
             break;
         }
         waitForVBlank();
