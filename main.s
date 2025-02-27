@@ -250,7 +250,7 @@ goToPauseState:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, r5, r6, r7, r8, lr}
-	mov	r0, #0
+	mov	r0, #20
 	ldr	r3, .L45
 	mov	lr, pc
 	bx	r3
@@ -366,26 +366,6 @@ updateGameLoop:
 	.word	waitForVBlank
 	.word	flipPage
 	.size	updateGameLoop, .-updateGameLoop
-	.align	2
-	.global	goToWinState
-	.syntax unified
-	.arm
-	.fpu softvfp
-	.type	goToWinState, %function
-goToWinState:
-	@ Function supports interworking.
-	@ args = 0, pretend = 0, frame = 0
-	@ frame_needed = 0, uses_anonymous_args = 0
-	@ link register save eliminated.
-	mov	r2, #4
-	ldr	r3, .L57
-	strb	r2, [r3]
-	bx	lr
-.L58:
-	.align	2
-.L57:
-	.word	state
-	.size	goToWinState, .-goToWinState
 	.section	.rodata.str1.4
 	.align	2
 .LC7:
@@ -406,48 +386,48 @@ goToLoseState:
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, lr}
 	mov	r0, #27
-	ldr	r3, .L66
+	ldr	r3, .L63
 	mov	lr, pc
 	bx	r3
-	ldr	r4, .L66+4
+	ldr	r4, .L63+4
 	mov	r3, #1
 	mov	r1, #38
 	mov	r0, #50
-	ldr	r2, .L66+8
+	ldr	r2, .L63+8
 	mov	lr, pc
 	bx	r4
 	mov	r1, #58
-	ldr	r2, .L66+12
+	ldr	r2, .L63+12
 	mov	r0, #45
 	mov	r3, #1
 	mov	lr, pc
 	bx	r4
-	ldr	r3, .L66+16
+	ldr	r3, .L63+16
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L66+20
+	ldr	r3, .L63+20
 	mov	lr, pc
 	bx	r3
 	mov	r2, #5
-	ldr	r3, .L66+24
+	ldr	r3, .L63+24
 	ldrh	r1, [r3]
-	ldr	r3, .L66+28
+	ldr	r3, .L63+28
 	tst	r1, #8
 	strb	r2, [r3]
-	beq	.L59
-	ldr	r3, .L66+32
+	beq	.L56
+	ldr	r3, .L63+32
 	ldrh	r3, [r3]
 	tst	r3, #8
-	beq	.L65
-.L59:
+	beq	.L62
+.L56:
 	pop	{r4, lr}
 	bx	lr
-.L65:
+.L62:
 	pop	{r4, lr}
 	b	goToStartState
-.L67:
+.L64:
 	.align	2
-.L66:
+.L63:
 	.word	fillScreen4
 	.word	drawString4
 	.word	.LC7
@@ -480,23 +460,23 @@ goToScoreboardState:
 	@ args = 0, pretend = 0, frame = 32
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, r5, r6, r7, lr}
-	mov	r0, #0
+	mov	r0, #30
 	sub	sp, sp, #36
-	ldr	r3, .L76
+	ldr	r3, .L73
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L76+4
-	ldr	r1, .L76+8
+	ldr	r3, .L73+4
+	ldr	r1, .L73+8
 	ldr	r2, [r3]
 	mov	r0, sp
-	ldr	r3, .L76+12
+	ldr	r3, .L73+12
 	mov	lr, pc
 	bx	r3
 	mov	r1, #20
-	ldr	r4, .L76+16
+	ldr	r4, .L73+16
 	mov	r0, r1
 	mov	r3, #1
-	ldr	r2, .L76+20
+	ldr	r2, .L73+20
 	mov	lr, pc
 	bx	r4
 	mov	r2, sp
@@ -505,44 +485,44 @@ goToScoreboardState:
 	mov	r0, #20
 	mov	lr, pc
 	bx	r4
-	ldr	r7, .L76+24
+	ldr	r7, .L73+24
 	mov	r3, #1
 	mov	r1, #60
 	mov	r0, #20
-	ldr	r2, .L76+28
+	ldr	r2, .L73+28
 	mov	lr, pc
 	bx	r4
 	mov	lr, pc
 	bx	r7
-	ldr	r3, .L76+32
+	ldr	r3, .L73+32
 	mov	lr, pc
 	bx	r3
-	ldr	r4, .L76+36
-	ldr	r6, .L76+40
-	ldr	r5, .L76+44
-	b	.L70
-.L69:
+	ldr	r4, .L73+36
+	ldr	r6, .L73+40
+	ldr	r5, .L73+44
+	b	.L67
+.L66:
 	mov	lr, pc
 	bx	r7
-.L70:
+.L67:
 	ldrh	r2, [r4]
 	strh	r2, [r6]	@ movhi
 	ldrh	r3, [r5, #48]
 	tst	r2, #8
 	strh	r3, [r4]	@ movhi
-	beq	.L69
+	beq	.L66
 	tst	r3, #8
-	bne	.L69
+	bne	.L66
 	mov	r2, #1
-	ldr	r3, .L76+48
+	ldr	r3, .L73+48
 	strb	r2, [r3]
 	add	sp, sp, #36
 	@ sp needed
 	pop	{r4, r5, r6, r7, lr}
 	bx	lr
-.L77:
+.L74:
 	.align	2
-.L76:
+.L73:
 	.word	fillScreen4
 	.word	highScore
 	.word	.LC9
@@ -570,70 +550,61 @@ main:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, r7, fp, lr}
-	ldr	r6, .L90
-	ldr	r7, .L90+4
-	ldr	r3, .L90+8
+	ldr	r3, .L87
 	mov	lr, pc
 	bx	r3
-	ldr	r5, .L90+12
+	ldr	r6, .L87+4
+	ldr	r7, .L87+8
+	ldr	r5, .L87+12
+	ldr	fp, .L87+16
+	ldr	r10, .L87+20
+	ldr	r9, .L87+24
+	ldr	r8, .L87+28
+	ldr	r4, .L87+32
+.L76:
 	ldrb	r1, [r6]	@ zero_extendqisi2
 	ldrh	r3, [r7]
-	ldr	fp, .L90+16
-	ldr	r10, .L90+20
-	ldr	r9, .L90+24
-	ldr	r8, .L90+28
-	ldr	r4, .L90+32
-.L81:
+.L77:
 	strh	r3, [r5]	@ movhi
 	ldrh	r3, [r4, #48]
 	strh	r3, [r7]	@ movhi
 	cmp	r1, #5
 	ldrls	pc, [pc, r1, asl #2]
-	b	.L81
-.L83:
-	.word	.L87
-	.word	.L86
-	.word	.L85
-	.word	.L84
-	.word	.L81
+	b	.L77
+.L79:
+	.word	.L83
 	.word	.L82
-.L82:
-	ldr	r3, .L90+36
+	.word	.L81
+	.word	.L80
+	.word	.L77
+	.word	.L78
+.L78:
+	ldr	r3, .L87+36
 	mov	lr, pc
 	bx	r3
-	ldrb	r1, [r6]	@ zero_extendqisi2
-	ldrh	r3, [r7]
-	b	.L81
-.L84:
+	b	.L76
+.L80:
 	mov	lr, pc
 	bx	r8
-	ldrb	r1, [r6]	@ zero_extendqisi2
-	ldrh	r3, [r7]
-	b	.L81
-.L85:
+	b	.L76
+.L81:
 	mov	lr, pc
 	bx	r9
-	ldrb	r1, [r6]	@ zero_extendqisi2
-	ldrh	r3, [r7]
-	b	.L81
-.L86:
+	b	.L76
+.L82:
 	mov	lr, pc
 	bx	r10
-	ldrb	r1, [r6]	@ zero_extendqisi2
-	ldrh	r3, [r7]
-	b	.L81
-.L87:
+	b	.L76
+.L83:
 	mov	lr, pc
 	bx	fp
-	ldrb	r1, [r6]	@ zero_extendqisi2
-	ldrh	r3, [r7]
-	b	.L81
-.L91:
+	b	.L76
+.L88:
 	.align	2
-.L90:
+.L87:
+	.word	initialize
 	.word	state
 	.word	buttons
-	.word	initialize
 	.word	oldButtons
 	.word	start
 	.word	updateGameLoop

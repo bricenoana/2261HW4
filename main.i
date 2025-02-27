@@ -429,7 +429,6 @@ void playAnalogSound(unsigned short sound);
 void goToStartState();
 void goToGameState();
 void goToPauseState();
-void goToWinState();
 void goToLoseState();
 
 GameState state;
@@ -458,9 +457,6 @@ int main() {
                 break;
             case SCOREBOARD:
                 goToScoreboardState();
-                break;
-            case WIN:
-                goToWinState();
                 break;
             case LOSE:
                 goToLoseState();
@@ -541,7 +537,7 @@ void updateGameLoop() {
 
 
 void goToPauseState() {
-    fillScreen4(0);
+    fillScreen4(20);
     drawString4(136, 8, "got too stressed?", 1);
     drawString4(130, 18, "you're paused now!", 1);
     waitForVBlank();
@@ -563,10 +559,6 @@ void goToPauseState() {
 }
 
 
-void goToWinState() {
-    state = WIN;
-}
-
 void goToLoseState() {
     fillScreen4(27);
     drawString4(50, 38, "The Hunter caught you!", 1);
@@ -583,7 +575,7 @@ void goToLoseState() {
 }
 
 void goToScoreboardState() {
-    fillScreen4(0);
+    fillScreen4(30);
 
     char highScoreStr[32];
     sprintf(highScoreStr, "High Score: %d", highScore);

@@ -149,7 +149,7 @@ void updatePlayer() {
 void updateHunter() {
     static int steps = 0;
     static int direction = 0;
-    int speed = 2;
+    int speed = 3;
 
     int oldX = hunter.x;
     int oldY = hunter.y;

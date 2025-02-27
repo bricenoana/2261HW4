@@ -69,12 +69,12 @@ typedef unsigned long long u64;
 
 
 extern volatile unsigned short* videoBuffer;
-# 40 "gba.h"
+# 41 "gba.h"
 int collision(int x1, int y1, int width1, int height1, int x2, int y2, int width2, int height2);
 
 
 void waitForVBlank();
-# 59 "gba.h"
+# 60 "gba.h"
 extern unsigned short oldButtons;
 extern unsigned short buttons;
 
@@ -86,7 +86,7 @@ typedef volatile struct {
     volatile void* dest;
     unsigned int ctrl;
 } DMAChannel;
-# 93 "gba.h"
+# 94 "gba.h"
 void DMANow(int channel, volatile void* src, volatile void* dest, unsigned int ctrl);
 # 3 "game.c" 2
 # 1 "font.h" 1
@@ -1410,7 +1410,7 @@ void updatePlayer() {
 void updateHunter() {
     static int steps = 0;
     static int direction = 0;
-    int speed = 2;
+    int speed = 3;
 
     int oldX = hunter.x;
     int oldY = hunter.y;
@@ -1514,22 +1514,16 @@ void drawBorders() {
     }
 }
 
-
-
 void showYayAnimation() {
-
     int frameDelay = 60;
     for (int i = 0; i < frameDelay; i++) {
         fillScreen4(0);
         drawBorders();
 
-
         drawImage4(player.x, player.y, player.width, player.height, YayBitmap);
-
 
         drawImage4(hunter.x, hunter.y, hunter.width, hunter.height, ghostHunterBitmap);
         drawCross();
-
 
         char scoreStr[16];
         sprintf(scoreStr, "Score: %d", score);

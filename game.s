@@ -196,7 +196,7 @@ updateHunter:
 	.word	.L30
 	.word	.L28
 .L28:
-	sub	r0, r0, #2
+	sub	r0, r0, #3
 	str	r0, [r5]
 .L27:
 	ldr	r4, .L45+8
@@ -243,15 +243,15 @@ updateHunter:
 	pop	{r4, r5, r6, r7, r8, r9, r10, lr}
 	bx	lr
 .L30:
-	add	r1, r1, #2
+	add	r1, r1, #3
 	str	r1, [r5, #4]
 	b	.L27
 .L31:
-	add	r0, r0, #2
+	add	r0, r0, #3
 	str	r0, [r5]
 	b	.L27
 .L32:
-	sub	r1, r1, #2
+	sub	r1, r1, #3
 	str	r1, [r5, #4]
 	b	.L27
 .L43:
