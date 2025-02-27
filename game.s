@@ -129,7 +129,7 @@ updatePlayer:
 	strlt	ip, [r5, #4]
 	ldr	r6, .L23+12
 	sub	sp, sp, #20
-	add	r7, r4, #80
+	add	r7, r4, #120
 .L20:
 	add	r8, r4, #8
 	ldm	r8, {r8, r9}
@@ -140,7 +140,7 @@ updatePlayer:
 	mov	lr, pc
 	bx	r6
 	cmp	r0, #0
-	add	r4, r4, #16
+	add	r4, r4, #20
 	bne	.L22
 	cmp	r7, r4
 	beq	.L9
@@ -203,20 +203,18 @@ updateHunter:
 	sub	r3, r3, #1
 	str	r3, [r8]
 	ldr	r6, .L45+12
-	add	r7, r4, #80
+	add	r7, r4, #120
 .L35:
-	ldr	r3, [r4, #12]
-	ldmib	r4, {r2, ip}
-	str	r3, [sp, #12]
+	ldmib	r4, {r2, ip, lr}
 	ldr	r3, [r4]
-	stmib	sp, {r2, ip}
+	stmib	sp, {r2, ip, lr}
 	str	r3, [sp]
 	add	r2, r5, #16
 	ldm	r2, {r2, r3}
 	mov	lr, pc
 	bx	r6
 	cmp	r0, #0
-	add	r4, r4, #16
+	add	r4, r4, #20
 	bne	.L44
 	cmp	r4, r7
 	ldm	r5, {r0, r1}
@@ -452,7 +450,7 @@ spawnCross:
 	mov	lr, pc
 	bx	r7
 	cmp	r0, #0
-	add	r4, r4, #16
+	add	r4, r4, #20
 	bne	.L67
 	cmp	r4, r8
 	bne	.L68
@@ -472,7 +470,7 @@ spawnCross:
 	.align	2
 .L72:
 	.word	rand
-	.word	.LANCHOR0+80
+	.word	.LANCHOR0+120
 	.word	collision
 	.word	-1840700269
 	.word	954437177
@@ -669,12 +667,11 @@ drawBorders:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
-	push	{r4, r5, r6, r7, r8, lr}
-	mov	r7, #1
+	push	{r4, r5, r6, r7, lr}
 	ldr	r4, .L102
 	ldr	r6, .L102+4
-	sub	sp, sp, #8
-	add	r5, r4, #80
+	sub	sp, sp, #12
+	add	r5, r4, #120
 .L99:
 	ldr	lr, [r4]
 	ldr	r2, [r4, #8]
@@ -682,21 +679,22 @@ drawBorders:
 	ldr	ip, [r4, #4]
 	cmp	r3, #240
 	ldr	r3, [r4, #12]
-	add	r8, ip, r3
+	add	r7, ip, r3
 	rsbgt	r2, lr, #240
-	cmp	r8, #160
+	cmp	r7, #160
 	rsbgt	r3, ip, #160
-	mov	r0, lr
 	mov	r1, ip
-	str	r7, [sp]
-	add	r4, r4, #16
+	ldrb	ip, [r4, #16]	@ zero_extendqisi2
+	mov	r0, lr
+	str	ip, [sp]
+	add	r4, r4, #20
 	mov	lr, pc
 	bx	r6
 	cmp	r4, r5
 	bne	.L99
-	add	sp, sp, #8
+	add	sp, sp, #12
 	@ sp needed
-	pop	{r4, r5, r6, r7, r8, lr}
+	pop	{r4, r5, r6, r7, lr}
 	bx	lr
 .L103:
 	.align	2
@@ -848,38 +846,54 @@ showYayAnimation:
 	.align	2
 	.set	.LANCHOR0,. + 0
 	.type	walls, %object
-	.size	walls, 80
+	.size	walls, 120
 walls:
 	.word	42
 	.word	94
 	.word	21
 	.word	66
+	.short	1
+	.space	2
 	.word	172
 	.word	95
 	.word	21
 	.word	67
+	.short	1
+	.space	2
 	.word	155
 	.word	32
 	.word	85
 	.word	20
+	.short	1
+	.space	2
 	.word	41
 	.word	31
 	.word	74
 	.word	20
+	.short	1
+	.space	2
 	.word	96
 	.word	0
 	.word	19
 	.word	31
+	.short	1
+	.space	2
+	.word	63
+	.word	94
+	.word	53
+	.word	18
+	.short	1
+	.space	2
 	.bss
 	.align	2
 	.set	.LANCHOR1,. + 0
-	.type	steps.5048, %object
-	.size	steps.5048, 4
-steps.5048:
+	.type	steps.5049, %object
+	.size	steps.5049, 4
+steps.5049:
 	.space	4
-	.type	direction.5049, %object
-	.size	direction.5049, 4
-direction.5049:
+	.type	direction.5050, %object
+	.size	direction.5050, 4
+direction.5050:
 	.space	4
 	.type	highScore, %object
 	.size	highScore, 4

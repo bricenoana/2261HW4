@@ -47,6 +47,7 @@ typedef struct {
 typedef struct {
     int x, y;
     int width, height;
+    unsigned short color;
 } Wall;
 # 2 "game.c" 2
 # 1 "gba.h" 1
@@ -1286,13 +1287,15 @@ int highScore = 0;
 
 
 
-Wall walls[5] = {
-    {42, 94, 21, 66},
-    {172, 95, 21, 67},
-    {155, 32, 85, 20},
-    {41, 31, 74, 20},
-    {96, 0, 19, 31}
+Wall walls[6] = {
+    {42, 94, 21, 66, 1},
+    {172, 95, 21, 67, 1},
+    {155, 32, 85, 20, 1},
+    {41, 31, 74, 20, 1},
+    {96, 0, 19, 31, 1},
+    {63, 94, 53, 18, 1}
 };
+
 
 void initGame() {
     score = 0;
@@ -1396,7 +1399,7 @@ void updatePlayer() {
     if (player.y > 160 - player.height)
         player.y = 160 - player.height;
 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 6; i++) {
         if (collision(player.x, player.y, player.width, player.height,
                       walls[i].x, walls[i].y, walls[i].width, walls[i].height)) {
             player.x = player.oldX;
@@ -1436,7 +1439,7 @@ void updateHunter() {
     }
     steps--;
 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 6; i++) {
         if (collision(hunter.x, hunter.y, hunter.width, hunter.height,
                       walls[i].x, walls[i].y, walls[i].width, walls[i].height)) {
             hunter.x = oldX;
@@ -1482,7 +1485,7 @@ void spawnCross() {
         int tempX = rand() % (240 - 16);
         int tempY = rand() % (160 - 16);
         valid = 1;
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 6; i++) {
             if (collision(tempX, tempY, 16, 16,
                           walls[i].x, walls[i].y, walls[i].width, walls[i].height)) {
                 valid = 0;
@@ -1500,7 +1503,7 @@ void spawnCross() {
 }
 
 void drawBorders() {
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 6; i++) {
         int x = walls[i].x;
         int y = walls[i].y;
         int w = walls[i].width;
@@ -1510,7 +1513,7 @@ void drawBorders() {
             w = 240 - x;
         if (y + h > 160)
             h = 160 - y;
-        drawRect4(x, y, w, h, 1);
+        drawRect4(x, y, w, h, walls[i].color);
     }
 }
 

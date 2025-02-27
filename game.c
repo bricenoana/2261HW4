@@ -7,7 +7,6 @@
 #include "ghostHunter.h"
 #include <stdio.h>
 #include "analogSound.h"
-#include "Yay.h"
 
 extern void goToLoseState();
 
@@ -24,14 +23,16 @@ int highScore = 0;
 
 
 
-#define NUM_WALLS 5
+#define NUM_WALLS 6
 Wall walls[NUM_WALLS] = {
-    {42, 94, 21, 66},
-    {172, 95, 21, 67},
-    {155, 32, 85, 20},
-    {41, 31, 74, 20},
-    {96, 0, 19, 31}
+    {42, 94, 21, 66, 1},
+    {172, 95, 21, 67, 1},
+    {155, 32, 85, 20, 1},
+    {41, 31, 74, 20, 1},
+    {96, 0, 19, 31, 1},
+    {63, 94, 53, 18, 1}
 };
+
 
 void initGame() {
     score = 0;
@@ -249,26 +250,6 @@ void drawBorders() {
             w = SCREENWIDTH - x;
         if (y + h > SCREENHEIGHT)
             h = SCREENHEIGHT - y;
-        drawRect4(x, y, w, h, PURPLE);
-    }
-}
-
-void showYayAnimation() {
-    int frameDelay = 60;
-    for (int i = 0; i < frameDelay; i++) {
-        fillScreen4(0);
-        drawBorders();
-        
-        drawImage4(player.x, player.y, player.width, player.height, YayBitmap);
-        
-        drawImage4(hunter.x, hunter.y, hunter.width, hunter.height, ghostHunterBitmap);
-        drawCross();
-        
-        char scoreStr[16];
-        sprintf(scoreStr, "Score: %d", score);
-        drawString4(160, 5, scoreStr, 1);
-        
-        waitForVBlank();
-        flipPage();
+        drawRect4(x, y, w, h, walls[i].color);
     }
 }

@@ -42,7 +42,9 @@ typedef struct {
 typedef struct {
     int x, y;
     int width, height;
+    unsigned short color;
 } Wall;
+
 
 
 
