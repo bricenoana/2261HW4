@@ -18,8 +18,6 @@
 	.size	YayPal, 512
 YayPal:
 	.short	0
-	.short	14302
-	.short	27358
 	.short	32767
 	.short	0
 	.short	0
@@ -34,7 +32,9 @@ YayPal:
 	.short	0
 	.short	0
 	.short	0
-	.short	32767
+	.short	0
+	.short	0
+	.short	0
 	.short	0
 	.short	0
 	.short	0
@@ -290,110 +290,110 @@ YayBitmap:
 	.short	0
 	.short	0
 	.short	0
+	.short	0
+	.short	1
+	.short	0
+	.short	0
 	.short	256
+	.short	257
+	.short	257
+	.short	1
+	.short	0
+	.short	1
+	.short	0
+	.short	0
+	.short	257
+	.short	257
+	.short	257
+	.short	257
+	.short	0
+	.short	1
+	.short	0
+	.short	0
+	.short	257
+	.short	257
+	.short	257
+	.short	257
 	.short	0
 	.short	0
 	.short	0
-	.short	768
-	.short	771
-	.short	771
-	.short	3
+	.short	256
+	.short	1
+	.short	256
+	.short	1
+	.short	256
+	.short	1
+	.short	1
+	.short	0
+	.short	256
+	.short	1
+	.short	256
+	.short	1
+	.short	256
+	.short	1
+	.short	0
+	.short	0
+	.short	256
+	.short	1
+	.short	256
+	.short	1
+	.short	256
+	.short	1
+	.short	0
+	.short	0
+	.short	256
+	.short	257
+	.short	257
+	.short	257
 	.short	257
 	.short	1
 	.short	0
 	.short	0
-	.short	771
-	.short	771
-	.short	771
-	.short	771
 	.short	256
+	.short	257
+	.short	0
+	.short	0
+	.short	257
+	.short	1
+	.short	0
+	.short	0
+	.short	256
+	.short	257
+	.short	1
+	.short	256
+	.short	257
+	.short	1
+	.short	0
+	.short	0
+	.short	256
+	.short	257
+	.short	257
+	.short	257
+	.short	257
+	.short	1
+	.short	0
+	.short	0
+	.short	256
+	.short	257
+	.short	257
+	.short	257
+	.short	257
+	.short	1
+	.short	0
+	.short	0
+	.short	256
+	.short	257
+	.short	257
+	.short	257
+	.short	257
+	.short	1
 	.short	0
 	.short	0
 	.short	0
-	.short	771
-	.short	771
-	.short	771
-	.short	771
-	.short	0
-	.short	0
-	.short	0
-	.short	768
-	.short	771
-	.short	771
-	.short	771
-	.short	771
-	.short	3
-	.short	0
-	.short	0
-	.short	768
-	.short	259
-	.short	769
-	.short	259
-	.short	769
-	.short	3
-	.short	0
-	.short	0
-	.short	768
-	.short	259
-	.short	769
-	.short	259
-	.short	769
-	.short	3
-	.short	0
-	.short	0
-	.short	768
-	.short	770
-	.short	771
-	.short	771
-	.short	515
-	.short	3
-	.short	0
-	.short	0
-	.short	768
-	.short	771
-	.short	0
-	.short	0
-	.short	771
-	.short	3
-	.short	0
-	.short	0
-	.short	768
-	.short	771
-	.short	3
-	.short	768
-	.short	771
-	.short	3
-	.short	0
-	.short	0
-	.short	768
-	.short	771
-	.short	771
-	.short	771
-	.short	771
-	.short	3
-	.short	0
-	.short	0
-	.short	768
-	.short	771
-	.short	771
-	.short	771
-	.short	771
-	.short	3
-	.short	0
-	.short	0
-	.short	768
-	.short	771
-	.short	771
-	.short	771
-	.short	771
-	.short	3
-	.short	0
-	.short	0
-	.short	0
-	.short	771
-	.short	768
-	.short	3
-	.short	771
+	.short	257
+	.short	256
+	.short	1
+	.short	257
 	.short	0
 	.short	0
 	.short	0

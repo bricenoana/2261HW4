@@ -28,16 +28,19 @@ int main() {
     while (1) {
         oldButtons = buttons;
         buttons = REG_BUTTONS;
-
+    
         switch (state) {
             case START:
-                start();
+                start();  // your start state function
                 break;
             case GAME:
                 updateGameLoop();
                 break;
             case PAUSE:
                 goToPauseState();
+                break;
+            case SCOREBOARD:
+                goToScoreboardState();
                 break;
             case WIN:
                 goToWinState();
@@ -47,6 +50,7 @@ int main() {
                 break;
         }
     }
+    
     return 0;
 }
 
@@ -133,6 +137,10 @@ void goToPauseState() {
             state = GAME;
             break;
         }
+        if (BUTTON_PRESSED(BUTTON_SELECT)) {
+            state = SCOREBOARD;
+            break;
+        }
         waitForVBlank();
     }
 }
@@ -143,7 +151,7 @@ void goToWinState() {
 }
 
 void goToLoseState() {
-    fillScreen4(0);
+    fillScreen4(27);
     drawString4(50, 38, "The Hunter caught you!", 1);
     drawString4(45, 58, "Press START to try again.", 1);
 
@@ -154,6 +162,31 @@ void goToLoseState() {
 
     if (BUTTON_PRESSED(BUTTON_START)) {
         goToStartState();
+    }
+}
+
+void goToScoreboardState() {
+    fillScreen4(0);
+    
+    char highScoreStr[32];
+    sprintf(highScoreStr, "High Score: %d", highScore);
+    
+    drawString4(20, 20, "Scoreboard", 1);
+    drawString4(20, 40, highScoreStr, 1);
+    drawString4(20, 60, "Press START to resume", 1);
+    
+    waitForVBlank();
+    flipPage();
+    
+    // Wait until START is pressed, then simply resume the game.
+    while (1) {
+        oldButtons = buttons;
+        buttons = REG_BUTTONS;
+        if (BUTTON_PRESSED(BUTTON_START)) {
+            state = GAME;  // Resume game without calling initGame()
+            break;
+        }
+        waitForVBlank();
     }
 }
 

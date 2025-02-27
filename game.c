@@ -7,6 +7,7 @@
 #include "ghostHunter.h"
 #include <stdio.h>
 #include "analogSound.h"
+#include "Yay.h"
 
 extern void goToLoseState();
 
@@ -19,7 +20,7 @@ Cross crosses[NUM_CROSSES];
 
 //scores
 int score;
-int highScore;
+int highScore = 0;
 
 
 
@@ -111,10 +112,10 @@ void updateGame() {
         }
         playAnalogSound(6);
         state = LOSE;
-}
+    }
+
 
 }
-
 
 // update player
 void updatePlayer() {
@@ -249,5 +250,25 @@ void drawBorders() {
         if (y + h > SCREENHEIGHT)
             h = SCREENHEIGHT - y;
         drawRect4(x, y, w, h, PURPLE);
+    }
+}
+
+void showYayAnimation() {
+    int frameDelay = 60;
+    for (int i = 0; i < frameDelay; i++) {
+        fillScreen4(0);
+        drawBorders();
+        
+        drawImage4(player.x, player.y, player.width, player.height, YayBitmap);
+        
+        drawImage4(hunter.x, hunter.y, hunter.width, hunter.height, ghostHunterBitmap);
+        drawCross();
+        
+        char scoreStr[16];
+        sprintf(scoreStr, "Score: %d", score);
+        drawString4(160, 5, scoreStr, 1);
+        
+        waitForVBlank();
+        flipPage();
     }
 }

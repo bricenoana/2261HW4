@@ -603,15 +603,15 @@ updateGame:
 	beq	.L81
 	ldr	r3, .L94+16
 	ldr	r2, .L94+20
-	ldr	r1, [r3]
+	ldr	r1, [r3, #8]
 	ldr	r2, [r2]
 	cmp	r2, r1
-	strgt	r2, [r3]
+	strgt	r2, [r3, #8]
 	mov	r0, #6
 	ldr	r3, .L94+24
 	mov	lr, pc
 	bx	r3
-	mov	r2, #4
+	mov	r2, #5
 	ldr	r3, .L94+28
 	strb	r2, [r3]
 .L81:
@@ -654,7 +654,7 @@ updateGame:
 	.word	player
 	.word	collision
 	.word	hunter
-	.word	highScore
+	.word	.LANCHOR1
 	.word	score
 	.word	playAnalogSound
 	.word	state
@@ -756,8 +756,88 @@ drawGame:
 	.word	sprintf
 	.word	drawString4
 	.size	drawGame, .-drawGame
+	.align	2
+	.global	showYayAnimation
+	.syntax unified
+	.arm
+	.fpu softvfp
+	.type	showYayAnimation, %function
+showYayAnimation:
+	@ Function supports interworking.
+	@ args = 0, pretend = 0, frame = 16
+	@ frame_needed = 0, uses_anonymous_args = 0
+	push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
+	mov	r6, #60
+	ldr	fp, .L112
+	ldr	r5, .L112+4
+	ldr	r10, .L112+8
+	ldr	r7, .L112+12
+	ldr	r4, .L112+16
+	ldr	r9, .L112+20
+	ldr	r8, .L112+24
+	sub	sp, sp, #28
+.L109:
+	mov	r0, #0
+	mov	lr, pc
+	bx	fp
+	bl	drawBorders
+	str	r10, [sp]
+	add	r2, r5, #20
+	ldm	r2, {r2, r3}
+	ldm	r5, {r0, r1}
+	mov	lr, pc
+	bx	r7
+	str	r9, [sp]
+	add	r2, r4, #16
+	ldm	r2, {r2, r3}
+	ldm	r4, {r0, r1}
+	mov	lr, pc
+	bx	r7
+	bl	drawCross
+	ldr	r3, .L112+28
+	mov	r1, r8
+	ldr	r2, [r3]
+	add	r0, sp, #8
+	ldr	r3, .L112+32
+	mov	lr, pc
+	bx	r3
+	mov	r1, #5
+	mov	r0, #160
+	ldr	ip, .L112+36
+	add	r2, sp, #8
+	mov	r3, #1
+	mov	lr, pc
+	bx	ip
+	ldr	r3, .L112+40
+	mov	lr, pc
+	bx	r3
+	ldr	r3, .L112+44
+	mov	lr, pc
+	bx	r3
+	subs	r6, r6, #1
+	bne	.L109
+	add	sp, sp, #28
+	@ sp needed
+	pop	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
+	bx	lr
+.L113:
+	.align	2
+.L112:
+	.word	fillScreen4
+	.word	player
+	.word	YayBitmap
+	.word	drawImage4
+	.word	hunter
+	.word	ghostHunterBitmap
+	.word	.LC0
+	.word	score
+	.word	sprintf
+	.word	drawString4
+	.word	waitForVBlank
+	.word	flipPage
+	.size	showYayAnimation, .-showYayAnimation
 	.global	walls
-	.comm	highScore,4,4
+	.global	highScore
 	.comm	score,4,4
 	.comm	crosses,100,4
 	.comm	cross,20,4
@@ -793,12 +873,16 @@ walls:
 	.bss
 	.align	2
 	.set	.LANCHOR1,. + 0
-	.type	steps.5044, %object
-	.size	steps.5044, 4
-steps.5044:
+	.type	steps.5048, %object
+	.size	steps.5048, 4
+steps.5048:
 	.space	4
-	.type	direction.5045, %object
-	.size	direction.5045, 4
-direction.5045:
+	.type	direction.5049, %object
+	.size	direction.5049, 4
+direction.5049:
+	.space	4
+	.type	highScore, %object
+	.size	highScore, 4
+highScore:
 	.space	4
 	.ident	"GCC: (devkitARM release 53) 9.1.0"

@@ -251,36 +251,36 @@ goToPauseState:
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, r5, r6, r7, r8, lr}
 	mov	r0, #0
-	ldr	r3, .L40
+	ldr	r3, .L45
 	mov	lr, pc
 	bx	r3
-	ldr	r4, .L40+4
+	ldr	r4, .L45+4
 	mov	r3, #1
 	mov	r1, #8
 	mov	r0, #136
-	ldr	r2, .L40+8
+	ldr	r2, .L45+8
 	mov	lr, pc
 	bx	r4
-	ldr	r7, .L40+12
+	ldr	r7, .L45+12
 	mov	r3, #1
 	mov	r1, #18
 	mov	r0, #130
-	ldr	r2, .L40+16
+	ldr	r2, .L45+16
 	mov	lr, pc
 	bx	r4
 	mov	lr, pc
 	bx	r7
-	ldr	r3, .L40+20
+	ldr	r3, .L45+20
 	mov	lr, pc
 	bx	r3
-	ldr	r4, .L40+24
-	ldr	r6, .L40+28
-	ldr	r5, .L40+32
-	b	.L34
-.L33:
+	ldr	r4, .L45+24
+	ldr	r6, .L45+28
+	ldr	r5, .L45+32
+	b	.L36
+.L35:
 	mov	lr, pc
 	bx	r7
-.L34:
+.L36:
 	ldrh	r2, [r4]
 	strh	r2, [r6]	@ movhi
 	ldrh	r3, [r5, #48]
@@ -288,15 +288,26 @@ goToPauseState:
 	strh	r3, [r4]	@ movhi
 	beq	.L33
 	tst	r3, #8
-	bne	.L33
-	mov	r2, #1
-	ldr	r3, .L40+36
+	beq	.L44
+.L33:
+	tst	r2, #4
+	beq	.L35
+	tst	r3, #4
+	bne	.L35
+	mov	r2, #3
+	ldr	r3, .L45+36
 	strb	r2, [r3]
 	pop	{r4, r5, r6, r7, r8, lr}
 	bx	lr
-.L41:
+.L44:
+	mov	r2, #1
+	ldr	r3, .L45+36
+	strb	r2, [r3]
+	pop	{r4, r5, r6, r7, r8, lr}
+	bx	lr
+.L46:
 	.align	2
-.L40:
+.L45:
 	.word	fillScreen4
 	.word	drawString4
 	.word	.LC5
@@ -319,35 +330,35 @@ updateGameLoop:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, lr}
-	ldr	r3, .L49
+	ldr	r3, .L54
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L49+4
+	ldr	r3, .L54+4
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L49+8
-	ldrh	r3, [r3]
-	tst	r3, #8
-	beq	.L43
-	ldr	r3, .L49+12
+	ldr	r3, .L54+8
 	ldrh	r3, [r3]
 	tst	r3, #8
 	beq	.L48
-.L43:
-	ldr	r3, .L49+16
+	ldr	r3, .L54+12
+	ldrh	r3, [r3]
+	tst	r3, #8
+	beq	.L53
+.L48:
+	ldr	r3, .L54+16
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L49+20
+	ldr	r3, .L54+20
 	mov	lr, pc
 	bx	r3
 	pop	{r4, lr}
 	bx	lr
-.L48:
+.L53:
 	pop	{r4, lr}
 	b	goToPauseState
-.L50:
+.L55:
 	.align	2
-.L49:
+.L54:
 	.word	updateGame
 	.word	drawGame
 	.word	oldButtons
@@ -366,13 +377,13 @@ goToWinState:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	@ link register save eliminated.
-	mov	r2, #3
-	ldr	r3, .L52
+	mov	r2, #4
+	ldr	r3, .L57
 	strb	r2, [r3]
 	bx	lr
-.L53:
+.L58:
 	.align	2
-.L52:
+.L57:
 	.word	state
 	.size	goToWinState, .-goToWinState
 	.section	.rodata.str1.4
@@ -394,49 +405,49 @@ goToLoseState:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, lr}
-	mov	r0, #0
-	ldr	r3, .L61
+	mov	r0, #27
+	ldr	r3, .L66
 	mov	lr, pc
 	bx	r3
-	ldr	r4, .L61+4
+	ldr	r4, .L66+4
 	mov	r3, #1
 	mov	r1, #38
 	mov	r0, #50
-	ldr	r2, .L61+8
+	ldr	r2, .L66+8
 	mov	lr, pc
 	bx	r4
 	mov	r1, #58
-	ldr	r2, .L61+12
+	ldr	r2, .L66+12
 	mov	r0, #45
 	mov	r3, #1
 	mov	lr, pc
 	bx	r4
-	ldr	r3, .L61+16
+	ldr	r3, .L66+16
 	mov	lr, pc
 	bx	r3
-	ldr	r3, .L61+20
+	ldr	r3, .L66+20
 	mov	lr, pc
 	bx	r3
-	mov	r2, #4
-	ldr	r3, .L61+24
+	mov	r2, #5
+	ldr	r3, .L66+24
 	ldrh	r1, [r3]
-	ldr	r3, .L61+28
+	ldr	r3, .L66+28
 	tst	r1, #8
 	strb	r2, [r3]
-	beq	.L54
-	ldr	r3, .L61+32
+	beq	.L59
+	ldr	r3, .L66+32
 	ldrh	r3, [r3]
 	tst	r3, #8
-	beq	.L60
-.L54:
+	beq	.L65
+.L59:
 	pop	{r4, lr}
 	bx	lr
-.L60:
+.L65:
 	pop	{r4, lr}
 	b	goToStartState
-.L62:
+.L67:
 	.align	2
-.L61:
+.L66:
 	.word	fillScreen4
 	.word	drawString4
 	.word	.LC7
@@ -447,6 +458,105 @@ goToLoseState:
 	.word	state
 	.word	buttons
 	.size	goToLoseState, .-goToLoseState
+	.section	.rodata.str1.4
+	.align	2
+.LC9:
+	.ascii	"High Score: %d\000"
+	.align	2
+.LC10:
+	.ascii	"Scoreboard\000"
+	.align	2
+.LC11:
+	.ascii	"Press START to resume\000"
+	.text
+	.align	2
+	.global	goToScoreboardState
+	.syntax unified
+	.arm
+	.fpu softvfp
+	.type	goToScoreboardState, %function
+goToScoreboardState:
+	@ Function supports interworking.
+	@ args = 0, pretend = 0, frame = 32
+	@ frame_needed = 0, uses_anonymous_args = 0
+	push	{r4, r5, r6, r7, lr}
+	mov	r0, #0
+	sub	sp, sp, #36
+	ldr	r3, .L76
+	mov	lr, pc
+	bx	r3
+	ldr	r3, .L76+4
+	ldr	r1, .L76+8
+	ldr	r2, [r3]
+	mov	r0, sp
+	ldr	r3, .L76+12
+	mov	lr, pc
+	bx	r3
+	mov	r1, #20
+	ldr	r4, .L76+16
+	mov	r0, r1
+	mov	r3, #1
+	ldr	r2, .L76+20
+	mov	lr, pc
+	bx	r4
+	mov	r2, sp
+	mov	r3, #1
+	mov	r1, #40
+	mov	r0, #20
+	mov	lr, pc
+	bx	r4
+	ldr	r7, .L76+24
+	mov	r3, #1
+	mov	r1, #60
+	mov	r0, #20
+	ldr	r2, .L76+28
+	mov	lr, pc
+	bx	r4
+	mov	lr, pc
+	bx	r7
+	ldr	r3, .L76+32
+	mov	lr, pc
+	bx	r3
+	ldr	r4, .L76+36
+	ldr	r6, .L76+40
+	ldr	r5, .L76+44
+	b	.L70
+.L69:
+	mov	lr, pc
+	bx	r7
+.L70:
+	ldrh	r2, [r4]
+	strh	r2, [r6]	@ movhi
+	ldrh	r3, [r5, #48]
+	tst	r2, #8
+	strh	r3, [r4]	@ movhi
+	beq	.L69
+	tst	r3, #8
+	bne	.L69
+	mov	r2, #1
+	ldr	r3, .L76+48
+	strb	r2, [r3]
+	add	sp, sp, #36
+	@ sp needed
+	pop	{r4, r5, r6, r7, lr}
+	bx	lr
+.L77:
+	.align	2
+.L76:
+	.word	fillScreen4
+	.word	highScore
+	.word	.LC9
+	.word	sprintf
+	.word	drawString4
+	.word	.LC10
+	.word	waitForVBlank
+	.word	.LC11
+	.word	flipPage
+	.word	buttons
+	.word	oldButtons
+	.word	67109120
+	.word	state
+	.size	goToScoreboardState, .-goToScoreboardState
 	.section	.text.startup,"ax",%progbits
 	.align	2
 	.global	main
@@ -460,59 +570,67 @@ main:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, r7, fp, lr}
-	ldr	r6, .L74
-	ldr	fp, .L74+4
-	ldr	r3, .L74+8
+	ldr	r6, .L90
+	ldr	r7, .L90+4
+	ldr	r3, .L90+8
 	mov	lr, pc
 	bx	r3
-	ldr	r5, .L74+12
-	ldrb	r2, [r6]	@ zero_extendqisi2
-	ldrh	r3, [fp]
-	ldr	r10, .L74+16
-	ldr	r9, .L74+20
-	ldr	r8, .L74+24
-	ldr	r7, .L74+28
-	ldr	r4, .L74+32
-.L66:
+	ldr	r5, .L90+12
+	ldrb	r1, [r6]	@ zero_extendqisi2
+	ldrh	r3, [r7]
+	ldr	fp, .L90+16
+	ldr	r10, .L90+20
+	ldr	r9, .L90+24
+	ldr	r8, .L90+28
+	ldr	r4, .L90+32
+.L81:
 	strh	r3, [r5]	@ movhi
 	ldrh	r3, [r4, #48]
-	strh	r3, [fp]	@ movhi
-	cmp	r2, #4
-	ldrls	pc, [pc, r2, asl #2]
-	b	.L66
-.L68:
-	.word	.L71
-	.word	.L70
-	.word	.L69
-	.word	.L66
-	.word	.L67
-.L67:
+	strh	r3, [r7]	@ movhi
+	cmp	r1, #5
+	ldrls	pc, [pc, r1, asl #2]
+	b	.L81
+.L83:
+	.word	.L87
+	.word	.L86
+	.word	.L85
+	.word	.L84
+	.word	.L81
+	.word	.L82
+.L82:
+	ldr	r3, .L90+36
 	mov	lr, pc
-	bx	r7
-	ldrb	r2, [r6]	@ zero_extendqisi2
-	ldrh	r3, [fp]
-	b	.L66
-.L69:
+	bx	r3
+	ldrb	r1, [r6]	@ zero_extendqisi2
+	ldrh	r3, [r7]
+	b	.L81
+.L84:
 	mov	lr, pc
 	bx	r8
-	ldrb	r2, [r6]	@ zero_extendqisi2
-	ldrh	r3, [fp]
-	b	.L66
-.L70:
+	ldrb	r1, [r6]	@ zero_extendqisi2
+	ldrh	r3, [r7]
+	b	.L81
+.L85:
 	mov	lr, pc
 	bx	r9
-	ldrb	r2, [r6]	@ zero_extendqisi2
-	ldrh	r3, [fp]
-	b	.L66
-.L71:
+	ldrb	r1, [r6]	@ zero_extendqisi2
+	ldrh	r3, [r7]
+	b	.L81
+.L86:
 	mov	lr, pc
 	bx	r10
-	ldrb	r2, [r6]	@ zero_extendqisi2
-	ldrh	r3, [fp]
-	b	.L66
-.L75:
+	ldrb	r1, [r6]	@ zero_extendqisi2
+	ldrh	r3, [r7]
+	b	.L81
+.L87:
+	mov	lr, pc
+	bx	fp
+	ldrb	r1, [r6]	@ zero_extendqisi2
+	ldrh	r3, [r7]
+	b	.L81
+.L91:
 	.align	2
-.L74:
+.L90:
 	.word	state
 	.word	buttons
 	.word	initialize
@@ -520,8 +638,9 @@ main:
 	.word	start
 	.word	updateGameLoop
 	.word	goToPauseState
-	.word	goToLoseState
+	.word	goToScoreboardState
 	.word	67109120
+	.word	goToLoseState
 	.size	main, .-main
 	.comm	oldButtons,2,2
 	.comm	buttons,2,2

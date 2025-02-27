@@ -6,8 +6,11 @@
 
 
 
-typedef enum { START, GAME, PAUSE, WIN, LOSE } GameState;
+typedef enum { START, GAME, PAUSE, SCOREBOARD, WIN, LOSE } GameState;
+
 extern GameState state;
+extern int highScore;
+
 
 void updateGame();
 void drawGame();
@@ -1259,6 +1262,13 @@ void playNoteWithDuration(NoteWithDuration *n, unsigned char duty);
 void playChannel1(unsigned short note, unsigned char length, unsigned char sweepShift, unsigned char sweepTime, unsigned char sweepDir, unsigned char envStepTime, unsigned char envDir, unsigned char duty);
 void playAnalogSound(unsigned short sound);
 # 10 "game.c" 2
+# 1 "Yay.h" 1
+# 21 "Yay.h"
+extern const unsigned short YayBitmap[128];
+
+
+extern const unsigned short YayPal[256];
+# 11 "game.c" 2
 
 extern void goToLoseState();
 
@@ -1271,7 +1281,7 @@ Cross crosses[5];
 
 
 int score;
-int highScore;
+int highScore = 0;
 
 
 
@@ -1363,10 +1373,10 @@ void updateGame() {
         }
         playAnalogSound(6);
         state = LOSE;
-}
+    }
+
 
 }
-
 
 
 void updatePlayer() {
@@ -1501,5 +1511,31 @@ void drawBorders() {
         if (y + h > 160)
             h = 160 - y;
         drawRect4(x, y, w, h, 1);
+    }
+}
+
+
+
+void showYayAnimation() {
+
+    int frameDelay = 60;
+    for (int i = 0; i < frameDelay; i++) {
+        fillScreen4(0);
+        drawBorders();
+
+
+        drawImage4(player.x, player.y, player.width, player.height, YayBitmap);
+
+
+        drawImage4(hunter.x, hunter.y, hunter.width, hunter.height, ghostHunterBitmap);
+        drawCross();
+
+
+        char scoreStr[16];
+        sprintf(scoreStr, "Score: %d", score);
+        drawString4(160, 5, scoreStr, 1);
+
+        waitForVBlank();
+        flipPage();
     }
 }

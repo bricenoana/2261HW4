@@ -22,12 +22,12 @@ typedef unsigned long long u64;
 
 
 extern volatile unsigned short* videoBuffer;
-# 40 "gba.h"
+# 41 "gba.h"
 int collision(int x1, int y1, int width1, int height1, int x2, int y2, int width2, int height2);
 
 
 void waitForVBlank();
-# 59 "gba.h"
+# 60 "gba.h"
 extern unsigned short oldButtons;
 extern unsigned short buttons;
 
@@ -39,7 +39,7 @@ typedef volatile struct {
     volatile void* dest;
     unsigned int ctrl;
 } DMAChannel;
-# 93 "gba.h"
+# 94 "gba.h"
 void DMANow(int channel, volatile void* src, volatile void* dest, unsigned int ctrl);
 # 2 "main.c" 2
 # 1 "print.h" 1
@@ -253,8 +253,11 @@ void mgba_close(void);
 
 
 
-typedef enum { START, GAME, PAUSE, WIN, LOSE } GameState;
+typedef enum { START, GAME, PAUSE, SCOREBOARD, WIN, LOSE } GameState;
+
 extern GameState state;
+extern int highScore;
+
 
 void updateGame();
 void drawGame();
@@ -453,6 +456,9 @@ int main() {
             case PAUSE:
                 goToPauseState();
                 break;
+            case SCOREBOARD:
+                goToScoreboardState();
+                break;
             case WIN:
                 goToWinState();
                 break;
@@ -461,6 +467,7 @@ int main() {
                 break;
         }
     }
+
     return 0;
 }
 
@@ -547,6 +554,10 @@ void goToPauseState() {
             state = GAME;
             break;
         }
+        if ((!(~(oldButtons) & ((1 << 2))) && (~(buttons) & ((1 << 2))))) {
+            state = SCOREBOARD;
+            break;
+        }
         waitForVBlank();
     }
 }
@@ -557,7 +568,7 @@ void goToWinState() {
 }
 
 void goToLoseState() {
-    fillScreen4(0);
+    fillScreen4(27);
     drawString4(50, 38, "The Hunter caught you!", 1);
     drawString4(45, 58, "Press START to try again.", 1);
 
@@ -568,5 +579,30 @@ void goToLoseState() {
 
     if ((!(~(oldButtons) & ((1 << 3))) && (~(buttons) & ((1 << 3))))) {
         goToStartState();
+    }
+}
+
+void goToScoreboardState() {
+    fillScreen4(0);
+
+    char highScoreStr[32];
+    sprintf(highScoreStr, "High Score: %d", highScore);
+
+    drawString4(20, 20, "Scoreboard", 1);
+    drawString4(20, 40, highScoreStr, 1);
+    drawString4(20, 60, "Press START to resume", 1);
+
+    waitForVBlank();
+    flipPage();
+
+
+    while (1) {
+        oldButtons = buttons;
+        buttons = (*(volatile unsigned short*) 0x04000130);
+        if ((!(~(oldButtons) & ((1 << 3))) && (~(buttons) & ((1 << 3))))) {
+            state = GAME;
+            break;
+        }
+        waitForVBlank();
     }
 }

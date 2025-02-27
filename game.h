@@ -1,8 +1,11 @@
 #ifndef GAME_H
 #define GAME_H
 
-typedef enum { START, GAME, PAUSE, WIN, LOSE } GameState;
+typedef enum { START, GAME, PAUSE, SCOREBOARD, WIN, LOSE } GameState;
+
 extern GameState state;
+extern int highScore;
+
 
 void updateGame();
 void drawGame();
