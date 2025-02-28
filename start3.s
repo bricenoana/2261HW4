@@ -19,18 +19,18 @@
 start3Pal:
 	.short	32
 	.short	16943
-	.short	9544
+	.short	9545
 	.short	26489
 	.short	3137
 	.short	29693
 	.short	5316
-	.short	12715
 	.short	27612
+	.short	12715
 	.short	21204
-	.short	31742
 	.short	2112
-	.short	4194
+	.short	31741
 	.short	28636
+	.short	4194
 	.short	14829
 	.short	18033
 	.short	0
@@ -364,694 +364,8 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1030
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1540
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1030
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1540
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3084
+	.short	3084
 	.short	3084
 	.short	1028
 	.short	1028
@@ -1084,9 +398,6 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1112,7 +423,6 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1030
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1170,46 +480,215 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	3084
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3338
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	3076
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1244,6 +723,9 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1279,6 +761,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1540
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1323,9 +806,6 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	2573
-	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1351,6 +831,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1030
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1361,9 +842,137 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	1036
 	.short	1028
-	.short	2820
-	.short	2820
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1540
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1444,8 +1053,61 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3341
-	.short	2570
-	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1480,11 +1142,349 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3341
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1030
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1036
-	.short	11
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2564
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1037
+	.short	10
 	.short	1285
-	.short	2053
-	.short	2824
+	.short	1797
+	.short	2567
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1502,7 +1502,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3078
+	.short	3334
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1513,6 +1513,176 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1540
+	.short	1030
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1797
+	.short	3079
+	.short	1792
+	.short	1292
+	.short	2569
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2052
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1036
 	.short	1028
 	.short	1028
@@ -1550,181 +1720,11 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	2573
-	.short	3338
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1540
-	.short	1030
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2053
-	.short	3336
-	.short	2048
-	.short	1293
-	.short	2825
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1796
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1540
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	2570
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2571
-	.short	2061
-	.short	2056
-	.short	3333
-	.short	2061
+	.short	2826
+	.short	1804
+	.short	1799
+	.short	3077
+	.short	1804
 	.short	2309
 	.short	1028
 	.short	1028
@@ -1742,6 +1742,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1750,15 +1751,20 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1793,6 +1799,10 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1801,10 +1811,6 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	2573
-	.short	3338
-	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1834,18 +1840,12 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3339
-	.short	3328
-	.short	11
-	.short	1288
-	.short	3339
-	.short	3341
+	.short	3082
+	.short	3072
+	.short	10
+	.short	1287
+	.short	3082
+	.short	3084
 	.short	1033
 	.short	1028
 	.short	1028
@@ -1855,8 +1855,6 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	3341
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1864,37 +1862,39 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
+	.short	3076
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1919,13 +1919,10 @@ start3Bitmap:
 	.short	1030
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	2573
-	.short	3341
-	.short	1037
-	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -1960,12 +1957,15 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3339
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3082
 	.short	1294
-	.short	11
-	.short	1293
-	.short	2049
-	.short	2056
+	.short	10
+	.short	1292
+	.short	1793
+	.short	1799
 	.short	1025
 	.short	1028
 	.short	1028
@@ -1974,45 +1974,45 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1037
+	.short	3084
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1037
+	.short	3076
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
+	.short	3076
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
 	.short	1028
-	.short	3341
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1037
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2039,11 +2039,11 @@ start3Bitmap:
 	.short	1030
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
 	.short	1028
-	.short	1028
-	.short	3341
-	.short	3338
-	.short	3341
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2080,12 +2080,12 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1291
-	.short	3335
+	.short	1290
+	.short	3080
 	.short	3849
-	.short	3341
-	.short	2056
-	.short	1795
+	.short	3084
+	.short	1799
+	.short	2051
 	.short	526
 	.short	1028
 	.short	1028
@@ -2093,47 +2093,43 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1037
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1037
+	.short	3076
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	3341
+	.short	3076
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	1037
+	.short	3076
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	3341
+	.short	1028
+	.short	3076
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
+	.short	1036
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2160,15 +2156,19 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	2573
-	.short	3338
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2201,60 +2201,55 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	2048
-	.short	3333
-	.short	2056
+	.short	1792
+	.short	3077
+	.short	1799
 	.short	1285
-	.short	2825
-	.short	3591
+	.short	2569
+	.short	3592
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	3084
 	.short	1036
 	.short	1028
-	.short	3341
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
+	.short	3084
+	.short	3084
 	.short	1037
 	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2280,18 +2275,18 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	2570
-	.short	3341
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	3341
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2320,55 +2315,50 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	3341
-	.short	2053
-	.short	3341
-	.short	1548
-	.short	2825
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	3084
+	.short	1797
+	.short	3084
+	.short	1549
+	.short	2569
 	.short	3598
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1030
 	.short	1028
-	.short	3332
-	.short	3341
+	.short	3076
+	.short	3084
+	.short	1036
 	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1031
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
+	.short	3076
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	1036
+	.short	1032
+	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	3341
+	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2377,41 +2367,9 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3338
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2440,55 +2398,102 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3083
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
 	.short	1028
 	.short	1283
-	.short	780
-	.short	2821
-	.short	3075
-	.short	2050
-	.short	3592
+	.short	781
+	.short	2565
+	.short	3331
+	.short	1794
+	.short	3591
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
 	.short	1037
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
+	.short	3076
 	.short	1036
 	.short	1028
-	.short	3341
-	.short	1037
 	.short	1028
 	.short	1028
-	.short	3341
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	3341
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2512,21 +2517,19 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	2828
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	2573
-	.short	3338
-	.short	1037
-	.short	2564
-	.short	3338
-	.short	3341
-	.short	3341
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2558,47 +2561,44 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	11
 	.short	10
+	.short	11
 	.short	5
 	.short	773
-	.short	3334
+	.short	3078
 	.short	3589
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	1037
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
 	.short	1028
+	.short	3084
 	.short	1028
-	.short	3341
 	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	1037
 	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
-	.short	3341
-	.short	1037
 	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
-	.short	3341
 	.short	1028
+	.short	3076
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2607,8 +2607,9 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
+	.short	3076
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2636,17 +2637,16 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	2570
-	.short	3341
-	.short	3341
-	.short	2570
-	.short	3338
-	.short	3341
-	.short	1037
+	.short	3076
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2681,19 +2681,19 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2571
+	.short	2826
 	.short	1280
-	.short	3333
-	.short	2816
-	.short	2061
-	.short	3592
+	.short	3077
+	.short	2560
+	.short	1804
+	.short	3591
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
 	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2702,24 +2702,23 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	3341
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	1037
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	1037
 	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2727,9 +2726,10 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
 	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2757,18 +2757,15 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	3338
-	.short	3341
-	.short	2570
-	.short	3341
-	.short	3338
-	.short	3341
-	.short	1037
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2801,57 +2798,58 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	2053
-	.short	2056
-	.short	3341
-	.short	3336
-	.short	2831
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	2564
+	.short	1797
+	.short	1799
+	.short	3084
+	.short	3079
+	.short	2575
 	.short	1028
-	.short	3332
-	.short	3341
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
 	.short	1028
 	.short	1028
-	.short	3341
+	.short	3084
 	.short	1028
 	.short	1028
+	.short	3084
 	.short	1028
-	.short	3341
 	.short	1028
 	.short	1028
+	.short	3084
 	.short	1028
-	.short	3341
-	.short	1037
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	3341
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2878,14 +2876,16 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	2573
-	.short	2570
-	.short	2570
-	.short	3341
-	.short	2573
-	.short	3341
-	.short	3341
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -2921,1301 +2921,45 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	11
-	.short	2829
-	.short	3333
-	.short	3336
+	.short	2564
+	.short	10
+	.short	2572
+	.short	3077
+	.short	3079
 	.short	1039
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3334
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3338
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
 	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
 	.short	1036
-	.short	2820
-	.short	1291
-	.short	780
-	.short	2306
-	.short	1024
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
+	.short	3084
 	.short	1028
-	.short	3341
 	.short	1028
 	.short	1028
-	.short	3341
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	1031
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1030
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3338
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1796
-	.short	1804
-	.short	518
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1037
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2822
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1030
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	3332
-	.short	2573
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	2573
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3338
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	2573
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	2570
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1540
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3338
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	516
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	2573
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	2573
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3338
-	.short	1037
-	.short	1028
-	.short	1548
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -4224,11 +2968,14 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3078
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -4249,81 +2996,1334 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	3341
-	.short	1037
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	2573
-	.short	3341
-	.short	1037
 	.short	1028
 	.short	3076
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1037
+	.short	2564
+	.short	1290
+	.short	781
+	.short	2306
+	.short	1024
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1032
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1030
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	2052
+	.short	2061
+	.short	518
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2566
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1030
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	2828
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1540
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	2828
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	3084
+	.short	3083
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	2828
+	.short	3083
+	.short	3084
+	.short	1036
+	.short	3076
+	.short	3084
+	.short	3083
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	2828
+	.short	2827
+	.short	2827
+	.short	3083
+	.short	1036
+	.short	1028
+	.short	3084
+	.short	2828
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3334
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	2827
+	.short	3083
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	2828
+	.short	3084
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
@@ -4343,71 +4343,6 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1036
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
 	.short	1037
 	.short	1028
 	.short	1028
@@ -4424,41 +4359,12 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	2573
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1548
 	.short	1028
 	.short	1028
 	.short	1028
@@ -4467,8 +4373,102 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
+	.short	3076
 	.short	1036
+	.short	1028
+	.short	1037
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3083
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3083
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1549
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	1037
 	.short	258
 	.short	1030
 	.short	1028
@@ -4479,6 +4479,89 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1540
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	3076
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	2828
+	.short	3083
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	2828
+	.short	3083
 	.short	1036
 	.short	1028
 	.short	1028
@@ -4494,101 +4577,18 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1037
-	.short	1540
-	.short	1028
-	.short	1037
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	3332
-	.short	3341
-	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1542
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3338
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	523
+	.short	522
 	.short	1283
 	.short	1026
 	.short	1028
@@ -4614,40 +4614,18 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	524
-	.short	1036
+	.short	3340
+	.short	525
 	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
 	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
 	.short	1037
 	.short	1028
 	.short	1028
@@ -4659,6 +4637,10 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -4666,23 +4648,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2564
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	518
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3338
-	.short	1037
-	.short	1028
-	.short	1028
+	.short	3076
 	.short	1028
 	.short	1028
 	.short	1028
@@ -4704,12 +4670,46 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	2828
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	2828
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1803
-	.short	2056
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2058
+	.short	1799
 	.short	1026
 	.short	1028
 	.short	1028
@@ -4739,7 +4739,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -4758,64 +4758,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	516
-	.short	3340
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	2573
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3085
 	.short	1036
 	.short	1028
 	.short	1028
@@ -4825,38 +4768,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1540
-	.short	3336
-	.short	1800
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1540
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3076
 	.short	1028
 	.short	1028
 	.short	1028
@@ -4879,26 +4791,17 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3076
+	.short	3084
+	.short	2828
+	.short	3083
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3076
+	.short	3084
+	.short	3083
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -4913,24 +4816,20 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	2573
 	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1548
-	.short	1030
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	1540
+	.short	3079
+	.short	2055
 	.short	1028
 	.short	1028
 	.short	1028
@@ -4948,8 +4847,6 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1540
-	.short	2056
-	.short	1800
 	.short	1028
 	.short	1028
 	.short	1028
@@ -4970,32 +4867,6 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -5036,160 +4907,140 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	2573
-	.short	3338
-	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1031
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3334
-	.short	2056
-	.short	1800
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	2573
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3084
+	.short	2828
+	.short	2827
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	3076
-	.short	2054
-	.short	3336
-	.short	3597
+	.short	2828
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1540
+	.short	1799
+	.short	2055
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2828
+	.short	2827
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	2827
+	.short	3084
 	.short	1036
 	.short	1028
 	.short	1028
@@ -5205,439 +5056,9 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1032
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1031
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	2570
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	2056
-	.short	2056
-	.short	2817
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	2820
-	.short	2823
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	1031
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3338
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1292
-	.short	2056
-	.short	3848
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1030
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1036
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1030
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	2570
-	.short	3338
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2059
-	.short	2056
-	.short	3848
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	2570
-	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -5647,6 +5068,8 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3078
+	.short	1799
+	.short	2055
 	.short	1028
 	.short	1028
 	.short	1028
@@ -5666,8 +5089,585 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2063
-	.short	2056
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3083
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1798
+	.short	3079
+	.short	3596
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1032
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3083
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1799
+	.short	1799
+	.short	2561
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	2564
+	.short	2568
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1032
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3083
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1293
+	.short	1799
+	.short	3847
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1030
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1037
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1030
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	2828
+	.short	3083
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1802
+	.short	1799
+	.short	3847
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	2828
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3334
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1807
+	.short	1799
 	.short	515
 	.short	3842
 	.short	1030
@@ -5693,35 +5693,80 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
 	.short	3332
-	.short	3341
+	.short	1034
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
+	.short	3076
+	.short	3084
+	.short	2828
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	3341
+	.short	1028
+	.short	3330
 	.short	1028
 	.short	1028
 	.short	1028
@@ -5729,6 +5774,75 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1804
+	.short	1799
+	.short	2569
+	.short	3086
+	.short	1026
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3080
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -5754,459 +5868,18 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3076
-	.short	1035
-	.short	3341
-	.short	3338
-	.short	1037
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3074
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2061
-	.short	2056
-	.short	2825
-	.short	3342
-	.short	1026
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3335
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
+	.short	2564
 	.short	1029
-	.short	3341
-	.short	3338
-	.short	1037
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2056
-	.short	2056
-	.short	1801
-	.short	2056
-	.short	1026
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1292
-	.short	3333
-	.short	3341
-	.short	3338
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	3341
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1026
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2058
-	.short	3341
-	.short	2573
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3076
+	.short	3084
 	.short	2828
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	3339
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	1293
-	.short	1026
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -6233,10 +5906,251 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	2564
-	.short	3336
-	.short	3341
+	.short	1799
+	.short	1799
+	.short	2057
+	.short	1799
+	.short	1026
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1293
+	.short	1541
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	2827
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	3084
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1026
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1803
+	.short	775
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3083
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	2573
-	.short	1037
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	3082
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	1292
+	.short	1026
 	.short	1028
 	.short	1028
 	.short	1028
@@ -6259,17 +6173,48 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
-	.short	3330
-	.short	517
+	.short	1028
+	.short	3076
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	2053
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2817
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
@@ -6282,6 +6227,61 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3076
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2820
+	.short	1799
+	.short	775
+	.short	3076
+	.short	3084
+	.short	2828
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3074
+	.short	517
+	.short	1028
+	.short	1028
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	2561
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
 	.short	1030
 	.short	1028
 	.short	1028
@@ -6293,103 +6293,103 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
+	.short	3076
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	3076
-	.short	3333
-	.short	3341
-	.short	3338
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	3076
-	.short	2820
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1797
+	.short	1029
+	.short	3076
+	.short	3084
+	.short	2827
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	2564
 	.short	1286
-	.short	2051
-	.short	2056
-	.short	3074
-	.short	2828
-	.short	2053
-	.short	2056
-	.short	2056
-	.short	2056
+	.short	1795
+	.short	1799
+	.short	3330
+	.short	2573
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	1799
 	.short	3845
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -6413,37 +6413,35 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	3341
+	.short	3076
+	.short	3084
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	1037
 	.short	1028
+	.short	3076
+	.short	1036
 	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
 	.short	1028
-	.short	3332
-	.short	3341
+	.short	3084
+	.short	3084
+	.short	1036
 	.short	1028
+	.short	3076
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
 	.short	1028
 	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -6467,15 +6465,20 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	3341
-	.short	3338
+	.short	1280
+	.short	1024
+	.short	3084
+	.short	3084
+	.short	3083
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -6494,21 +6497,18 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
+	.short	2564
 	.short	1285
-	.short	3333
-	.short	2056
-	.short	3336
+	.short	3077
+	.short	1799
+	.short	3079
 	.short	1026
-	.short	1291
-	.short	2061
-	.short	2056
-	.short	3336
-	.short	2819
-	.short	1792
+	.short	1290
+	.short	1804
+	.short	1799
+	.short	3079
+	.short	2563
+	.short	2048
 	.short	1025
 	.short	1028
 	.short	1028
@@ -6533,35 +6533,35 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	3341
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
 	.short	1028
-	.short	3332
 	.short	1028
 	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
+	.short	3076
+	.short	1036
 	.short	1028
-	.short	3332
-	.short	3341
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -6585,17 +6585,21 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1290
+	.short	3083
+	.short	3084
+	.short	2828
+	.short	3084
+	.short	1036
 	.short	1028
-	.short	3332
-	.short	3339
-	.short	2573
-	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -6612,24 +6616,20 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
+	.short	2564
 	.short	1285
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	525
-	.short	1035
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	524
+	.short	1034
 	.short	1283
-	.short	2056
-	.short	3336
-	.short	8
-	.short	523
+	.short	1799
+	.short	3079
+	.short	7
+	.short	522
 	.short	3845
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -6653,99 +6653,99 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3596
 	.short	1037
-	.short	3332
-	.short	3341
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
+	.short	260
 	.short	3585
+	.short	1290
+	.short	3086
+	.short	3084
+	.short	2827
+	.short	3084
 	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	260
-	.short	3329
-	.short	3341
-	.short	2573
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1036
 	.short	260
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2312
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	2311
 	.short	1550
 	.short	1028
 	.short	3598
-	.short	2056
-	.short	2056
+	.short	1799
+	.short	1799
 	.short	1029
 	.short	3841
 	.short	515
@@ -6772,69 +6772,72 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1548
-	.short	3332
-	.short	3341
+	.short	1549
+	.short	3084
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	3076
-	.short	3852
-	.short	3341
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	3084
+	.short	3084
 	.short	1039
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	3341
-	.short	3341
-	.short	3338
+	.short	3084
+	.short	3087
+	.short	3084
+	.short	3084
+	.short	3083
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -6852,22 +6855,19 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
+	.short	2564
 	.short	1295
-	.short	2056
-	.short	2056
-	.short	2056
+	.short	1799
+	.short	1799
+	.short	1799
 	.short	1545
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	2055
-	.short	2056
-	.short	3853
-	.short	2061
+	.short	3332
+	.short	1800
+	.short	1799
+	.short	3852
+	.short	1804
 	.short	1033
 	.short	1028
 	.short	1028
@@ -6892,71 +6892,156 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	524
-	.short	3332
-	.short	3341
+	.short	525
+	.short	3076
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3084
 	.short	1036
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	2056
-	.short	1032
+	.short	1799
+	.short	1031
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1292
+	.short	3084
+	.short	2828
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2573
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	3337
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3085
+	.short	1799
+	.short	3079
+	.short	1799
+	.short	2569
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
 	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	2573
-	.short	3341
 	.short	1028
 	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -6973,141 +7058,56 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	2828
-	.short	2053
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	3081
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3340
-	.short	2056
-	.short	3336
-	.short	2056
-	.short	2825
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2059
+	.short	1802
 	.short	3077
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2053
-	.short	3336
-	.short	2821
+	.short	1797
+	.short	3079
+	.short	2565
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1284
+	.short	3079
+	.short	3084
+	.short	2828
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	3332
-	.short	3332
-	.short	2573
-	.short	3085
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1028
-	.short	3341
-	.short	2056
-	.short	3336
-	.short	2056
-	.short	3336
+	.short	3084
+	.short	1799
+	.short	3079
+	.short	1799
+	.short	3079
 	.short	1039
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	2056
-	.short	2056
-	.short	3336
+	.short	3076
+	.short	1799
+	.short	1799
+	.short	3079
 	.short	1033
 	.short	1028
 	.short	1028
@@ -7133,74 +7133,35 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
+	.short	3076
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	3339
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2053
-	.short	2821
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3333
-	.short	3333
-	.short	1024
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	3338
-	.short	781
+	.short	3084
+	.short	3084
 	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -7215,19 +7176,58 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3336
-	.short	2056
-	.short	2821
-	.short	2048
-	.short	2312
+	.short	1028
+	.short	2564
+	.short	1797
+	.short	3077
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3077
+	.short	3077
+	.short	1024
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1290
+	.short	3072
+	.short	3084
+	.short	2827
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3079
+	.short	1799
+	.short	2565
+	.short	1792
+	.short	2311
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	4
-	.short	2061
-	.short	2056
-	.short	776
+	.short	1804
+	.short	1799
+	.short	775
 	.short	1028
 	.short	1028
 	.short	1028
@@ -7253,35 +7253,35 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	1036
 	.short	1028
-	.short	3341
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	3332
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
+	.short	3084
+	.short	1028
 	.short	1028
 	.short	3076
-	.short	3334
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
+	.short	1028
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	516
@@ -7297,176 +7297,176 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2564
-	.short	2061
-	.short	264
+	.short	2820
+	.short	1804
+	.short	3079
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1285
+	.short	1280
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	10
+	.short	3077
+	.short	3084
+	.short	3084
+	.short	3083
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3081
+	.short	3084
+	.short	1285
+	.short	2570
+	.short	3084
+	.short	1027
+	.short	1028
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	2573
+	.short	1797
+	.short	1799
+	.short	2563
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	3076
-	.short	1285
-	.short	1280
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	13
-	.short	2573
-	.short	3338
-	.short	2816
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3337
-	.short	3341
-	.short	1285
-	.short	2827
-	.short	3341
-	.short	1027
-	.short	1028
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	2828
-	.short	2053
-	.short	2056
-	.short	2819
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2058
-	.short	261
 	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1035
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	2564
-	.short	2816
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3333
-	.short	2568
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	1803
+	.short	3077
 	.short	1036
-	.short	2827
-	.short	2057
-	.short	3336
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1034
+	.short	2820
+	.short	2560
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1293
+	.short	1797
+	.short	1799
+	.short	3084
+	.short	2828
+	.short	3083
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1037
+	.short	2570
+	.short	1801
+	.short	3079
 	.short	0
 	.short	1285
-	.short	2056
+	.short	1799
 	.short	1027
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2059
-	.short	2056
+	.short	1802
+	.short	1799
 	.short	1027
 	.short	1028
 	.short	1028
@@ -7493,69 +7493,69 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3076
 	.short	1036
-	.short	1280
-	.short	3083
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1290
-	.short	1035
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	2829
-	.short	3341
-	.short	2570
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1037
+	.short	1280
+	.short	3082
+	.short	1036
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1291
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1804
+	.short	3079
+	.short	3084
+	.short	2828
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -7574,19 +7574,19 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1295
-	.short	2061
-	.short	13
+	.short	1804
+	.short	12
 	.short	1285
-	.short	2056
-	.short	776
-	.short	1036
+	.short	1799
+	.short	775
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2059
-	.short	2056
+	.short	1802
+	.short	1799
 	.short	1027
 	.short	1028
 	.short	1028
@@ -7611,76 +7611,76 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1031
+	.short	1032
 	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2821
 	.short	3076
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
 	.short	1036
-	.short	3333
-	.short	3845
-	.short	1035
-	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	3076
-	.short	3341
-	.short	3338
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
 	.short	2565
+	.short	3332
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1037
+	.short	3077
+	.short	3845
+	.short	1034
+	.short	1028
+	.short	3332
+	.short	1796
+	.short	3079
+	.short	3084
+	.short	2828
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	1031
+	.short	1028
+	.short	1028
+	.short	1032
 	.short	1028
 	.short	1028
 	.short	1028
@@ -7691,22 +7691,22 @@ start3Bitmap:
 	.short	1028
 	.short	1284
 	.short	1285
-	.short	3333
+	.short	3077
 	.short	1033
-	.short	2063
-	.short	2056
-	.short	3336
-	.short	2056
-	.short	2056
-	.short	2824
+	.short	1807
+	.short	1799
+	.short	3079
+	.short	1799
+	.short	1799
+	.short	2567
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2052
-	.short	2056
+	.short	1796
+	.short	1799
 	.short	1027
 	.short	1028
 	.short	1028
@@ -7730,55 +7730,55 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	1030
 	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3076
 	.short	1036
-	.short	3598
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1037
+	.short	3598
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -7786,16 +7786,16 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3588
-	.short	2061
+	.short	1804
 	.short	513
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	3332
-	.short	2573
-	.short	3341
-	.short	3333
-	.short	1028
-	.short	1028
+	.short	1293
+	.short	3084
+	.short	3084
+	.short	2827
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -7807,17 +7807,17 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	3598
-	.short	3335
-	.short	2056
-	.short	781
-	.short	519
-	.short	2057
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1288
+	.short	3080
+	.short	1799
+	.short	780
+	.short	520
+	.short	1801
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1287
 	.short	1025
 	.short	1028
 	.short	1028
@@ -7826,14 +7826,11 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	260
-	.short	2061
-	.short	2819
+	.short	1804
+	.short	2563
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	2564
 	.short	1028
 	.short	1028
 	.short	1028
@@ -7850,71 +7847,74 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	3076
 	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1037
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1037
+	.short	3076
+	.short	3084
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3076
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	3076
-	.short	3333
-	.short	264
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	3077
+	.short	263
 	.short	1025
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3329
-	.short	2056
-	.short	1031
+	.short	3073
+	.short	1799
+	.short	1032
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	2573
-	.short	3597
-	.short	3598
-	.short	1028
+	.short	260
+	.short	1284
+	.short	3084
+	.short	3084
+	.short	3083
 	.short	1028
 	.short	1028
 	.short	1028
@@ -7929,15 +7929,56 @@ start3Bitmap:
 	.short	3588
 	.short	3855
 	.short	1285
-	.short	2056
-	.short	2056
+	.short	1799
+	.short	1799
 	.short	515
 	.short	3588
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1288
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1287
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1804
+	.short	3336
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
 	.short	1036
 	.short	1028
 	.short	1028
@@ -7945,63 +7986,22 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	2061
-	.short	3079
-	.short	1028
-	.short	1028
-	.short	2820
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	3332
-	.short	1037
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8017,181 +8017,143 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3330
-	.short	1288
-	.short	2826
+	.short	3074
+	.short	1287
+	.short	2571
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1293
+	.short	1292
 	.short	1282
 	.short	1026
 	.short	1028
 	.short	260
-	.short	3341
-	.short	3338
-	.short	1037
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3329
-	.short	2061
-	.short	2061
-	.short	2056
-	.short	3336
-	.short	2819
-	.short	3596
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	3341
-	.short	514
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	1799
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	1289
+	.short	3082
+	.short	3084
 	.short	2828
 	.short	1035
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3073
+	.short	1804
+	.short	1804
+	.short	1799
+	.short	3079
+	.short	2563
+	.short	3597
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	3084
+	.short	514
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2056
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2573
+	.short	1034
 	.short	1280
 	.short	1285
-	.short	2821
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1285
-	.short	2571
-	.short	1035
-	.short	3076
-	.short	3339
-	.short	2573
-	.short	3338
-	.short	1024
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2051
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1288
-	.short	1027
-	.short	1796
-	.short	2053
-	.short	2056
-	.short	2056
 	.short	2565
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2828
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	1285
+	.short	2826
+	.short	1034
+	.short	3332
+	.short	778
+	.short	1292
 	.short	3084
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3084
+	.short	2828
 	.short	1036
 	.short	1028
 	.short	1028
@@ -8203,18 +8165,30 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	2564
+	.short	1795
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1287
+	.short	1027
+	.short	2052
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	2821
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	2573
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
+	.short	3341
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8236,6 +8210,32 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8256,63 +8256,63 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	2821
-	.short	1291
-	.short	3083
-	.short	1035
+	.short	2565
+	.short	1290
+	.short	3338
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3083
-	.short	2564
-	.short	2827
-	.short	2828
-	.short	3337
-	.short	2058
-	.short	3341
-	.short	5
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3338
+	.short	2820
+	.short	2570
+	.short	2573
+	.short	1289
+	.short	1799
 	.short	3084
-	.short	2316
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	1288
-	.short	781
-	.short	1035
-	.short	1028
-	.short	2063
-	.short	2061
-	.short	3336
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
+	.short	3084
 	.short	2827
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3341
+	.short	2317
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1287
+	.short	780
+	.short	1034
+	.short	1028
+	.short	1807
+	.short	1804
+	.short	3079
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	2570
 	.short	1545
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1030
-	.short	3076
+	.short	3332
 	.short	1028
 	.short	1030
 	.short	1028
@@ -8336,7 +8336,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1796
+	.short	2052
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8376,144 +8376,66 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	1288
-	.short	2565
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	1036
-	.short	12
-	.short	2053
-	.short	2817
-	.short	3341
-	.short	2058
-	.short	3341
-	.short	13
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1540
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	260
-	.short	2053
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2565
-	.short	1035
-	.short	1036
-	.short	1028
-	.short	3343
-	.short	3341
-	.short	2820
-	.short	1035
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	3595
-	.short	3341
-	.short	1549
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1035
-	.short	3075
-	.short	2560
-	.short	1035
-	.short	2826
-	.short	2827
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2827
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2571
-	.short	2053
-	.short	13
-	.short	1028
+	.short	1287
+	.short	2821
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	2564
-	.short	2816
-	.short	1284
-	.short	2056
-	.short	1800
-	.short	2573
-	.short	3339
-	.short	2061
-	.short	3336
+	.short	1037
+	.short	13
+	.short	1797
+	.short	2561
+	.short	778
+	.short	1804
+	.short	3084
+	.short	2828
+	.short	3083
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1540
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	260
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	1799
 	.short	2821
+	.short	1034
+	.short	1037
+	.short	1028
+	.short	3087
+	.short	3084
+	.short	2564
+	.short	1034
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	3594
+	.short	3084
+	.short	1548
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1034
+	.short	3331
+	.short	2816
+	.short	1034
+	.short	2571
+	.short	2570
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8524,12 +8446,90 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2570
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2826
+	.short	1797
+	.short	12
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2820
+	.short	2560
+	.short	1284
+	.short	1799
 	.short	2055
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1288
-	.short	1035
+	.short	1028
+	.short	1290
+	.short	3084
+	.short	2828
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1800
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1287
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8539,23 +8539,23 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1548
-	.short	2061
-	.short	2056
+	.short	1549
+	.short	1804
+	.short	1799
 	.short	1026
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1540
 	.short	1033
 	.short	3585
 	.short	1545
-	.short	2819
-	.short	3333
-	.short	2826
-	.short	3082
-	.short	2821
+	.short	2563
+	.short	3077
+	.short	2571
+	.short	3339
+	.short	2565
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8581,133 +8581,58 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	10
+	.short	1292
 	.short	1035
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	11
-	.short	1293
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3082
+	.short	1287
 	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3339
-	.short	1288
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2828
-	.short	1280
-	.short	1293
-	.short	2560
-	.short	1285
-	.short	3333
 	.short	2573
-	.short	1037
-	.short	1293
-	.short	1285
-	.short	2826
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	524
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	13
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2315
-	.short	1026
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3334
-	.short	2056
-	.short	2056
-	.short	1026
-	.short	1028
-	.short	3083
-	.short	1028
-	.short	1028
-	.short	523
-	.short	2825
-	.short	3342
-	.short	3341
-	.short	1285
 	.short	1280
-	.short	1035
-	.short	1035
-	.short	1035
+	.short	1292
+	.short	3072
+	.short	2821
+	.short	2059
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	524
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3339
-	.short	1293
+	.short	3084
+	.short	2828
 	.short	1036
 	.short	1028
 	.short	1028
@@ -8718,42 +8643,117 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	525
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	12
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	2314
+	.short	1026
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3078
+	.short	1799
+	.short	1799
+	.short	1026
+	.short	1028
+	.short	3338
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1028
-	.short	1291
-	.short	3336
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2564
-	.short	2053
-	.short	3336
-	.short	2821
-	.short	258
-	.short	3328
+	.short	522
+	.short	2569
+	.short	3086
+	.short	3084
+	.short	1285
+	.short	1280
 	.short	1034
-	.short	3341
-	.short	1284
-	.short	2816
+	.short	1034
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	525
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3082
+	.short	1292
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	1290
+	.short	3079
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	2820
+	.short	1797
+	.short	3079
+	.short	2572
+	.short	2827
+	.short	2560
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3083
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8764,39 +8764,37 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1282
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2829
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	2572
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1035
+	.short	2564
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1540
-	.short	2053
-	.short	2056
-	.short	2056
+	.short	1797
+	.short	1799
+	.short	1799
 	.short	1026
 	.short	1028
-	.short	1034
+	.short	1035
 	.short	1028
 	.short	1540
 	.short	1539
-	.short	1801
-	.short	3333
-	.short	3336
+	.short	2057
+	.short	3077
+	.short	3079
 	.short	774
-	.short	2827
+	.short	2570
 	.short	1028
-	.short	3076
-	.short	1028
-	.short	1028
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8804,7 +8802,9 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	1028
+	.short	1028
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8822,15 +8822,13 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1286
-	.short	1035
+	.short	1034
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1028
-	.short	3339
-	.short	1293
-	.short	1035
-	.short	1028
-	.short	1028
+	.short	3082
+	.short	1292
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8838,9 +8836,9 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1796
 	.short	1028
 	.short	1028
+	.short	2052
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8854,25 +8852,43 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2571
-	.short	2821
-	.short	1291
-	.short	2816
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
+	.short	2826
+	.short	2565
+	.short	1290
 	.short	2560
-	.short	1280
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2816
+	.short	3072
+	.short	1036
+	.short	267
+	.short	1034
+	.short	1028
+	.short	1292
+	.short	3084
+	.short	3083
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3074
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	3084
 	.short	1024
-	.short	258
-	.short	3341
-	.short	3338
-	.short	1293
-	.short	3333
-	.short	1024
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8881,36 +8897,20 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3332
+	.short	1290
+	.short	1799
+	.short	1799
+	.short	524
 	.short	1028
-	.short	1028
-	.short	3330
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	3341
-	.short	1024
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1291
-	.short	2056
-	.short	2056
-	.short	525
-	.short	1028
-	.short	2820
+	.short	2564
 	.short	1029
-	.short	2571
-	.short	1291
-	.short	3341
-	.short	1288
-	.short	3336
-	.short	1293
+	.short	2826
+	.short	1290
+	.short	3084
+	.short	1287
+	.short	3079
+	.short	1292
 	.short	6
 	.short	1028
 	.short	1028
@@ -8944,11 +8944,11 @@ start3Bitmap:
 	.short	774
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1038
-	.short	3328
+	.short	3072
 	.short	3845
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -8973,42 +8973,26 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	3342
-	.short	3592
-	.short	1294
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	266
-	.short	267
-	.short	1028
-	.short	262
-	.short	2573
-	.short	1037
-	.short	2051
-	.short	3336
-	.short	2823
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
 	.short	3076
-	.short	2049
-	.short	2056
-	.short	3336
-	.short	2056
-	.short	269
-	.short	1035
+	.short	3084
+	.short	3591
+	.short	1294
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	260
+	.short	266
+	.short	1028
+	.short	267
+	.short	1030
+	.short	1028
+	.short	3075
+	.short	2828
+	.short	3083
 	.short	1028
 	.short	1028
 	.short	1028
@@ -9017,21 +9001,37 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	2062
-	.short	2056
-	.short	2056
+	.short	1028
+	.short	3332
+	.short	1793
+	.short	1799
+	.short	3079
+	.short	1799
+	.short	268
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1806
+	.short	1799
+	.short	1799
 	.short	1545
-	.short	1036
-	.short	2823
-	.short	2821
-	.short	1287
-	.short	2062
-	.short	2056
-	.short	3336
-	.short	2312
+	.short	1037
+	.short	2568
+	.short	2565
+	.short	1288
+	.short	1806
+	.short	1799
+	.short	3079
+	.short	2311
 	.short	3843
-	.short	3078
+	.short	3334
 	.short	1028
 	.short	1028
 	.short	1028
@@ -9065,9 +9065,9 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	260
-	.short	269
-	.short	2049
-	.short	2823
+	.short	268
+	.short	1793
+	.short	2568
 	.short	1025
 	.short	1028
 	.short	1028
@@ -9093,10 +9093,10 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	2061
-	.short	2056
-	.short	3336
+	.short	3076
+	.short	1804
+	.short	1799
+	.short	3079
 	.short	3841
 	.short	1039
 	.short	1028
@@ -9104,16 +9104,16 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	3332
 	.short	1034
-	.short	3076
-	.short	1035
-	.short	3340
-	.short	1037
-	.short	3853
-	.short	2055
-	.short	3336
-	.short	264
-	.short	2831
+	.short	2827
+	.short	1038
+	.short	3848
+	.short	3080
+	.short	2828
+	.short	3084
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
@@ -9123,11 +9123,11 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1540
-	.short	2056
-	.short	2056
-	.short	1807
-	.short	3331
-	.short	2823
+	.short	1799
+	.short	1799
+	.short	2063
+	.short	3075
+	.short	2568
 	.short	1028
 	.short	1028
 	.short	1028
@@ -9138,18 +9138,18 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	260
-	.short	2061
-	.short	2056
-	.short	1795
-	.short	1798
+	.short	1804
+	.short	1799
+	.short	2051
+	.short	2054
 	.short	262
-	.short	3848
-	.short	269
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2312
-	.short	1801
+	.short	3847
+	.short	268
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	2311
+	.short	2057
 	.short	1538
 	.short	1028
 	.short	1028
@@ -9164,7 +9164,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -9181,59 +9181,59 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3334
-	.short	1035
+	.short	3078
+	.short	1034
 	.short	1028
 	.short	1284
-	.short	1288
-	.short	3341
-	.short	11
+	.short	1287
+	.short	3084
+	.short	10
+	.short	2571
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1804
+	.short	1287
+	.short	3084
+	.short	1804
+	.short	1031
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	3332
 	.short	2826
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2061
-	.short	1288
-	.short	3341
-	.short	2061
-	.short	1032
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3082
-	.short	1028
-	.short	3076
-	.short	3339
-	.short	3341
+	.short	2571
 	.short	1289
-	.short	3334
-	.short	2061
-	.short	3336
-	.short	2829
+	.short	3084
+	.short	2827
+	.short	3084
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
@@ -9243,32 +9243,32 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1540
-	.short	2056
-	.short	3336
-	.short	2823
-	.short	2051
+	.short	1799
+	.short	3079
+	.short	2568
+	.short	1795
 	.short	1028
-	.short	1035
-	.short	1028
-	.short	1028
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1291
-	.short	2056
-	.short	3341
-	.short	2825
+	.short	1028
+	.short	1028
+	.short	1290
+	.short	1799
+	.short	3084
+	.short	2569
 	.short	2308
 	.short	770
-	.short	3336
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2061
-	.short	3853
+	.short	3079
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1804
+	.short	3852
 	.short	3598
 	.short	1028
 	.short	1028
@@ -9296,19 +9296,99 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
-	.short	1036
-	.short	2827
+	.short	1037
+	.short	1037
+	.short	2570
 	.short	1028
 	.short	1028
-	.short	523
-	.short	2827
+	.short	522
+	.short	2570
+	.short	1028
+	.short	2564
+	.short	1285
+	.short	3084
+	.short	1280
+	.short	3341
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1290
+	.short	1034
+	.short	3077
+	.short	1285
+	.short	2826
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1794
+	.short	3083
+	.short	524
+	.short	3084
+	.short	3083
+	.short	1036
 	.short	1028
 	.short	2820
-	.short	1285
-	.short	3341
-	.short	1280
-	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1286
+	.short	3079
+	.short	3596
+	.short	2314
+	.short	1804
+	.short	1799
+	.short	7
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1292
+	.short	771
+	.short	1546
+	.short	2058
+	.short	3854
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	3079
+	.short	1292
+	.short	2310
+	.short	3842
 	.short	1037
 	.short	1028
 	.short	1028
@@ -9320,87 +9400,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1291
-	.short	1035
-	.short	3333
-	.short	1285
-	.short	2571
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1034
-	.short	1028
-	.short	2820
-	.short	3341
-	.short	3336
-	.short	525
-	.short	1036
-	.short	1284
-	.short	3331
-	.short	1029
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1286
-	.short	3336
-	.short	3597
-	.short	2315
-	.short	2061
-	.short	2056
-	.short	8
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	1293
-	.short	771
-	.short	1547
-	.short	1803
-	.short	3854
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	3336
-	.short	1293
-	.short	2310
-	.short	3842
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1036
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -9418,17 +9418,46 @@ start3Bitmap:
 	.short	1540
 	.short	1028
 	.short	1028
-	.short	2571
-	.short	1035
-	.short	2820
+	.short	2826
+	.short	1034
+	.short	2564
 	.short	1286
-	.short	3077
+	.short	3333
 	.short	1028
 	.short	1028
-	.short	1035
-	.short	1291
-	.short	3328
-	.short	3085
+	.short	1034
+	.short	1290
+	.short	3072
+	.short	3340
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	11
+	.short	1285
 	.short	1037
 	.short	1028
 	.short	1028
@@ -9437,77 +9466,48 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	10
-	.short	1285
+	.short	1284
+	.short	3084
+	.short	1803
+	.short	1026
+	.short	2828
+	.short	3084
 	.short	1036
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1034
-	.short	1028
-	.short	1284
-	.short	3341
-	.short	2061
-	.short	1026
-	.short	1028
-	.short	1284
-	.short	2816
+	.short	2820
+	.short	2827
+	.short	2827
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2053
-	.short	2056
+	.short	1797
+	.short	1799
 	.short	271
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	3336
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	3079
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2822
+	.short	2566
 	.short	1028
 	.short	1284
 	.short	773
-	.short	2048
+	.short	1792
 	.short	2310
-	.short	3335
-	.short	2056
-	.short	3336
-	.short	3336
-	.short	776
-	.short	1288
-	.short	779
-	.short	1035
+	.short	3080
+	.short	1799
+	.short	3079
+	.short	3079
+	.short	775
+	.short	1287
+	.short	778
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -9535,23 +9535,21 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	2820
+	.short	1034
 	.short	2564
-	.short	1035
-	.short	2820
 	.short	1285
-	.short	1035
+	.short	1034
 	.short	1540
-	.short	2061
-	.short	2560
+	.short	1804
+	.short	2816
 	.short	1028
-	.short	2820
-	.short	1035
-	.short	3338
-	.short	2048
-	.short	3077
-	.short	1037
-	.short	1028
-	.short	1028
+	.short	2564
+	.short	1034
+	.short	3083
+	.short	1792
+	.short	3333
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -9570,14 +9568,6 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1035
-	.short	1028
-	.short	2826
-	.short	2827
 	.short	1028
 	.short	1028
 	.short	1028
@@ -9586,91 +9576,101 @@ start3Bitmap:
 	.short	1028
 	.short	1034
 	.short	1028
-	.short	3332
-	.short	3341
-	.short	513
+	.short	2571
+	.short	2570
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	2820
-	.short	1291
-	.short	1024
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2061
-	.short	3336
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2061
-	.short	13
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1539
-	.short	1028
-	.short	1028
+	.short	2564
 	.short	2821
-	.short	3339
-	.short	2053
-	.short	3341
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	8
-	.short	10
-	.short	2827
-	.short	1028
+	.short	523
+	.short	3076
+	.short	2828
 	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	10
-	.short	1035
-	.short	4
-	.short	2056
-	.short	1034
-	.short	1292
-	.short	2061
 	.short	2827
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1804
+	.short	3079
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1804
+	.short	12
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1539
+	.short	1028
+	.short	1028
+	.short	2565
+	.short	3082
+	.short	1797
+	.short	3084
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	7
+	.short	11
+	.short	2570
+	.short	1028
+	.short	3341
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	11
+	.short	1034
+	.short	4
+	.short	1799
+	.short	1035
+	.short	1293
+	.short	1804
+	.short	2570
 	.short	1028
 	.short	1284
 	.short	5
-	.short	3341
+	.short	3084
 	.short	1285
-	.short	1549
+	.short	1548
 	.short	1286
-	.short	3072
+	.short	3328
 	.short	1028
 	.short	1028
 	.short	1028
@@ -9695,58 +9695,58 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	5
-	.short	3333
+	.short	3077
 	.short	1024
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	2820
 	.short	1028
 	.short	1028
-	.short	2564
 	.short	1028
-	.short	3341
-	.short	3341
-	.short	1793
+	.short	3332
+	.short	2820
+	.short	2049
+	.short	3084
+	.short	2827
+	.short	3084
 	.short	1028
-	.short	1285
-	.short	2061
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1035
 	.short	1028
 	.short	1028
+	.short	3332
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1028
-	.short	1291
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1292
+	.short	1290
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1293
 	.short	1285
 	.short	1029
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1035
+	.short	1034
 	.short	1539
 	.short	5
 	.short	5
-	.short	3341
-	.short	2053
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	13
-	.short	3085
-	.short	2571
-	.short	1036
+	.short	3084
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	12
+	.short	3340
+	.short	2826
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -9756,235 +9756,235 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1292
-	.short	2829
-	.short	1028
-	.short	1291
-	.short	3336
-	.short	1035
-	.short	2827
-	.short	523
-	.short	1035
-	.short	1028
-	.short	2820
-	.short	2821
-	.short	5
-	.short	5
-	.short	2821
-	.short	2059
-	.short	1293
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2053
-	.short	2056
-	.short	3072
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2564
-	.short	1028
-	.short	1028
-	.short	2564
-	.short	1028
-	.short	3341
-	.short	3332
-	.short	1793
-	.short	1028
-	.short	3076
-	.short	2056
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	3333
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1292
-	.short	1291
-	.short	1032
-	.short	1028
-	.short	2306
-	.short	263
-	.short	513
-	.short	1545
-	.short	2051
-	.short	2061
-	.short	3336
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	3336
-	.short	2829
-	.short	1029
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2564
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	2829
-	.short	1028
-	.short	4
-	.short	1293
-	.short	1036
-	.short	1035
-	.short	516
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	2571
-	.short	2821
-	.short	11
-	.short	3082
-	.short	2054
-	.short	3336
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2059
-	.short	2056
-	.short	5
-	.short	1034
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1034
-	.short	1028
-	.short	2564
 	.short	3332
 	.short	1037
-	.short	3332
-	.short	3329
-	.short	517
-	.short	1035
-	.short	2059
-	.short	2821
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1293
+	.short	2572
+	.short	1028
+	.short	1290
+	.short	3079
+	.short	1034
+	.short	2570
+	.short	522
+	.short	1034
 	.short	1028
 	.short	2564
-	.short	2053
-	.short	2056
-	.short	2056
-	.short	264
-	.short	2063
-	.short	774
-	.short	2826
+	.short	2565
+	.short	5
+	.short	5
+	.short	2565
+	.short	1802
 	.short	1292
-	.short	1032
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1797
+	.short	1799
+	.short	3328
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2820
+	.short	2827
+	.short	1035
+	.short	1028
+	.short	1028
+	.short	2820
+	.short	2049
+	.short	2828
+	.short	3083
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1035
+	.short	2827
+	.short	2827
+	.short	1035
+	.short	2564
+	.short	3077
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1293
+	.short	1290
+	.short	1031
+	.short	1028
+	.short	2306
+	.short	264
+	.short	513
+	.short	1545
+	.short	1795
+	.short	1804
+	.short	3079
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	3079
+	.short	2572
+	.short	1029
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2820
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	2572
+	.short	1028
+	.short	4
+	.short	1292
+	.short	1037
+	.short	1034
+	.short	516
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	2826
+	.short	2565
+	.short	10
+	.short	3339
+	.short	1798
+	.short	3079
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1804
+	.short	5
+	.short	1035
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2827
+	.short	1028
+	.short	1028
+	.short	2820
+	.short	3083
+	.short	2828
+	.short	3084
+	.short	1036
+	.short	2565
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1035
+	.short	1035
+	.short	1028
+	.short	1028
+	.short	2820
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	263
+	.short	1807
+	.short	774
+	.short	2571
+	.short	1293
+	.short	1031
 	.short	1028
 	.short	2310
-	.short	3335
-	.short	1288
-	.short	3336
-	.short	3341
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	3336
+	.short	3080
+	.short	1287
+	.short	3079
+	.short	3084
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	3079
 	.short	770
 	.short	1030
-	.short	3083
+	.short	3338
 	.short	1028
 	.short	1028
 	.short	1028
@@ -10010,99 +10010,99 @@ start3Bitmap:
 	.short	1285
 	.short	1028
 	.short	1028
-	.short	3339
+	.short	3082
 	.short	1029
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	1285
-	.short	1034
-	.short	1028
-	.short	2827
-	.short	2826
-	.short	1028
-	.short	3334
-	.short	2565
-	.short	2826
-	.short	1028
-	.short	3333
-	.short	2821
-	.short	2827
-	.short	3333
-	.short	2053
-	.short	13
 	.short	1035
 	.short	1028
+	.short	2570
+	.short	2571
 	.short	1028
+	.short	3078
+	.short	2821
+	.short	2571
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2826
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1291
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2056
-	.short	13
+	.short	3077
 	.short	2565
-	.short	3328
-	.short	266
-	.short	1028
-	.short	1028
+	.short	2570
+	.short	3077
+	.short	1797
+	.short	12
 	.short	1034
 	.short	1028
-	.short	2564
-	.short	3332
-	.short	1037
-	.short	2567
-	.short	2053
-	.short	2
 	.short	1028
-	.short	1291
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2571
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1290
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1799
+	.short	12
+	.short	2821
+	.short	3072
+	.short	267
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2820
+	.short	1028
+	.short	1028
+	.short	2824
+	.short	2827
+	.short	2827
+	.short	3084
+	.short	1028
 	.short	1024
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	2827
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	3076
-	.short	1291
-	.short	2056
-	.short	2061
-	.short	3336
-	.short	3592
-	.short	2315
+	.short	3332
+	.short	1290
+	.short	1799
+	.short	1804
+	.short	3079
+	.short	3591
+	.short	2314
 	.short	774
-	.short	2824
-	.short	2564
-	.short	2565
+	.short	2567
+	.short	2820
+	.short	2821
 	.short	774
 	.short	1286
-	.short	2053
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	3336
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	3079
 	.short	515
-	.short	269
+	.short	268
 	.short	513
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -10127,31 +10127,31 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	260
-	.short	3597
-	.short	1035
+	.short	3596
+	.short	1034
 	.short	1028
-	.short	2049
+	.short	1793
 	.short	1029
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	3589
 	.short	1025
-	.short	3076
+	.short	3332
 	.short	4
 	.short	3589
-	.short	3086
-	.short	3334
+	.short	3342
+	.short	3078
 	.short	3598
 	.short	1038
 	.short	1028
 	.short	3585
-	.short	3597
+	.short	3596
 	.short	3598
-	.short	3341
+	.short	3084
 	.short	3587
 	.short	5
-	.short	3076
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -10161,68 +10161,68 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	3086
+	.short	3332
+	.short	3342
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2826
-	.short	1028
-	.short	1028
-	.short	2820
 	.short	2571
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	2564
+	.short	2826
+	.short	1028
+	.short	1028
+	.short	3084
 	.short	3589
-	.short	2830
-	.short	2053
+	.short	2574
+	.short	1797
 	.short	1294
 	.short	513
 	.short	1028
 	.short	1028
-	.short	1034
 	.short	1028
-	.short	2564
-	.short	3341
-	.short	1028
-	.short	3330
-	.short	2313
-	.short	1026
-	.short	1028
-	.short	1291
 	.short	2827
+	.short	2820
+	.short	1028
+	.short	1028
+	.short	3074
+	.short	3084
+	.short	2827
+	.short	3083
+	.short	1284
+	.short	2570
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	2820
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	2820
+	.short	2827
 	.short	1294
-	.short	2056
-	.short	3343
-	.short	781
+	.short	1799
+	.short	3087
+	.short	780
 	.short	3593
-	.short	2315
+	.short	2314
 	.short	3599
-	.short	264
+	.short	263
 	.short	3588
 	.short	257
-	.short	3340
-	.short	3329
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2061
-	.short	3336
-	.short	269
+	.short	3085
+	.short	3073
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1804
+	.short	3079
+	.short	268
 	.short	1539
 	.short	515
 	.short	1538
-	.short	1036
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -10247,32 +10247,32 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	770
-	.short	3848
+	.short	3847
 	.short	1028
-	.short	2820
-	.short	2061
+	.short	2564
+	.short	1804
 	.short	1038
 	.short	1028
 	.short	1028
 	.short	3844
-	.short	2821
+	.short	2565
 	.short	1028
 	.short	1028
-	.short	3851
-	.short	3336
+	.short	3850
 	.short	3079
-	.short	2063
-	.short	1035
+	.short	3336
+	.short	1807
+	.short	1034
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1802
-	.short	3330
-	.short	2056
-	.short	2818
+	.short	2564
+	.short	2059
+	.short	3074
+	.short	1799
+	.short	2562
 	.short	261
 	.short	3855
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -10281,64 +10281,64 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	2309
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2821
+	.short	2565
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	1295
 	.short	1028
 	.short	1028
-	.short	1028
+	.short	3084
 	.short	5
 	.short	2308
-	.short	1797
+	.short	2053
 	.short	1285
-	.short	3083
-	.short	2564
-	.short	1034
-	.short	2564
+	.short	3338
 	.short	1028
-	.short	2564
-	.short	3341
 	.short	1028
-	.short	1798
-	.short	3846
-	.short	3074
 	.short	1028
-	.short	1291
 	.short	1035
+	.short	2827
 	.short	1028
 	.short	1028
+	.short	2054
+	.short	3078
+	.short	3083
+	.short	3083
+	.short	1290
+	.short	1034
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	260
-	.short	3333
-	.short	3336
+	.short	2820
+	.short	2827
+	.short	2827
+	.short	2827
+	.short	1035
+	.short	2820
+	.short	3083
+	.short	3079
 	.short	3599
 	.short	3587
 	.short	3593
-	.short	3591
+	.short	3592
 	.short	1539
-	.short	1800
+	.short	2055
 	.short	1028
 	.short	3855
 	.short	1295
-	.short	781
-	.short	2063
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1544
+	.short	780
+	.short	1807
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1543
 	.short	1539
 	.short	1026
 	.short	1028
@@ -10364,102 +10364,102 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3083
+	.short	3338
 	.short	1028
-	.short	3335
-	.short	1288
-	.short	1035
-	.short	2820
-	.short	1293
+	.short	3080
+	.short	1287
+	.short	1034
+	.short	2564
+	.short	1292
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1284
 	.short	5
-	.short	3083
-	.short	1028
-	.short	2059
-	.short	1288
-	.short	1547
 	.short	3338
-	.short	2827
-	.short	1035
 	.short	1028
-	.short	2820
-	.short	10
-	.short	3328
-	.short	3341
+	.short	1802
+	.short	1287
+	.short	1546
+	.short	3083
+	.short	2570
+	.short	1034
+	.short	1028
+	.short	2564
 	.short	11
-	.short	3336
-	.short	1288
+	.short	3072
+	.short	3084
+	.short	10
+	.short	3079
+	.short	1287
 	.short	1024
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2828
+	.short	2573
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	4
-	.short	2061
+	.short	1804
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	2821
-	.short	1035
-	.short	1028
-	.short	2820
-	.short	3333
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	2821
-	.short	1291
-	.short	2826
-	.short	1285
-	.short	1035
-	.short	2570
-	.short	1028
-	.short	1028
+	.short	2564
+	.short	2565
 	.short	1034
-	.short	2573
-	.short	1037
 	.short	1028
+	.short	2564
+	.short	3077
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	2565
+	.short	1290
+	.short	2571
+	.short	1291
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1035
 	.short	2820
-	.short	3844
-	.short	1026
-	.short	3076
-	.short	1292
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	3084
+	.short	3083
+	.short	3083
+	.short	1293
 	.short	1024
 	.short	1028
+	.short	2827
 	.short	1028
 	.short	1028
+	.short	1035
 	.short	1028
-	.short	1036
-	.short	1028
-	.short	3340
-	.short	3336
-	.short	2053
+	.short	3085
+	.short	2827
+	.short	1797
 	.short	1539
-	.short	1801
-	.short	3597
+	.short	2057
+	.short	3596
 	.short	521
 	.short	1539
-	.short	2821
-	.short	2828
-	.short	2053
-	.short	1293
-	.short	2317
-	.short	3330
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	3333
-	.short	3075
-	.short	3075
+	.short	2565
+	.short	2573
+	.short	1797
+	.short	1292
+	.short	2316
+	.short	3074
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	3077
+	.short	3331
+	.short	3331
 	.short	1028
 	.short	1028
 	.short	1028
@@ -10470,7 +10470,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -10483,36 +10483,36 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1035
+	.short	2564
+	.short	1034
 	.short	1028
-	.short	3330
+	.short	3074
 	.short	1285
-	.short	1035
+	.short	1034
 	.short	1028
-	.short	3328
-	.short	2827
-	.short	1036
+	.short	3072
+	.short	2570
+	.short	1037
 	.short	1028
-	.short	2828
-	.short	2053
-	.short	2568
-	.short	1035
-	.short	1291
-	.short	2821
-	.short	2820
-	.short	523
-	.short	2827
-	.short	2826
+	.short	2573
+	.short	1797
+	.short	2823
+	.short	1034
+	.short	1290
+	.short	2565
+	.short	2564
+	.short	522
+	.short	2570
+	.short	2571
 	.short	1028
-	.short	11
-	.short	1293
+	.short	10
+	.short	1292
 	.short	1285
-	.short	3328
-	.short	2052
-	.short	2056
-	.short	2824
-	.short	1035
+	.short	3072
+	.short	1796
+	.short	1799
+	.short	2567
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -10522,62 +10522,62 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	3336
+	.short	3079
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	1291
-	.short	3336
-	.short	1035
+	.short	3332
+	.short	1290
+	.short	3079
+	.short	1034
 	.short	1028
-	.short	1291
-	.short	2061
-	.short	1035
+	.short	1290
+	.short	1804
+	.short	1034
 	.short	1028
 	.short	1028
-	.short	3333
+	.short	3077
 	.short	5
 	.short	1028
-	.short	1284
+	.short	1291
 	.short	1029
-	.short	2570
-	.short	1034
 	.short	1028
-	.short	1034
-	.short	3341
+	.short	1028
+	.short	1028
+	.short	1035
+	.short	2573
+	.short	1035
 	.short	1037
-	.short	1036
 	.short	1028
-	.short	3844
-	.short	2570
-	.short	3076
-	.short	2821
+	.short	2828
+	.short	3083
+	.short	3083
+	.short	2565
+	.short	1034
+	.short	2820
 	.short	1035
 	.short	1028
 	.short	1028
+	.short	2564
 	.short	1028
-	.short	1028
-	.short	2820
-	.short	1028
-	.short	2060
-	.short	13
-	.short	2571
-	.short	1549
-	.short	2825
+	.short	1805
+	.short	2827
+	.short	2826
+	.short	1548
+	.short	2569
 	.short	3598
 	.short	521
 	.short	1028
-	.short	3076
-	.short	3339
+	.short	3332
+	.short	3082
 	.short	768
-	.short	2059
+	.short	1802
 	.short	2310
 	.short	3584
-	.short	2311
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	2821
+	.short	2312
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	2565
 	.short	1029
 	.short	1028
 	.short	1028
@@ -10588,8 +10588,8 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
-	.short	2828
+	.short	1037
+	.short	2573
 	.short	1545
 	.short	1028
 	.short	1028
@@ -10605,35 +10605,35 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	774
-	.short	1036
-	.short	2827
-	.short	10
-	.short	3077
-	.short	1028
-	.short	2059
-	.short	776
-	.short	1027
-	.short	1028
-	.short	1291
-	.short	776
-	.short	1027
-	.short	1028
-	.short	1036
-	.short	1291
-	.short	1028
-	.short	524
-	.short	3341
+	.short	1037
+	.short	2570
+	.short	11
 	.short	3333
+	.short	1028
+	.short	1802
+	.short	775
+	.short	1027
+	.short	1028
+	.short	1290
+	.short	775
+	.short	1027
+	.short	1028
+	.short	1037
+	.short	1290
+	.short	1028
+	.short	525
+	.short	3084
+	.short	3077
 	.short	1024
-	.short	2061
-	.short	1293
-	.short	2820
+	.short	1804
 	.short	1292
-	.short	2060
-	.short	3341
-	.short	1035
+	.short	2564
+	.short	1293
+	.short	1805
+	.short	3084
+	.short	1034
 	.short	1029
-	.short	1036
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -10641,63 +10641,63 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	3339
+	.short	3332
+	.short	3082
 	.short	1028
 	.short	1028
 	.short	772
-	.short	2056
-	.short	2051
-	.short	2829
-	.short	1036
-	.short	1292
+	.short	1799
+	.short	1795
+	.short	2572
+	.short	1037
+	.short	1293
 	.short	768
 	.short	1026
 	.short	1028
 	.short	1028
 	.short	773
 	.short	1028
+	.short	2820
+	.short	2573
 	.short	1028
-	.short	2828
 	.short	1028
-	.short	2570
-	.short	2570
+	.short	1028
+	.short	1028
+	.short	1547
+	.short	3077
+	.short	2819
 	.short	1034
-	.short	2570
-	.short	2570
-	.short	3082
-	.short	1035
+	.short	3076
+	.short	2828
+	.short	3084
+	.short	1036
+	.short	2565
 	.short	1028
-	.short	2570
-	.short	1026
-	.short	1028
-	.short	2821
-	.short	1028
-	.short	1028
+	.short	2820
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	521
 	.short	1030
-	.short	2053
-	.short	3336
-	.short	2829
+	.short	1797
+	.short	3079
+	.short	2572
 	.short	1539
 	.short	521
-	.short	2817
-	.short	1036
-	.short	3078
+	.short	2561
+	.short	1037
 	.short	3334
-	.short	776
-	.short	1035
+	.short	3078
+	.short	775
+	.short	1034
 	.short	774
-	.short	3330
-	.short	3341
-	.short	2056
-	.short	2056
-	.short	2056
+	.short	3074
+	.short	3084
+	.short	1799
+	.short	1799
+	.short	1799
 	.short	1280
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -10708,8 +10708,8 @@ start3Bitmap:
 	.short	1028
 	.short	1540
 	.short	1540
-	.short	3081
-	.short	1793
+	.short	3337
+	.short	2049
 	.short	1545
 	.short	1028
 	.short	1028
@@ -10724,98 +10724,98 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1292
-	.short	2825
-	.short	1036
-	.short	10
-	.short	2827
-	.short	12
-	.short	2053
+	.short	1293
+	.short	2569
+	.short	1037
+	.short	11
+	.short	2570
+	.short	13
+	.short	1797
 	.short	1029
 	.short	1028
-	.short	2820
-	.short	1287
-	.short	13
-	.short	2820
-	.short	2827
-	.short	1028
 	.short	2564
+	.short	1288
+	.short	12
+	.short	2564
+	.short	2570
+	.short	1028
 	.short	2820
-	.short	3336
-	.short	2061
+	.short	2564
+	.short	3079
+	.short	1804
 	.short	5
 	.short	1028
 	.short	1280
-	.short	2821
-	.short	2820
-	.short	3341
-	.short	2061
-	.short	3336
-	.short	2821
+	.short	2565
+	.short	2564
+	.short	3084
+	.short	1804
+	.short	3079
+	.short	2565
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1293
-	.short	1035
-	.short	1028
-	.short	1036
-	.short	2571
-	.short	2816
+	.short	2564
+	.short	1292
 	.short	1034
 	.short	1028
-	.short	1035
-	.short	1290
-	.short	2827
-	.short	3072
-	.short	2820
-	.short	2053
-	.short	1034
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	2821
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2570
-	.short	3338
-	.short	1293
+	.short	1037
+	.short	2826
 	.short	2560
-	.short	2571
+	.short	1035
+	.short	1028
+	.short	1034
+	.short	1291
 	.short	2570
-	.short	2308
-	.short	3074
+	.short	3328
+	.short	2564
+	.short	1797
+	.short	1035
+	.short	3332
 	.short	1028
-	.short	1029
 	.short	1028
+	.short	2565
 	.short	1028
-	.short	3076
+	.short	2820
+	.short	2827
+	.short	2827
+	.short	2827
+	.short	2827
+	.short	2827
+	.short	3077
+	.short	1292
+	.short	2816
+	.short	2827
+	.short	2827
+	.short	2828
+	.short	2827
+	.short	2827
+	.short	2827
+	.short	2827
+	.short	1035
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1545
-	.short	2819
-	.short	2053
-	.short	2056
-	.short	1288
+	.short	2563
+	.short	1797
+	.short	1799
+	.short	1287
 	.short	1028
 	.short	1028
-	.short	3083
-	.short	2827
+	.short	3338
+	.short	2570
 	.short	1283
-	.short	13
-	.short	2826
-	.short	11
-	.short	3336
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2061
-	.short	1291
+	.short	12
+	.short	2571
+	.short	10
+	.short	3079
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1804
+	.short	1290
 	.short	1024
 	.short	1028
 	.short	1028
@@ -10823,13 +10823,13 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	1028
 	.short	1028
-	.short	1291
+	.short	1290
 	.short	1536
 	.short	3845
-	.short	1793
+	.short	2049
 	.short	1028
 	.short	1028
 	.short	1028
@@ -10843,55 +10843,55 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	2061
+	.short	2564
+	.short	1804
 	.short	2309
-	.short	3083
-	.short	3333
-	.short	2573
-	.short	1291
-	.short	1288
-	.short	1037
+	.short	3338
+	.short	3077
+	.short	2828
+	.short	1290
+	.short	1287
+	.short	1036
 	.short	1028
 	.short	1286
-	.short	10
+	.short	11
 	.short	5
-	.short	2560
-	.short	2570
-	.short	2560
-	.short	3328
-	.short	1292
-	.short	3333
-	.short	2560
+	.short	2816
+	.short	2827
+	.short	2816
+	.short	3072
+	.short	1293
+	.short	3077
+	.short	2816
 	.short	1024
 	.short	1028
-	.short	12
-	.short	2061
-	.short	3333
-	.short	2056
-	.short	2824
-	.short	10
-	.short	2821
+	.short	13
+	.short	1804
+	.short	3077
+	.short	1799
+	.short	2567
+	.short	11
+	.short	2565
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3339
-	.short	3334
-	.short	1035
+	.short	3082
+	.short	3078
+	.short	1034
 	.short	1028
-	.short	2820
-	.short	2053
+	.short	2564
+	.short	1797
 	.short	5
-	.short	2826
-	.short	1028
-	.short	2820
-	.short	2827
 	.short	2571
+	.short	1028
+	.short	2564
+	.short	2570
 	.short	2826
+	.short	2571
 	.short	4
-	.short	1293
-	.short	2827
+	.short	1292
+	.short	2570
 	.short	527
 	.short	1028
 	.short	1028
@@ -10902,40 +10902,40 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1290
+	.short	1284
+	.short	2828
+	.short	2570
 	.short	2573
-	.short	2827
-	.short	2572
-	.short	2826
-	.short	1028
-	.short	3844
-	.short	3074
-	.short	1028
-	.short	1029
-	.short	3083
-	.short	2816
-	.short	2826
-	.short	3083
-	.short	1793
-	.short	3337
-	.short	3341
-	.short	2061
-	.short	2061
-	.short	2821
-	.short	1028
-	.short	1028
+	.short	2570
 	.short	2820
-	.short	2569
-	.short	1286
+	.short	2828
+	.short	3084
 	.short	1036
-	.short	2820
+	.short	1029
+	.short	3338
+	.short	2560
+	.short	2571
+	.short	3338
+	.short	2049
+	.short	3081
+	.short	3084
+	.short	1804
+	.short	1804
+	.short	2565
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2825
+	.short	1286
+	.short	1037
+	.short	2564
 	.short	5
-	.short	1288
-	.short	2053
-	.short	1293
-	.short	2053
+	.short	1287
+	.short	1797
+	.short	1292
+	.short	1797
 	.short	774
-	.short	3078
+	.short	3334
 	.short	1028
 	.short	1028
 	.short	1028
@@ -10944,75 +10944,75 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	2827
-	.short	1291
-	.short	3328
-	.short	773
-	.short	2828
-	.short	2820
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2061
-	.short	2825
-	.short	268
-	.short	2053
-	.short	2829
-	.short	3339
-	.short	5
-	.short	1029
-	.short	1028
-	.short	2827
-	.short	2827
-	.short	13
-	.short	1034
-	.short	2820
-	.short	3333
-	.short	1293
+	.short	2570
+	.short	1290
 	.short	3072
-	.short	523
-	.short	2827
-	.short	1036
+	.short	773
+	.short	2573
+	.short	2564
 	.short	1028
-	.short	2827
-	.short	2053
-	.short	2056
-	.short	2056
-	.short	1032
-	.short	2820
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1804
+	.short	2569
+	.short	269
+	.short	1797
+	.short	2572
+	.short	3082
 	.short	5
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2059
-	.short	2054
-	.short	1035
-	.short	1028
-	.short	3076
-	.short	3333
-	.short	1288
 	.short	1029
+	.short	1028
+	.short	2570
+	.short	2570
+	.short	12
+	.short	1035
+	.short	2564
+	.short	3077
+	.short	1292
+	.short	3328
+	.short	522
+	.short	2570
+	.short	1037
+	.short	1028
+	.short	2570
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	1031
+	.short	2564
+	.short	5
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1802
+	.short	1798
+	.short	1034
 	.short	1028
 	.short	3332
-	.short	2061
-	.short	3336
-	.short	1035
+	.short	3077
+	.short	1287
+	.short	1029
+	.short	1028
+	.short	3076
+	.short	1804
+	.short	3079
+	.short	1034
 	.short	1284
-	.short	1288
+	.short	1287
 	.short	1280
-	.short	7
+	.short	8
 	.short	1028
 	.short	1028
 	.short	5
@@ -11021,173 +11021,173 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	2564
+	.short	3082
+	.short	2565
+	.short	1034
 	.short	2570
-	.short	3338
-	.short	2821
-	.short	1035
-	.short	2570
-	.short	1290
-	.short	1028
-	.short	1540
-	.short	1545
-	.short	1028
-	.short	2821
-	.short	2821
-	.short	2826
+	.short	1291
+	.short	2828
+	.short	2827
+	.short	1548
+	.short	1036
+	.short	2565
+	.short	2565
+	.short	2571
 	.short	517
-	.short	1801
-	.short	3333
-	.short	2053
-	.short	2056
-	.short	3336
+	.short	2057
+	.short	3077
+	.short	1797
+	.short	1799
+	.short	3079
 	.short	1280
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	2306
 	.short	260
-	.short	2823
+	.short	2568
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	2056
-	.short	776
-	.short	2050
+	.short	1799
+	.short	775
+	.short	1794
 	.short	3599
 	.short	2318
-	.short	2818
-	.short	1035
-	.short	1036
+	.short	2562
+	.short	1034
+	.short	1037
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1027
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	2560
-	.short	3328
-	.short	1288
-	.short	2819
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	774
-	.short	1035
-	.short	3335
-	.short	8
-	.short	1035
-	.short	1028
-	.short	11
-	.short	3333
-	.short	3077
-	.short	1028
-	.short	1292
-	.short	1293
-	.short	1029
-	.short	4
-	.short	3333
-	.short	3336
-	.short	773
-	.short	516
-	.short	1035
-	.short	1036
-	.short	1284
-	.short	2565
-	.short	2827
-	.short	2827
-	.short	3341
-	.short	3075
-	.short	2820
-	.short	1285
-	.short	2565
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	4
+	.short	3076
+	.short	2816
+	.short	3072
+	.short	1287
 	.short	2563
-	.short	1035
+	.short	1034
 	.short	1028
-	.short	2571
-	.short	5
-	.short	1035
-	.short	1035
-	.short	2820
-	.short	1283
-	.short	3341
-	.short	2056
-	.short	2829
-	.short	4
-	.short	1293
-	.short	1280
-	.short	1293
-	.short	1030
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	774
+	.short	1034
+	.short	3080
+	.short	7
+	.short	1034
 	.short	1028
 	.short	10
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2570
+	.short	3077
 	.short	3333
-	.short	2822
-	.short	1035
-	.short	2820
-	.short	2570
-	.short	1288
-	.short	1033
 	.short	1028
-	.short	1545
-	.short	1036
-	.short	3341
+	.short	1293
+	.short	1292
+	.short	1029
+	.short	4
+	.short	3077
+	.short	3079
+	.short	773
+	.short	516
+	.short	1034
+	.short	1037
+	.short	1284
+	.short	2821
+	.short	2570
+	.short	2570
+	.short	3084
+	.short	3331
+	.short	2564
+	.short	1285
+	.short	2821
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	4
+	.short	2819
+	.short	1034
+	.short	1028
+	.short	2826
+	.short	5
+	.short	1034
+	.short	1034
+	.short	2564
+	.short	1283
+	.short	3084
+	.short	1799
+	.short	2572
+	.short	4
+	.short	1292
+	.short	1280
+	.short	1292
+	.short	1030
+	.short	1028
+	.short	11
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2831
+	.short	3077
+	.short	2566
+	.short	1034
+	.short	2564
+	.short	1285
+	.short	1287
+	.short	2827
+	.short	3084
+	.short	3084
+	.short	1037
+	.short	3084
 	.short	5
 	.short	1285
-	.short	2056
-	.short	3341
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	2056
-	.short	2816
-	.short	3083
+	.short	1799
+	.short	3084
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	1799
+	.short	2560
+	.short	3338
 	.short	1539
 	.short	1283
 	.short	1039
-	.short	2820
-	.short	3076
-	.short	1036
-	.short	1290
-	.short	1288
-	.short	781
+	.short	2564
+	.short	3332
+	.short	1037
+	.short	1291
+	.short	1287
+	.short	780
 	.short	2310
-	.short	2827
-	.short	2827
-	.short	1035
+	.short	2570
+	.short	2570
+	.short	1034
 	.short	1028
-	.short	1035
+	.short	1034
 	.short	1284
-	.short	3083
+	.short	3338
 	.short	515
 	.short	1033
-	.short	2820
+	.short	2564
 	.short	1028
 	.short	1283
-	.short	1291
-	.short	3333
-	.short	2056
-	.short	3083
+	.short	1290
+	.short	3077
+	.short	1799
+	.short	3338
 	.short	1028
 	.short	1028
 	.short	1028
@@ -11203,111 +11203,111 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	780
-	.short	519
-	.short	3342
-	.short	13
+	.short	3332
+	.short	781
+	.short	520
+	.short	3086
+	.short	12
 	.short	1028
 	.short	1028
-	.short	11
-	.short	2061
-	.short	1793
+	.short	10
+	.short	1804
+	.short	2049
 	.short	1028
 	.short	1286
-	.short	2061
+	.short	1804
 	.short	1029
-	.short	2820
+	.short	2564
 	.short	3855
-	.short	2061
-	.short	1288
-	.short	523
+	.short	1804
+	.short	1287
+	.short	522
 	.short	3584
-	.short	1799
-	.short	267
-	.short	3341
+	.short	2056
+	.short	266
+	.short	3084
 	.short	1038
-	.short	2820
+	.short	2564
 	.short	1295
 	.short	1025
-	.short	1806
-	.short	2061
-	.short	3341
-	.short	1031
+	.short	2062
+	.short	1804
+	.short	3084
+	.short	1032
 	.short	1028
 	.short	1028
-	.short	1799
-	.short	3329
-	.short	1031
+	.short	2056
+	.short	3073
+	.short	1032
 	.short	1028
-	.short	1287
-	.short	1805
-	.short	1035
-	.short	2823
+	.short	1288
+	.short	2060
+	.short	1034
+	.short	2568
 	.short	516
 	.short	3843
 	.short	3855
-	.short	2053
-	.short	1800
-	.short	2827
+	.short	1797
+	.short	2055
+	.short	2570
 	.short	1281
-	.short	263
+	.short	264
 	.short	3849
 	.short	1030
-	.short	1796
+	.short	2052
 	.short	1039
 	.short	1028
-	.short	2564
-	.short	2570
-	.short	2570
+	.short	1028
+	.short	1028
+	.short	2052
 	.short	2313
-	.short	3343
-	.short	1806
-	.short	2830
-	.short	2820
-	.short	3338
-	.short	2570
-	.short	513
-	.short	1538
-	.short	1545
-	.short	2826
-	.short	2061
-	.short	1805
-	.short	2053
-	.short	2056
-	.short	2061
-	.short	2056
-	.short	2056
+	.short	3087
+	.short	2062
+	.short	2574
+	.short	2564
+	.short	3077
+	.short	3087
+	.short	3083
+	.short	3084
+	.short	2828
+	.short	2568
+	.short	1804
+	.short	2060
+	.short	1797
+	.short	1799
+	.short	1804
+	.short	1799
+	.short	1799
 	.short	3845
 	.short	261
-	.short	3083
-	.short	3588
-	.short	1795
-	.short	777
-	.short	1031
-	.short	1036
-	.short	3074
-	.short	2823
 	.short	3338
-	.short	3853
-	.short	269
+	.short	3588
+	.short	2051
+	.short	777
+	.short	1032
+	.short	1037
+	.short	3330
+	.short	2568
+	.short	3083
+	.short	3852
+	.short	268
 	.short	3590
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1035
-	.short	2823
+	.short	1034
+	.short	2568
 	.short	1280
-	.short	3079
+	.short	3336
 	.short	1537
-	.short	1031
-	.short	2820
-	.short	3074
-	.short	3331
+	.short	1032
+	.short	2564
+	.short	3330
+	.short	3075
 	.short	1282
 	.short	3845
 	.short	261
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -11323,109 +11323,109 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	2049
+	.short	2564
+	.short	1793
 	.short	515
 	.short	3586
-	.short	2821
+	.short	2565
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	3585
-	.short	3336
+	.short	3079
 	.short	769
 	.short	1028
 	.short	1282
-	.short	2056
+	.short	1799
 	.short	1038
 	.short	1028
-	.short	2827
+	.short	2570
 	.short	3598
-	.short	269
+	.short	268
 	.short	526
-	.short	3342
-	.short	3592
-	.short	1035
-	.short	2062
-	.short	2829
-	.short	2820
-	.short	3329
+	.short	3086
+	.short	3591
+	.short	1034
+	.short	1806
+	.short	2572
+	.short	2564
+	.short	3073
 	.short	270
-	.short	2053
-	.short	3592
-	.short	2061
+	.short	1797
+	.short	3591
+	.short	1804
 	.short	1029
 	.short	1028
-	.short	2820
-	.short	2056
-	.short	268
-	.short	2830
+	.short	2564
+	.short	1799
+	.short	269
+	.short	2574
 	.short	1028
-	.short	2061
-	.short	3336
-	.short	3595
+	.short	1804
+	.short	3079
+	.short	3594
 	.short	261
-	.short	1793
+	.short	2049
 	.short	270
-	.short	3851
-	.short	2053
-	.short	2056
-	.short	2817
+	.short	3850
+	.short	1797
+	.short	1799
+	.short	2561
 	.short	1281
 	.short	14
 	.short	1545
 	.short	1028
 	.short	1284
-	.short	1035
+	.short	1034
 	.short	1028
-	.short	2561
 	.short	257
-	.short	3328
+	.short	257
+	.short	3072
 	.short	1545
 	.short	772
 	.short	3585
 	.short	1029
 	.short	1028
 	.short	3589
-	.short	1035
-	.short	778
-	.short	1801
-	.short	2569
-	.short	269
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2061
-	.short	2056
+	.short	3082
+	.short	3083
+	.short	3084
+	.short	2828
+	.short	267
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1804
+	.short	1799
 	.short	783
-	.short	2817
+	.short	2561
 	.short	1038
-	.short	2817
+	.short	2561
 	.short	3588
-	.short	1805
+	.short	2060
 	.short	518
 	.short	514
 	.short	1538
 	.short	259
-	.short	264
-	.short	3342
-	.short	2830
-	.short	2830
+	.short	263
+	.short	3086
+	.short	2574
+	.short	2574
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	3588
-	.short	268
+	.short	269
 	.short	261
-	.short	3342
+	.short	3086
 	.short	1038
 	.short	1028
 	.short	1028
 	.short	1538
 	.short	3849
-	.short	3336
-	.short	3336
-	.short	3086
+	.short	3079
+	.short	3079
+	.short	3342
 	.short	1038
 	.short	1028
 	.short	1028
@@ -11439,113 +11439,113 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1540
-	.short	1036
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	3844
-	.short	776
+	.short	775
 	.short	1026
 	.short	1028
-	.short	1034
-	.short	2820
-	.short	3851
-	.short	2053
-	.short	1288
-	.short	1794
-	.short	1028
-	.short	3330
-	.short	517
 	.short	1035
+	.short	2564
+	.short	3850
+	.short	1797
+	.short	1287
+	.short	2050
+	.short	1028
+	.short	3074
+	.short	517
+	.short	1034
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1549
-	.short	2312
-	.short	3336
-	.short	2818
+	.short	2564
+	.short	1548
+	.short	2311
+	.short	3079
+	.short	2562
 	.short	1028
-	.short	3328
-	.short	2317
-	.short	3851
-	.short	3336
-	.short	520
+	.short	3072
+	.short	2316
+	.short	3850
+	.short	3079
+	.short	519
 	.short	517
 	.short	3842
 	.short	1282
-	.short	2818
+	.short	2562
 	.short	1028
-	.short	2820
-	.short	1797
+	.short	2564
+	.short	2053
 	.short	3855
-	.short	2825
-	.short	1036
-	.short	1799
-	.short	519
+	.short	2569
+	.short	1037
+	.short	2056
+	.short	520
 	.short	1295
 	.short	514
-	.short	1031
-	.short	3329
-	.short	1807
-	.short	1797
-	.short	1805
-	.short	2823
-	.short	1797
+	.short	1032
+	.short	3073
+	.short	2063
+	.short	2053
+	.short	2060
+	.short	2568
+	.short	2053
 	.short	3855
 	.short	2307
 	.short	1030
 	.short	1284
-	.short	1035
+	.short	1034
 	.short	2308
-	.short	2565
-	.short	1794
-	.short	3343
-	.short	3079
-	.short	1796
-	.short	1035
-	.short	3847
-	.short	3855
-	.short	2823
-	.short	3844
-	.short	2569
-	.short	2314
-	.short	778
-	.short	525
-	.short	1797
-	.short	2061
+	.short	1285
+	.short	2050
+	.short	3087
 	.short	3336
-	.short	2056
-	.short	2312
+	.short	2052
+	.short	1034
+	.short	3848
+	.short	3855
+	.short	2568
+	.short	2820
+	.short	3084
+	.short	2316
+	.short	3084
+	.short	2827
+	.short	2827
+	.short	2827
+	.short	2827
+	.short	1803
+	.short	2311
 	.short	3855
 	.short	518
-	.short	3851
-	.short	2827
-	.short	2826
+	.short	3850
+	.short	2570
+	.short	2571
 	.short	1028
-	.short	263
+	.short	264
 	.short	3590
-	.short	775
+	.short	776
 	.short	2307
-	.short	3331
-	.short	519
-	.short	1803
+	.short	3075
+	.short	520
+	.short	2058
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	3329
-	.short	3343
-	.short	3336
-	.short	1287
-	.short	3076
+	.short	2564
+	.short	3073
+	.short	3087
+	.short	3079
+	.short	1288
+	.short	3332
 	.short	1028
-	.short	1794
+	.short	2050
 	.short	2305
-	.short	3331
-	.short	2056
-	.short	2567
-	.short	1035
+	.short	3075
+	.short	1799
+	.short	2824
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -11564,346 +11564,346 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	776
+	.short	775
 	.short	1028
-	.short	2828
-	.short	2829
-	.short	2827
-	.short	2571
+	.short	2573
+	.short	2572
+	.short	2570
+	.short	2826
 	.short	1285
-	.short	1288
-	.short	1035
-	.short	1028
 	.short	1287
-	.short	2821
+	.short	1034
+	.short	1028
+	.short	1288
+	.short	2565
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1544
-	.short	1293
-	.short	3341
+	.short	2564
+	.short	1543
+	.short	1292
+	.short	3084
 	.short	1024
-	.short	1035
-	.short	3339
-	.short	3333
-	.short	3328
-	.short	3341
-	.short	2829
-	.short	2821
-	.short	2571
-	.short	2571
+	.short	1034
+	.short	3082
+	.short	3077
+	.short	3072
+	.short	3084
+	.short	2572
+	.short	2565
+	.short	2826
+	.short	2826
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	5
-	.short	3341
-	.short	2821
-	.short	1035
-	.short	2827
-	.short	2827
+	.short	3084
+	.short	2565
+	.short	1034
+	.short	2570
+	.short	2570
 	.short	1285
-	.short	2816
-	.short	1035
+	.short	2560
+	.short	1034
 	.short	1283
 	.short	5
 	.short	5
 	.short	5
-	.short	11
+	.short	10
 	.short	5
-	.short	1293
+	.short	1292
 	.short	1295
 	.short	1030
 	.short	1284
-	.short	2571
-	.short	2572
-	.short	1290
-	.short	11
-	.short	2053
-	.short	2823
-	.short	2827
-	.short	2820
-	.short	3328
-	.short	1293
-	.short	2816
-	.short	2571
-	.short	3845
-	.short	2561
-	.short	770
+	.short	1034
 	.short	2829
-	.short	13
-	.short	2061
-	.short	3336
-	.short	2056
-	.short	3848
-	.short	1806
-	.short	1035
-	.short	779
+	.short	1285
+	.short	10
+	.short	1797
+	.short	2568
+	.short	2570
+	.short	2564
+	.short	3072
+	.short	1292
+	.short	2560
 	.short	2827
-	.short	2826
+	.short	3084
+	.short	1292
+	.short	780
+	.short	2572
+	.short	12
+	.short	1804
+	.short	3079
+	.short	1803
+	.short	3847
+	.short	2062
+	.short	1034
+	.short	778
+	.short	2570
+	.short	2571
 	.short	1028
 	.short	774
 	.short	2306
-	.short	3335
-	.short	3341
-	.short	1293
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	1035
-	.short	11
-	.short	3337
-	.short	2053
-	.short	1288
-	.short	1291
-	.short	1035
-	.short	2827
-	.short	258
-	.short	3329
-	.short	3336
-	.short	3336
-	.short	2560
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1036
-	.short	774
-	.short	2827
-	.short	3335
-	.short	2056
-	.short	1293
-	.short	1028
-	.short	1028
-	.short	779
-	.short	1035
-	.short	1028
-	.short	2820
-	.short	2826
-	.short	2827
-	.short	1028
-	.short	2827
-	.short	3328
-	.short	1293
-	.short	2317
-	.short	5
-	.short	1035
-	.short	1548
-	.short	2571
-	.short	2048
-	.short	2056
-	.short	3333
-	.short	2821
-	.short	1035
-	.short	2564
-	.short	3083
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2059
-	.short	1283
-	.short	1291
-	.short	1024
-	.short	1280
-	.short	3083
-	.short	2827
-	.short	1293
-	.short	2310
-	.short	1285
-	.short	10
-	.short	3341
-	.short	1293
-	.short	1280
-	.short	2826
-	.short	1285
-	.short	2311
-	.short	1030
-	.short	1284
-	.short	1035
-	.short	2570
-	.short	2826
-	.short	2827
-	.short	2053
-	.short	520
-	.short	2828
-	.short	3331
-	.short	2061
-	.short	2056
-	.short	3336
-	.short	1285
-	.short	258
-	.short	3852
-	.short	2818
-	.short	2824
-	.short	3336
-	.short	2056
-	.short	2061
-	.short	2056
-	.short	3853
-	.short	2820
-	.short	1547
-	.short	771
-	.short	1037
-	.short	2828
-	.short	10
-	.short	2056
-	.short	1293
-	.short	3592
-	.short	527
-	.short	2827
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	516
-	.short	3599
-	.short	2311
-	.short	3336
-	.short	2056
-	.short	2829
-	.short	2828
+	.short	3080
 	.short	3084
-	.short	2310
-	.short	2055
-	.short	3336
-	.short	3341
-	.short	3334
-	.short	2827
+	.short	1292
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2820
-	.short	779
-	.short	1282
-	.short	3341
-	.short	2061
-	.short	1293
-	.short	1028
-	.short	1028
-	.short	3339
-	.short	773
-	.short	2827
-	.short	2820
-	.short	3333
-	.short	2573
-	.short	1035
-	.short	1291
-	.short	2053
-	.short	773
-	.short	2816
-	.short	10
-	.short	2826
 	.short	2564
-	.short	2560
-	.short	0
-	.short	3333
-	.short	2829
-	.short	2563
-	.short	2827
-	.short	2571
-	.short	0
+	.short	1034
+	.short	10
+	.short	3081
+	.short	1797
+	.short	1287
+	.short	1290
+	.short	1034
+	.short	2570
+	.short	258
+	.short	3073
+	.short	3079
+	.short	3079
+	.short	2816
 	.short	1034
 	.short	1028
-	.short	2571
-	.short	3333
-	.short	2059
-	.short	1285
-	.short	2816
-	.short	3333
-	.short	2565
-	.short	2827
-	.short	1285
-	.short	5
-	.short	11
-	.short	1285
-	.short	5
-	.short	3341
-	.short	1285
-	.short	2560
-	.short	3072
-	.short	11
-	.short	1035
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1037
+	.short	774
+	.short	2570
+	.short	3080
+	.short	1799
 	.short	1292
-	.short	1035
-	.short	2820
-	.short	11
-	.short	1290
-	.short	2056
-	.short	1288
-	.short	3333
-	.short	2056
-	.short	2056
-	.short	3341
-	.short	1288
-	.short	2560
-	.short	1036
 	.short	1028
-	.short	779
-	.short	1293
-	.short	3336
-	.short	13
-	.short	1285
-	.short	1541
-	.short	1033
-	.short	3852
-	.short	770
-	.short	2829
+	.short	1028
+	.short	778
+	.short	1034
+	.short	1028
+	.short	2564
+	.short	2571
+	.short	2570
+	.short	1028
+	.short	2570
 	.short	3072
-	.short	10
-	.short	3333
-	.short	3336
+	.short	1292
+	.short	2316
+	.short	5
+	.short	1034
+	.short	1549
+	.short	2826
+	.short	1792
+	.short	1799
+	.short	3077
+	.short	2565
+	.short	1034
+	.short	2820
+	.short	3338
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1802
+	.short	1283
+	.short	1290
+	.short	1024
+	.short	1280
+	.short	3338
+	.short	2570
+	.short	1292
+	.short	2310
+	.short	1285
+	.short	11
+	.short	3084
+	.short	1292
+	.short	1280
+	.short	2571
+	.short	1285
 	.short	2312
+	.short	1030
+	.short	1284
+	.short	1034
+	.short	2820
+	.short	2570
+	.short	2570
+	.short	1797
+	.short	519
+	.short	2573
+	.short	3075
+	.short	1804
+	.short	2823
+	.short	2827
+	.short	1292
+	.short	3084
+	.short	3853
+	.short	2572
+	.short	2567
+	.short	3079
+	.short	1799
+	.short	1804
+	.short	1803
+	.short	3852
+	.short	2564
+	.short	1546
+	.short	771
+	.short	1036
+	.short	2573
+	.short	11
+	.short	1799
+	.short	1292
 	.short	3591
+	.short	527
+	.short	2570
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	2820
 	.short	516
 	.short	3599
+	.short	2312
+	.short	3079
+	.short	1799
+	.short	2572
+	.short	2573
 	.short	3341
-	.short	2056
-	.short	2056
-	.short	2565
+	.short	2310
+	.short	1800
+	.short	3079
+	.short	3084
+	.short	3078
+	.short	2570
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2564
+	.short	778
+	.short	1282
+	.short	3084
+	.short	1804
+	.short	1292
+	.short	1028
+	.short	1028
+	.short	3082
+	.short	773
+	.short	2570
+	.short	2564
+	.short	3077
+	.short	2828
+	.short	1034
+	.short	1290
+	.short	1797
+	.short	773
+	.short	2560
+	.short	11
+	.short	2571
+	.short	2820
+	.short	2816
+	.short	0
+	.short	3077
+	.short	2572
+	.short	2819
+	.short	2570
+	.short	2826
+	.short	0
 	.short	1035
+	.short	1028
+	.short	2826
+	.short	3077
+	.short	1802
+	.short	1285
+	.short	2560
+	.short	3077
+	.short	2821
+	.short	2570
+	.short	1285
+	.short	5
+	.short	10
+	.short	1285
+	.short	5
+	.short	3084
+	.short	1285
+	.short	2816
+	.short	3328
+	.short	10
+	.short	1034
+	.short	1293
+	.short	1034
+	.short	2564
+	.short	10
+	.short	1291
+	.short	1799
+	.short	2823
+	.short	2827
+	.short	2827
+	.short	2827
+	.short	3083
+	.short	3079
+	.short	2816
+	.short	3084
+	.short	1028
+	.short	778
+	.short	1292
+	.short	3079
+	.short	12
+	.short	1285
+	.short	2821
+	.short	1033
+	.short	3853
+	.short	770
+	.short	2572
+	.short	3328
+	.short	11
+	.short	3077
+	.short	3079
+	.short	2311
+	.short	3592
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2564
+	.short	516
+	.short	3599
+	.short	3084
+	.short	1799
+	.short	1799
+	.short	2821
+	.short	1034
 	.short	1541
-	.short	3333
+	.short	3077
 	.short	1285
 	.short	3854
 	.short	770
-	.short	2822
+	.short	2566
 	.short	1028
 	.short	1028
 	.short	1028
@@ -11922,106 +11922,106 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	1280
-	.short	3333
+	.short	3077
 	.short	3845
 	.short	1294
 	.short	1280
-	.short	2816
-	.short	3083
-	.short	11
-	.short	2053
-	.short	3336
-	.short	2565
-	.short	1285
-	.short	3336
-	.short	2573
-	.short	1028
-	.short	2827
-	.short	1285
-	.short	1291
-	.short	1027
-	.short	3333
+	.short	2560
+	.short	3338
+	.short	10
+	.short	1797
+	.short	3079
 	.short	2821
+	.short	1285
+	.short	3079
+	.short	2828
+	.short	1028
+	.short	2570
+	.short	1285
+	.short	1290
+	.short	1027
+	.short	3077
+	.short	2565
 	.short	1284
-	.short	2061
-	.short	2826
-	.short	1280
-	.short	3083
-	.short	2819
+	.short	1804
 	.short	2571
-	.short	3333
-	.short	1288
+	.short	1280
+	.short	3338
+	.short	2563
 	.short	2826
+	.short	3077
+	.short	1287
+	.short	2571
 	.short	1028
 	.short	1280
 	.short	5
-	.short	2053
-	.short	13
+	.short	1797
+	.short	12
 	.short	1285
-	.short	3336
+	.short	3079
 	.short	1280
-	.short	2560
+	.short	2816
 	.short	1280
-	.short	3082
+	.short	3339
 	.short	1283
 	.short	1285
-	.short	2826
-	.short	3333
+	.short	2571
+	.short	3077
 	.short	5
-	.short	2058
-	.short	2821
-	.short	3333
-	.short	1541
-	.short	3339
-	.short	1035
-	.short	1290
-	.short	1285
+	.short	1803
 	.short	2565
-	.short	2061
+	.short	3077
+	.short	1541
+	.short	3082
+	.short	1034
+	.short	1291
 	.short	1285
-	.short	3341
-	.short	3341
-	.short	2056
-	.short	1280
-	.short	5
+	.short	2821
+	.short	1804
 	.short	2827
-	.short	1792
+	.short	3084
+	.short	3084
+	.short	1799
+	.short	1280
+	.short	3077
+	.short	3082
+	.short	2060
 	.short	3854
 	.short	770
-	.short	1293
-	.short	13
+	.short	1292
+	.short	12
+	.short	2571
+	.short	2829
 	.short	2826
-	.short	2572
-	.short	1035
-	.short	1035
-	.short	2820
-	.short	2820
-	.short	2827
-	.short	10
+	.short	1034
+	.short	2564
+	.short	2564
+	.short	2570
+	.short	11
 	.short	1285
-	.short	1293
-	.short	781
+	.short	1292
+	.short	780
 	.short	2310
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	780
-	.short	1286
-	.short	3341
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	0
-	.short	2821
-	.short	3333
 	.short	781
+	.short	1286
+	.short	3084
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	0
+	.short	2565
+	.short	3077
+	.short	780
 	.short	3842
-	.short	2315
+	.short	2314
 	.short	1026
 	.short	1028
 	.short	1028
@@ -12042,105 +12042,105 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2571
-	.short	2053
-	.short	776
-	.short	1035
-	.short	1035
-	.short	1284
-	.short	2827
-	.short	10
-	.short	2053
-	.short	2056
-	.short	781
-	.short	2827
-	.short	3335
-	.short	13
-	.short	2820
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	779
-	.short	1028
-	.short	2053
-	.short	2829
-	.short	2820
-	.short	2053
-	.short	1288
-	.short	1028
-	.short	3076
-	.short	3
-	.short	1291
-	.short	2061
-	.short	2824
-	.short	1035
-	.short	1028
-	.short	12
-	.short	2061
-	.short	2056
-	.short	13
-	.short	3341
-	.short	3341
-	.short	1293
-	.short	1280
 	.short	2826
-	.short	1035
-	.short	2051
+	.short	1797
+	.short	775
+	.short	1034
+	.short	1034
+	.short	1284
+	.short	2570
+	.short	11
+	.short	1797
+	.short	1799
+	.short	780
+	.short	2570
+	.short	3080
+	.short	12
+	.short	2564
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	778
+	.short	1028
+	.short	1797
+	.short	2572
+	.short	2564
+	.short	1797
+	.short	1287
+	.short	1028
+	.short	3332
+	.short	3
+	.short	1290
+	.short	1804
+	.short	2567
+	.short	1034
+	.short	1028
+	.short	13
+	.short	1804
+	.short	1799
+	.short	12
+	.short	3084
+	.short	3084
+	.short	1292
+	.short	1280
+	.short	2571
+	.short	1034
+	.short	1795
 	.short	5
-	.short	2827
-	.short	3333
+	.short	2570
+	.short	3077
 	.short	5
-	.short	3328
-	.short	2821
+	.short	3072
+	.short	2565
 	.short	1295
 	.short	774
 	.short	1285
 	.short	1024
 	.short	1280
-	.short	2061
-	.short	2829
-	.short	3328
-	.short	2823
-	.short	779
-	.short	2828
+	.short	1804
+	.short	2572
+	.short	3072
+	.short	2571
+	.short	778
+	.short	2573
 	.short	1285
 	.short	1280
-	.short	1024
-	.short	2827
-	.short	3333
-	.short	3341
-	.short	3341
-	.short	2829
+	.short	3084
+	.short	3082
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	2572
 	.short	1029
 	.short	1028
-	.short	2820
-	.short	1036
-	.short	2306
-	.short	3851
-	.short	2306
+	.short	2564
+	.short	2829
+	.short	2827
+	.short	2827
+	.short	2827
 	.short	774
-	.short	3333
-	.short	13
-	.short	10
-	.short	2819
-	.short	1035
+	.short	3077
+	.short	12
+	.short	11
+	.short	2563
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1291
-	.short	3339
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1291
-	.short	2560
-	.short	3341
-	.short	2061
-	.short	2819
-	.short	3076
+	.short	2564
+	.short	1290
+	.short	3082
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1290
+	.short	2816
+	.short	3084
+	.short	1804
+	.short	2563
+	.short	3332
 	.short	1028
 	.short	1540
 	.short	1028
@@ -12163,223 +12163,223 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1035
-	.short	780
-	.short	2827
-	.short	1035
-	.short	1291
-	.short	3333
-	.short	2056
-	.short	1293
-	.short	1291
-	.short	1547
-	.short	1027
-	.short	2820
 	.short	1034
-	.short	1291
+	.short	781
+	.short	2570
+	.short	1034
+	.short	1290
 	.short	3077
-	.short	1028
-	.short	3076
-	.short	2059
-	.short	1286
-	.short	2061
+	.short	1799
+	.short	1292
+	.short	1290
+	.short	1546
+	.short	1027
+	.short	2564
 	.short	1035
-	.short	1028
-	.short	3339
-	.short	3341
-	.short	3082
-	.short	2827
-	.short	3331
-	.short	3341
-	.short	2061
-	.short	2824
-	.short	1028
-	.short	1028
-	.short	2828
-	.short	2061
-	.short	8
-	.short	2053
-	.short	13
-	.short	1291
-	.short	8
-	.short	1285
-	.short	2571
-	.short	1028
-	.short	3075
-	.short	1291
+	.short	1290
 	.short	3333
-	.short	2821
-	.short	1291
-	.short	2059
-	.short	3336
-	.short	2061
+	.short	1028
+	.short	3332
+	.short	1802
+	.short	1286
+	.short	1804
+	.short	1034
+	.short	1028
+	.short	3082
+	.short	3084
+	.short	3339
+	.short	2570
+	.short	3075
+	.short	3084
+	.short	1804
+	.short	2567
+	.short	1028
+	.short	1028
+	.short	2573
+	.short	1804
+	.short	7
+	.short	1797
+	.short	12
+	.short	1290
+	.short	7
+	.short	1285
+	.short	2826
+	.short	1028
+	.short	3331
+	.short	1290
+	.short	3077
+	.short	2565
+	.short	1290
+	.short	1802
+	.short	3079
+	.short	1804
 	.short	773
-	.short	8
-	.short	2053
+	.short	7
+	.short	1797
 	.short	5
 	.short	1284
-	.short	1037
-	.short	260
+	.short	1036
+	.short	2820
 	.short	2318
 	.short	774
 	.short	1030
-	.short	2052
-	.short	2061
-	.short	13
-	.short	2821
-	.short	3848
-	.short	3329
-	.short	1544
+	.short	1796
+	.short	1804
+	.short	12
+	.short	3084
+	.short	3847
+	.short	3073
+	.short	1543
 	.short	1027
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
-	.short	779
+	.short	778
 	.short	2306
-	.short	3329
-	.short	2056
-	.short	2056
-	.short	3336
+	.short	3073
+	.short	2823
+	.short	1799
+	.short	2823
 	.short	5
-	.short	2826
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2053
-	.short	2056
-	.short	3341
-	.short	2061
-	.short	2056
-	.short	774
-	.short	3336
-	.short	2056
-	.short	2568
-	.short	1284
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1291
-	.short	2309
-	.short	1035
-	.short	3333
-	.short	2056
-	.short	1288
-	.short	2816
-	.short	3076
-	.short	1029
-	.short	1035
-	.short	2820
-	.short	1285
-	.short	3333
-	.short	2816
-	.short	1028
 	.short	2571
-	.short	2061
-	.short	3333
-	.short	3341
-	.short	1035
-	.short	1028
-	.short	1291
-	.short	2816
-	.short	2820
-	.short	2053
-	.short	2821
-	.short	2827
-	.short	11
-	.short	2829
 	.short	1028
 	.short	1028
-	.short	1291
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1797
+	.short	1799
+	.short	3084
+	.short	1804
+	.short	1799
+	.short	774
+	.short	3079
+	.short	1799
+	.short	2823
+	.short	1284
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1290
+	.short	2309
+	.short	1034
+	.short	3077
+	.short	1799
+	.short	1287
+	.short	2560
+	.short	3332
+	.short	1029
+	.short	1034
+	.short	2564
+	.short	1285
+	.short	3077
+	.short	2560
+	.short	1028
+	.short	2826
+	.short	1804
+	.short	3077
+	.short	3084
+	.short	1034
+	.short	1028
+	.short	1290
+	.short	2560
+	.short	2564
+	.short	1797
+	.short	2565
+	.short	2570
+	.short	10
+	.short	2572
+	.short	1028
+	.short	1028
+	.short	1290
 	.short	768
 	.short	1283
-	.short	3341
-	.short	1288
-	.short	1290
+	.short	3084
+	.short	1287
+	.short	1291
 	.short	1280
 	.short	5
-	.short	3328
-	.short	522
-	.short	12
-	.short	3333
-	.short	2048
-	.short	1288
-	.short	2053
-	.short	2053
-	.short	2056
-	.short	7
-	.short	779
-	.short	1288
-	.short	2053
-	.short	2816
+	.short	3072
+	.short	523
+	.short	13
+	.short	3077
+	.short	1792
+	.short	1287
+	.short	1797
+	.short	1797
+	.short	1799
+	.short	8
+	.short	778
+	.short	1287
+	.short	1797
+	.short	2560
 	.short	1284
-	.short	1037
-	.short	3595
-	.short	2823
-	.short	779
 	.short	1036
-	.short	2059
-	.short	2061
-	.short	1288
-	.short	1293
+	.short	3595
+	.short	2568
+	.short	778
+	.short	1037
+	.short	1802
+	.short	1804
+	.short	1292
+	.short	3084
 	.short	3845
 	.short	513
 	.short	1545
-	.short	2827
+	.short	2570
 	.short	1028
 	.short	1028
-	.short	2571
+	.short	2826
 	.short	1280
 	.short	1285
-	.short	3336
-	.short	3341
-	.short	3336
-	.short	3339
-	.short	2816
-	.short	1035
+	.short	3079
+	.short	2828
+	.short	2827
+	.short	2827
+	.short	2560
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1035
-	.short	2564
-	.short	1291
-	.short	2061
-	.short	776
+	.short	1034
+	.short	2820
+	.short	1290
+	.short	1804
+	.short	775
 	.short	512
 	.short	3599
-	.short	3336
-	.short	3336
-	.short	3333
-	.short	13
-	.short	2829
-	.short	2828
-	.short	1035
+	.short	3079
+	.short	3079
+	.short	3077
+	.short	12
+	.short	2572
+	.short	2573
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -12397,106 +12397,106 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	1036
+	.short	3332
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	3595
-	.short	2049
-	.short	1795
-	.short	523
-	.short	2061
-	.short	2056
+	.short	3332
+	.short	3594
+	.short	1793
+	.short	2051
+	.short	522
+	.short	1804
+	.short	1799
 	.short	261
-	.short	1035
-	.short	2820
-	.short	2821
-	.short	1548
+	.short	1034
+	.short	2564
+	.short	2565
+	.short	1549
 	.short	3586
-	.short	2061
-	.short	3336
-	.short	2830
-	.short	2820
-	.short	3335
-	.short	1293
+	.short	1804
+	.short	3079
+	.short	2574
+	.short	2564
+	.short	3080
+	.short	1292
 	.short	257
 	.short	261
-	.short	1035
+	.short	1034
 	.short	1028
-	.short	1291
-	.short	1035
-	.short	3595
-	.short	3333
+	.short	1290
+	.short	1034
+	.short	3594
+	.short	3077
 	.short	1025
 	.short	1028
 	.short	1028
-	.short	2821
+	.short	2565
 	.short	1028
 	.short	1028
 	.short	1294
-	.short	3335
+	.short	3080
 	.short	259
 	.short	261
 	.short	261
-	.short	269
+	.short	268
 	.short	270
-	.short	3597
-	.short	1287
+	.short	3596
+	.short	1288
 	.short	3585
-	.short	1806
-	.short	3331
 	.short	2062
-	.short	3336
-	.short	2061
-	.short	269
+	.short	3075
+	.short	1806
+	.short	3079
+	.short	1804
+	.short	268
 	.short	1281
 	.short	3599
 	.short	270
 	.short	1295
 	.short	270
-	.short	2827
-	.short	3342
-	.short	3592
-	.short	2318
+	.short	2570
+	.short	3086
+	.short	3591
+	.short	2315
 	.short	3593
 	.short	782
-	.short	1806
-	.short	2055
-	.short	2056
-	.short	3597
-	.short	1293
+	.short	2062
+	.short	1800
+	.short	1799
+	.short	3596
+	.short	1292
 	.short	265
 	.short	514
-	.short	1543
+	.short	1544
 	.short	1028
 	.short	1028
-	.short	2830
+	.short	2574
 	.short	1294
-	.short	3335
-	.short	3336
-	.short	2317
+	.short	3080
+	.short	3079
+	.short	2316
 	.short	3843
 	.short	261
-	.short	267
-	.short	3083
+	.short	266
+	.short	3338
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3079
-	.short	1287
-	.short	1294
+	.short	3336
 	.short	1288
+	.short	1294
+	.short	1287
 	.short	769
-	.short	1547
-	.short	519
-	.short	3331
-	.short	2061
+	.short	1546
+	.short	520
+	.short	3075
+	.short	1804
 	.short	1295
-	.short	2817
+	.short	2561
 	.short	1029
 	.short	1028
 	.short	1028
@@ -12523,100 +12523,100 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1291
+	.short	1290
 	.short	782
 	.short	1538
 	.short	2305
-	.short	2056
+	.short	1799
 	.short	1294
-	.short	2830
-	.short	3076
+	.short	2574
+	.short	3332
 	.short	260
-	.short	269
+	.short	268
 	.short	2305
 	.short	1283
-	.short	3336
-	.short	3342
+	.short	3079
+	.short	3086
 	.short	1029
 	.short	1028
 	.short	1294
-	.short	775
+	.short	776
 	.short	1028
 	.short	5
-	.short	1035
+	.short	1034
 	.short	1028
-	.short	1291
+	.short	1290
 	.short	1028
-	.short	3596
+	.short	3597
 	.short	526
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
-	.short	2821
+	.short	2565
 	.short	1028
 	.short	1028
-	.short	1799
-	.short	3341
-	.short	3848
-	.short	13
-	.short	2830
+	.short	2056
+	.short	3084
+	.short	3847
+	.short	12
+	.short	2574
 	.short	5
-	.short	2830
-	.short	2055
-	.short	2056
+	.short	2574
+	.short	1800
+	.short	1799
 	.short	769
-	.short	1293
-	.short	2061
-	.short	2061
-	.short	2056
-	.short	2055
-	.short	269
-	.short	3599
-	.short	3341
-	.short	3073
 	.short	1292
+	.short	1804
+	.short	1804
+	.short	1799
+	.short	1800
+	.short	268
+	.short	3599
+	.short	3084
+	.short	3329
+	.short	1293
 	.short	271
 	.short	260
-	.short	3333
-	.short	2056
-	.short	3336
-	.short	269
+	.short	3077
+	.short	1799
+	.short	3083
+	.short	268
 	.short	259
-	.short	3592
-	.short	2053
-	.short	2056
+	.short	3591
+	.short	1797
+	.short	1799
 	.short	5
 	.short	3589
 	.short	518
 	.short	1028
 	.short	1028
 	.short	1025
-	.short	2817
+	.short	2561
 	.short	261
-	.short	2053
-	.short	2056
+	.short	1797
+	.short	1799
 	.short	3843
 	.short	1545
 	.short	521
-	.short	3079
-	.short	1036
-	.short	2820
+	.short	3336
+	.short	1037
+	.short	2564
 	.short	271
 	.short	1025
-	.short	1035
+	.short	1034
 	.short	514
-	.short	2820
+	.short	2564
 	.short	3843
-	.short	2061
-	.short	1287
-	.short	2567
-	.short	1796
+	.short	1804
+	.short	1288
+	.short	2824
+	.short	2052
 	.short	1028
 	.short	516
 	.short	782
-	.short	2049
-	.short	1804
-	.short	2820
+	.short	1793
+	.short	2061
+	.short	2564
 	.short	1038
 	.short	1028
 	.short	1028
@@ -12643,100 +12643,100 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	523
+	.short	522
 	.short	774
-	.short	1548
+	.short	1549
 	.short	514
 	.short	1282
-	.short	523
-	.short	2820
+	.short	522
+	.short	2564
 	.short	2313
-	.short	2063
-	.short	2056
+	.short	1807
+	.short	1799
 	.short	515
 	.short	513
-	.short	3330
-	.short	523
+	.short	3074
+	.short	522
 	.short	1026
 	.short	1028
-	.short	1803
-	.short	780
+	.short	2058
+	.short	781
 	.short	1028
 	.short	2306
-	.short	1035
+	.short	1034
 	.short	1028
-	.short	1291
+	.short	1290
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1030
 	.short	1028
 	.short	1028
-	.short	2821
+	.short	2565
 	.short	1028
 	.short	1028
-	.short	2316
-	.short	525
-	.short	3335
-	.short	2818
-	.short	2827
-	.short	2818
+	.short	2317
+	.short	524
+	.short	3080
+	.short	2562
+	.short	2570
+	.short	2562
 	.short	9
-	.short	2057
-	.short	3336
-	.short	3597
-	.short	1795
-	.short	2061
-	.short	2061
-	.short	520
-	.short	2057
-	.short	3341
-	.short	2818
-	.short	1807
-	.short	1036
+	.short	1801
+	.short	3079
+	.short	3596
+	.short	2051
+	.short	1804
+	.short	1804
+	.short	519
+	.short	1801
+	.short	3084
+	.short	2562
+	.short	2063
+	.short	1037
 	.short	1284
 	.short	514
-	.short	1291
-	.short	3336
-	.short	2050
-	.short	2312
+	.short	1290
+	.short	3079
+	.short	2818
+	.short	2311
 	.short	521
-	.short	2818
-	.short	2818
-	.short	3333
+	.short	2562
+	.short	2562
+	.short	3077
 	.short	1282
-	.short	3074
+	.short	3330
 	.short	1026
-	.short	1798
-	.short	519
-	.short	268
+	.short	2054
+	.short	520
+	.short	269
 	.short	3845
 	.short	3845
-	.short	3333
-	.short	2056
-	.short	3336
-	.short	1801
-	.short	2817
-	.short	3074
+	.short	3077
+	.short	1799
+	.short	3079
+	.short	2057
+	.short	2561
+	.short	3330
 	.short	1028
 	.short	1028
 	.short	2313
-	.short	3341
+	.short	3084
 	.short	1026
 	.short	3590
-	.short	3591
+	.short	3592
 	.short	3588
-	.short	775
-	.short	1287
+	.short	776
+	.short	1288
 	.short	512
-	.short	523
-	.short	1548
+	.short	522
+	.short	1549
 	.short	1537
-	.short	3591
+	.short	3592
 	.short	1550
 	.short	518
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -12764,93 +12764,93 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	780
-	.short	2816
+	.short	781
+	.short	2560
 	.short	1024
-	.short	2571
-	.short	2827
-	.short	2828
-	.short	3341
-	.short	3336
+	.short	2826
+	.short	2570
+	.short	2573
+	.short	3084
+	.short	3079
 	.short	1285
 	.short	9
-	.short	7
-	.short	1291
-	.short	2820
+	.short	8
+	.short	1290
+	.short	2564
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	772
 	.short	1028
-	.short	2564
-	.short	1035
+	.short	2820
+	.short	1034
 	.short	1028
-	.short	1291
+	.short	1290
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1030
 	.short	1028
 	.short	1028
-	.short	2821
-	.short	3076
-	.short	1028
-	.short	3328
-	.short	5
-	.short	2054
-	.short	3084
-	.short	3076
-	.short	2828
-	.short	10
 	.short	2565
-	.short	1293
+	.short	3332
+	.short	1028
+	.short	3072
+	.short	5
+	.short	1798
+	.short	3341
+	.short	3332
+	.short	2573
+	.short	11
+	.short	2821
+	.short	1292
 	.short	517
 	.short	1539
-	.short	3333
-	.short	2053
-	.short	2829
+	.short	3077
+	.short	1797
+	.short	2572
 	.short	1285
 	.short	1285
+	.short	2570
+	.short	2568
+	.short	2570
+	.short	2822
 	.short	2827
-	.short	2823
 	.short	2827
-	.short	774
-	.short	3072
-	.short	1291
-	.short	3336
-	.short	2048
-	.short	264
+	.short	2827
+	.short	2827
+	.short	263
 	.short	527
-	.short	2820
-	.short	2828
-	.short	3338
+	.short	2564
+	.short	2573
+	.short	3083
 	.short	1280
-	.short	1036
-	.short	2820
-	.short	3847
-	.short	1793
+	.short	1037
+	.short	2564
+	.short	3848
+	.short	2049
 	.short	768
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	1288
-	.short	3336
-	.short	1801
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1287
+	.short	3079
+	.short	2057
 	.short	1038
-	.short	1035
-	.short	3076
-	.short	2827
+	.short	1034
+	.short	3332
+	.short	2570
 	.short	1285
-	.short	1293
-	.short	1035
+	.short	1292
+	.short	1034
 	.short	2306
-	.short	3591
-	.short	2316
+	.short	3592
+	.short	2317
 	.short	774
-	.short	1291
-	.short	2820
-	.short	1036
-	.short	1547
+	.short	1290
+	.short	2564
+	.short	1037
+	.short	1546
 	.short	521
 	.short	3599
 	.short	1038
@@ -12883,93 +12883,93 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	3334
-	.short	2056
+	.short	2564
+	.short	3078
+	.short	1799
 	.short	1039
-	.short	1291
-	.short	1288
-	.short	1035
-	.short	2571
+	.short	1290
+	.short	1287
+	.short	1034
+	.short	2826
 	.short	773
-	.short	2819
+	.short	2563
 	.short	1282
 	.short	1025
-	.short	3339
-	.short	3072
-	.short	1035
+	.short	3082
+	.short	3328
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	772
 	.short	1028
 	.short	1284
-	.short	1035
-	.short	1035
-	.short	1291
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3078
-	.short	1036
-	.short	1028
 	.short	1034
-	.short	2820
-	.short	2821
-	.short	3328
-	.short	2829
-	.short	2822
-	.short	2821
-	.short	2821
-	.short	2821
+	.short	1034
+	.short	1290
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3334
+	.short	1037
+	.short	1028
+	.short	1035
+	.short	2564
+	.short	2565
+	.short	3072
+	.short	2572
+	.short	2566
+	.short	2565
+	.short	2565
+	.short	2565
 	.short	1285
 	.short	5
-	.short	1034
-	.short	1034
-	.short	2828
+	.short	1035
+	.short	1035
+	.short	2573
 	.short	1283
 	.short	1280
-	.short	2829
-	.short	2826
-	.short	3084
-	.short	11
+	.short	2572
+	.short	2571
+	.short	3341
+	.short	10
 	.short	527
 	.short	1539
-	.short	2824
-	.short	2827
-	.short	2053
-	.short	1288
-	.short	1291
+	.short	2567
+	.short	2570
+	.short	1797
+	.short	1287
+	.short	1290
 	.short	261
-	.short	2827
-	.short	2822
-	.short	2819
-	.short	1293
-	.short	2827
-	.short	1291
+	.short	2570
+	.short	2566
+	.short	2563
+	.short	1292
+	.short	2570
+	.short	1290
 	.short	1280
-	.short	2061
-	.short	2056
+	.short	1804
+	.short	1799
 	.short	770
-	.short	2056
-	.short	776
-	.short	3333
-	.short	2821
-	.short	1546
+	.short	1799
+	.short	775
+	.short	3077
+	.short	2565
+	.short	1547
 	.short	1033
-	.short	2820
-	.short	2816
-	.short	779
-	.short	1293
+	.short	2564
+	.short	2560
+	.short	778
+	.short	1292
 	.short	1283
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	1028
-	.short	3076
-	.short	3339
+	.short	3332
+	.short	3082
 	.short	1286
 	.short	2309
 	.short	1028
@@ -13003,95 +13003,95 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	3341
-	.short	3341
+	.short	2564
+	.short	3084
+	.short	3084
 	.short	1025
-	.short	1291
-	.short	3341
-	.short	1035
-	.short	2828
-	.short	2827
-	.short	2821
-	.short	1028
-	.short	2827
-	.short	2053
+	.short	1290
+	.short	3084
+	.short	1034
 	.short	2573
-	.short	1035
+	.short	2570
+	.short	2565
+	.short	1028
+	.short	2570
+	.short	1797
+	.short	2828
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	772
 	.short	1028
 	.short	1284
-	.short	1035
+	.short	1034
 	.short	1028
-	.short	1291
-	.short	1035
+	.short	1290
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1030
-	.short	3076
+	.short	3332
 	.short	1028
-	.short	2821
-	.short	11
+	.short	2565
 	.short	10
-	.short	2056
-	.short	1293
-	.short	2829
-	.short	2571
-	.short	2560
-	.short	2560
-	.short	5
-	.short	2816
-	.short	1035
-	.short	2827
-	.short	2819
-	.short	1280
-	.short	1280
-	.short	1280
-	.short	2816
+	.short	11
+	.short	1799
+	.short	1292
+	.short	2572
 	.short	2826
+	.short	2816
+	.short	2816
+	.short	5
 	.short	2560
-	.short	1293
-	.short	1288
-	.short	1293
-	.short	2053
-	.short	2056
-	.short	3336
+	.short	1034
+	.short	2570
+	.short	2563
+	.short	1280
+	.short	1280
+	.short	1280
+	.short	2560
+	.short	2571
+	.short	2816
+	.short	1292
+	.short	1287
+	.short	1292
+	.short	1797
+	.short	1799
+	.short	3079
 	.short	1280
 	.short	256
 	.short	513
 	.short	1539
 	.short	1283
-	.short	3336
+	.short	3079
 	.short	5
-	.short	3333
-	.short	2053
-	.short	2056
-	.short	2056
-	.short	2053
-	.short	13
-	.short	13
-	.short	10
+	.short	3077
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	1797
+	.short	12
+	.short	12
+	.short	11
 	.short	5
-	.short	2821
-	.short	1035
-	.short	3851
+	.short	2565
+	.short	1034
+	.short	3850
 	.short	1285
 	.short	1285
-	.short	2560
 	.short	2816
-	.short	1036
+	.short	2560
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2571
-	.short	3328
-	.short	3341
-	.short	2827
+	.short	2826
+	.short	3072
+	.short	3084
+	.short	2570
 	.short	1028
 	.short	1028
 	.short	1028
@@ -13125,81 +13125,81 @@ start3Bitmap:
 	.short	1028
 	.short	1280
 	.short	773
-	.short	2827
+	.short	2570
 	.short	260
 	.short	1285
-	.short	2827
+	.short	2570
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1034
-	.short	2827
-	.short	2571
-	.short	2053
-	.short	2573
+	.short	2564
 	.short	1035
+	.short	2570
+	.short	2826
+	.short	1797
+	.short	2828
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	772
 	.short	1028
-	.short	2564
-	.short	3072
-	.short	1036
-	.short	1291
-	.short	1035
-	.short	1035
+	.short	2820
+	.short	3328
+	.short	1037
+	.short	1290
+	.short	1034
+	.short	1034
 	.short	1028
 	.short	1030
-	.short	2820
-	.short	11
+	.short	2564
+	.short	10
 	.short	5
-	.short	10
+	.short	11
 	.short	1285
-	.short	10
-	.short	2826
+	.short	11
+	.short	2571
 	.short	1029
-	.short	2827
-	.short	3084
-	.short	1028
-	.short	3076
-	.short	1028
-	.short	1035
-	.short	2315
-	.short	1285
-	.short	3333
-	.short	1293
+	.short	2570
 	.short	3341
-	.short	1293
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	1034
+	.short	2314
+	.short	1285
+	.short	3077
+	.short	1292
+	.short	3084
+	.short	1292
 	.short	1285
 	.short	5
 	.short	517
 	.short	1283
-	.short	3336
+	.short	3079
 	.short	1280
-	.short	3336
-	.short	3341
-	.short	2061
-	.short	3336
-	.short	1288
+	.short	3079
+	.short	3084
+	.short	1804
+	.short	3079
+	.short	1287
 	.short	1285
-	.short	2061
-	.short	2056
-	.short	3336
-	.short	3341
-	.short	2056
-	.short	1288
-	.short	2053
+	.short	1804
+	.short	1799
+	.short	3079
+	.short	3084
+	.short	1799
+	.short	1287
+	.short	1797
 	.short	774
 	.short	6
 	.short	5
 	.short	1285
-	.short	3341
+	.short	3084
 	.short	773
 	.short	3842
-	.short	2561
+	.short	2817
 	.short	770
-	.short	2822
-	.short	1035
+	.short	2566
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -13207,19 +13207,11 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2571
-	.short	2571
-	.short	10
-	.short	2829
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	2826
+	.short	2826
+	.short	11
+	.short	2572
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -13242,95 +13234,103 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1293
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1292
 	.short	774
-	.short	1035
+	.short	1034
 	.short	260
 	.short	1280
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
-	.short	1035
-	.short	1292
+	.short	1034
+	.short	1293
 	.short	1285
 	.short	1025
-	.short	1291
-	.short	3083
+	.short	1290
+	.short	3338
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	772
 	.short	1028
 	.short	1284
-	.short	2821
+	.short	2565
 	.short	1028
-	.short	1291
-	.short	2827
+	.short	1290
+	.short	2570
 	.short	1029
 	.short	1028
-	.short	3078
-	.short	1291
+	.short	3334
+	.short	1290
 	.short	1284
-	.short	2056
-	.short	1293
-	.short	3083
-	.short	2828
-	.short	2828
-	.short	1036
-	.short	1036
+	.short	1799
+	.short	1292
+	.short	3338
+	.short	2573
+	.short	2573
+	.short	1037
+	.short	1037
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	1028
-	.short	2820
-	.short	2826
-	.short	3339
-	.short	2056
-	.short	2061
-	.short	8
-	.short	2061
-	.short	3341
-	.short	3328
-	.short	2821
+	.short	2564
+	.short	2571
+	.short	3082
+	.short	1799
+	.short	1804
+	.short	7
+	.short	1804
+	.short	3084
+	.short	3072
+	.short	2565
 	.short	527
 	.short	1539
-	.short	1544
-	.short	2571
-	.short	8
-	.short	2053
-	.short	2056
-	.short	2056
-	.short	2061
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	2056
-	.short	264
-	.short	2049
-	.short	2818
-	.short	1291
-	.short	773
-	.short	2061
-	.short	2056
-	.short	1288
-	.short	2317
+	.short	1543
+	.short	2826
+	.short	7
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	1804
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	1799
+	.short	263
 	.short	1793
-	.short	3083
-	.short	3076
-	.short	1035
-	.short	1035
+	.short	2562
+	.short	1290
+	.short	773
+	.short	1804
+	.short	1799
+	.short	1287
+	.short	2316
+	.short	2049
+	.short	3338
+	.short	3332
+	.short	1034
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1545
-	.short	3336
-	.short	2573
-	.short	2827
+	.short	3079
 	.short	2828
+	.short	2570
+	.short	2573
 	.short	1028
 	.short	1028
 	.short	1028
@@ -13362,78 +13362,78 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1547
+	.short	2564
+	.short	1546
 	.short	774
-	.short	1035
+	.short	1034
 	.short	1028
-	.short	2827
-	.short	2826
+	.short	2570
+	.short	2571
 	.short	1028
-	.short	3076
-	.short	3333
+	.short	3332
+	.short	3077
 	.short	1285
 	.short	9
-	.short	3078
-	.short	1291
-	.short	1035
+	.short	3334
+	.short	1290
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	772
 	.short	1028
-	.short	1036
-	.short	2826
+	.short	1037
+	.short	2571
 	.short	1028
-	.short	3339
+	.short	3082
 	.short	5
-	.short	3077
+	.short	3333
 	.short	1028
 	.short	1286
-	.short	2571
-	.short	1280
-	.short	3341
-	.short	2827
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2571
-	.short	2820
 	.short	2826
+	.short	1280
+	.short	3084
+	.short	2570
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2826
+	.short	2564
 	.short	2571
-	.short	2571
+	.short	2826
+	.short	2826
 	.short	1285
-	.short	2061
-	.short	2824
-	.short	2061
-	.short	13
+	.short	1804
+	.short	2567
+	.short	1804
+	.short	12
 	.short	5
-	.short	10
 	.short	11
-	.short	3082
-	.short	1036
-	.short	2827
-	.short	2820
+	.short	10
+	.short	3339
+	.short	1037
+	.short	2570
+	.short	2564
 	.short	1028
 	.short	5
-	.short	10
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	2056
-	.short	2061
-	.short	2061
+	.short	11
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	1799
+	.short	1804
+	.short	1804
 	.short	5
 	.short	261
-	.short	1793
+	.short	2049
 	.short	768
-	.short	3334
-	.short	2053
-	.short	13
-	.short	3333
+	.short	3078
+	.short	1797
+	.short	12
+	.short	3077
 	.short	768
 	.short	3842
 	.short	1540
@@ -13446,9 +13446,9 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	527
-	.short	2051
+	.short	1795
 	.short	5
-	.short	2827
+	.short	2570
 	.short	1024
 	.short	1028
 	.short	1028
@@ -13459,8 +13459,8 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3084
-	.short	2820
+	.short	3341
+	.short	2564
 	.short	1028
 	.short	1028
 	.short	1028
@@ -13484,77 +13484,77 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1548
-	.short	2825
-	.short	1035
-	.short	2820
-	.short	2821
+	.short	1549
+	.short	2569
+	.short	1034
+	.short	2564
+	.short	2565
 	.short	1028
-	.short	12
-	.short	2061
-	.short	779
-	.short	1035
+	.short	13
+	.short	1804
+	.short	778
+	.short	1034
 	.short	1028
-	.short	2571
-	.short	1035
+	.short	2826
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	772
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	5
 	.short	1028
-	.short	3339
-	.short	1288
-	.short	10
-	.short	3077
-	.short	2053
-	.short	10
-	.short	1285
-	.short	2816
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	2820
-	.short	1292
-	.short	2560
-	.short	1288
-	.short	3341
-	.short	2053
-	.short	3336
-	.short	2056
-	.short	1544
+	.short	3082
+	.short	1287
 	.short	11
-	.short	5
-	.short	1035
-	.short	1035
-	.short	3084
-	.short	1035
-	.short	1028
-	.short	2820
-	.short	2821
-	.short	10
+	.short	3333
+	.short	1797
+	.short	11
 	.short	1285
-	.short	1288
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	3336
+	.short	2560
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	2564
 	.short	1293
+	.short	2816
+	.short	1287
+	.short	3084
+	.short	1797
+	.short	3079
+	.short	1799
+	.short	1543
+	.short	10
+	.short	5
+	.short	1034
+	.short	1034
+	.short	3341
+	.short	1034
+	.short	1028
+	.short	2564
+	.short	2565
+	.short	11
+	.short	1285
+	.short	1287
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	1292
 	.short	1280
 	.short	1280
 	.short	1024
-	.short	3330
-	.short	3336
-	.short	1293
+	.short	3074
+	.short	3079
+	.short	1292
 	.short	1285
-	.short	1293
+	.short	1292
 	.short	5
 	.short	1280
-	.short	2828
+	.short	2573
 	.short	1028
 	.short	1028
 	.short	1028
@@ -13564,11 +13564,11 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	521
-	.short	780
-	.short	2827
-	.short	3076
+	.short	781
+	.short	2570
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -13604,18 +13604,18 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	268
+	.short	269
 	.short	3587
 	.short	526
 	.short	270
 	.short	5
 	.short	1028
-	.short	2820
-	.short	257
-	.short	779
-	.short	1028
-	.short	1035
 	.short	2564
+	.short	257
+	.short	778
+	.short	1028
+	.short	1034
+	.short	2820
 	.short	1028
 	.short	1028
 	.short	1028
@@ -13625,56 +13625,56 @@ start3Bitmap:
 	.short	1038
 	.short	5
 	.short	1038
-	.short	2062
-	.short	3341
-	.short	3594
+	.short	1806
+	.short	3084
+	.short	3595
 	.short	3589
-	.short	2062
+	.short	1806
 	.short	14
 	.short	257
 	.short	1024
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	3086
-	.short	2822
+	.short	3332
+	.short	3342
+	.short	2566
 	.short	1294
-	.short	2574
-	.short	2056
-	.short	2056
-	.short	2049
-	.short	2056
+	.short	2830
+	.short	1799
+	.short	1799
+	.short	1793
+	.short	1799
 	.short	2305
-	.short	3075
-	.short	2820
-	.short	2817
-	.short	3084
+	.short	3331
+	.short	2564
+	.short	2561
+	.short	3341
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	3588
-	.short	1803
+	.short	2058
 	.short	1030
-	.short	1797
-	.short	3597
-	.short	3333
-	.short	264
-	.short	2056
-	.short	2312
-	.short	2057
-	.short	2056
-	.short	3336
+	.short	2053
+	.short	3596
+	.short	3077
+	.short	263
+	.short	1799
+	.short	2311
+	.short	1801
+	.short	1799
+	.short	3079
 	.short	1281
 	.short	1280
 	.short	256
-	.short	267
-	.short	2057
-	.short	2056
-	.short	2061
-	.short	2061
+	.short	266
+	.short	1801
+	.short	1799
+	.short	1804
+	.short	1804
 	.short	1281
-	.short	2830
-	.short	268
-	.short	1035
+	.short	2574
+	.short	269
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -13683,9 +13683,9 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	514
-	.short	1543
+	.short	1544
 	.short	260
 	.short	1028
 	.short	1028
@@ -13697,8 +13697,8 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3588
-	.short	2827
-	.short	1037
+	.short	2570
+	.short	1036
 	.short	2310
 	.short	518
 	.short	1028
@@ -13723,83 +13723,83 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3852
-	.short	2063
-	.short	2056
+	.short	3853
+	.short	1807
+	.short	1799
 	.short	259
-	.short	3333
-	.short	264
-	.short	2831
+	.short	3077
+	.short	263
+	.short	2575
 	.short	1028
 	.short	1028
-	.short	780
+	.short	781
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1291
-	.short	1798
-	.short	10
+	.short	1290
+	.short	2054
+	.short	11
 	.short	261
 	.short	261
-	.short	3341
-	.short	1805
-	.short	1805
-	.short	1805
-	.short	1796
-	.short	1035
+	.short	3084
+	.short	2060
+	.short	2060
+	.short	2060
+	.short	2052
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	15
 	.short	3845
 	.short	3855
-	.short	2053
-	.short	2056
-	.short	1805
-	.short	1293
-	.short	3328
-	.short	1287
-	.short	1547
-	.short	1031
-	.short	1036
+	.short	1797
+	.short	1799
+	.short	2060
+	.short	1292
+	.short	3072
+	.short	1288
+	.short	1546
+	.short	1032
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1281
-	.short	775
+	.short	776
 	.short	3849
 	.short	1294
-	.short	1805
-	.short	1805
+	.short	2060
+	.short	2060
 	.short	5
-	.short	1805
+	.short	2060
 	.short	517
-	.short	3343
-	.short	2056
-	.short	3336
+	.short	3087
+	.short	1799
+	.short	3079
 	.short	1281
 	.short	1281
 	.short	3855
-	.short	2063
-	.short	3336
-	.short	2056
-	.short	269
-	.short	3336
-	.short	1792
+	.short	1807
+	.short	3079
+	.short	1799
+	.short	268
+	.short	3079
+	.short	2048
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	1028
-	.short	3073
-	.short	2831
+	.short	3329
+	.short	2575
 	.short	1039
 	.short	3844
 	.short	1028
@@ -13816,10 +13816,10 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2564
+	.short	2820
 	.short	256
-	.short	269
-	.short	524
+	.short	268
+	.short	525
 	.short	1028
 	.short	1028
 	.short	1028
@@ -13843,101 +13843,101 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2564
-	.short	3333
-	.short	3341
+	.short	2820
+	.short	3077
+	.short	3084
 	.short	271
 	.short	1285
-	.short	2056
-	.short	2821
+	.short	1799
+	.short	2565
 	.short	1028
 	.short	1028
-	.short	780
+	.short	781
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	1035
+	.short	1034
 	.short	1028
-	.short	2820
-	.short	3083
-	.short	779
+	.short	2564
+	.short	3338
+	.short	778
 	.short	2310
 	.short	5
-	.short	3333
-	.short	2056
+	.short	3077
+	.short	1799
 	.short	1285
-	.short	10
-	.short	10
-	.short	2821
+	.short	11
+	.short	11
+	.short	2565
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	1028
-	.short	3076
-	.short	3083
-	.short	2827
-	.short	13
-	.short	3333
-	.short	2061
-	.short	2056
+	.short	3332
+	.short	3338
+	.short	2570
+	.short	12
+	.short	3077
+	.short	1804
+	.short	1799
 	.short	1283
-	.short	2829
+	.short	2572
 	.short	1285
-	.short	2571
-	.short	2571
-	.short	1035
+	.short	2826
+	.short	2826
+	.short	1034
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	2827
-	.short	2820
-	.short	1036
-	.short	2061
-	.short	3343
-	.short	1293
-	.short	1291
+	.short	2564
+	.short	2570
+	.short	2564
+	.short	1037
+	.short	1804
+	.short	3087
+	.short	1292
+	.short	1290
 	.short	5
-	.short	10
-	.short	2826
-	.short	2821
-	.short	2826
+	.short	11
+	.short	2571
+	.short	2565
+	.short	2571
 	.short	1281
-	.short	3333
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2061
-	.short	3341
-	.short	3336
+	.short	3077
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1804
+	.short	3084
+	.short	3079
 	.short	1541
 	.short	1283
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1035
+	.short	2564
+	.short	1034
 	.short	1539
-	.short	10
-	.short	2826
+	.short	11
 	.short	2571
+	.short	2826
 	.short	1028
 	.short	1028
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
-	.short	1291
-	.short	3328
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1037
+	.short	1290
+	.short	3072
 	.short	773
 	.short	1028
 	.short	1028
@@ -13965,101 +13965,101 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1286
-	.short	2317
-	.short	2828
-	.short	1291
-	.short	3333
-	.short	2565
-	.short	1035
+	.short	2316
+	.short	2573
+	.short	1290
+	.short	3077
+	.short	2821
+	.short	1034
 	.short	1028
-	.short	780
-	.short	1035
+	.short	781
+	.short	1034
 	.short	1028
 	.short	1284
 	.short	1028
 	.short	1028
-	.short	11
-	.short	2821
-	.short	3339
-	.short	2061
-	.short	3341
-	.short	3336
-	.short	1293
-	.short	1291
-	.short	1028
-	.short	1035
-	.short	1035
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2821
-	.short	5
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	3341
-	.short	13
-	.short	2826
-	.short	2571
-	.short	2820
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1035
-	.short	2571
-	.short	1280
-	.short	1280
-	.short	11
-	.short	2061
-	.short	1293
-	.short	1541
-	.short	2828
 	.short	10
-	.short	1036
-	.short	2820
+	.short	2565
+	.short	3082
+	.short	1804
+	.short	3084
+	.short	3079
+	.short	1292
+	.short	1290
+	.short	1028
 	.short	1034
-	.short	3076
+	.short	1034
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2565
+	.short	5
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	3084
+	.short	12
+	.short	2571
+	.short	2826
+	.short	2564
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1034
+	.short	2826
+	.short	1280
+	.short	1280
+	.short	10
+	.short	1804
+	.short	1292
+	.short	1541
+	.short	2573
+	.short	11
+	.short	1037
+	.short	2564
+	.short	1035
+	.short	3332
 	.short	513
 	.short	1539
-	.short	3331
-	.short	2056
-	.short	2061
-	.short	3341
-	.short	1293
-	.short	1801
-	.short	525
+	.short	3075
+	.short	1799
+	.short	1804
+	.short	3084
+	.short	1292
+	.short	2057
+	.short	524
 	.short	1545
-	.short	3076
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	3844
-	.short	2818
-	.short	2819
-	.short	3333
-	.short	1293
-	.short	1291
-	.short	780
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1291
-	.short	1280
-	.short	3333
+	.short	2562
+	.short	2563
 	.short	3077
-	.short	1035
+	.short	1292
+	.short	1290
+	.short	781
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1290
+	.short	1280
+	.short	3077
+	.short	3333
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -14084,84 +14084,84 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	2306
 	.short	1028
-	.short	2820
-	.short	10
-	.short	3076
-	.short	3083
+	.short	2564
+	.short	11
+	.short	3332
+	.short	3338
 	.short	1028
 	.short	1540
 	.short	1027
-	.short	2820
+	.short	2564
 	.short	1284
-	.short	2827
-	.short	1548
-	.short	2048
+	.short	2570
 	.short	1549
-	.short	2061
-	.short	2056
-	.short	1288
+	.short	1792
+	.short	1548
+	.short	1804
+	.short	1799
+	.short	1287
 	.short	1280
-	.short	3339
-	.short	2827
+	.short	3082
+	.short	2570
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2828
-	.short	2826
+	.short	2573
+	.short	2571
 	.short	5
-	.short	2053
-	.short	1293
-	.short	1288
-	.short	1539
-	.short	2819
-	.short	1034
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	2827
-	.short	2828
-	.short	2820
-	.short	2821
+	.short	1797
 	.short	1292
-	.short	3336
-	.short	2056
-	.short	3336
-	.short	5
-	.short	2311
-	.short	1030
-	.short	3076
-	.short	2828
-	.short	3076
-	.short	2827
+	.short	1287
+	.short	1539
+	.short	2563
+	.short	1035
+	.short	1034
 	.short	1028
-	.short	1547
-	.short	1547
+	.short	1028
+	.short	2570
+	.short	2573
+	.short	2564
+	.short	2565
+	.short	1293
+	.short	3079
+	.short	1799
+	.short	3079
+	.short	5
+	.short	2312
+	.short	1030
+	.short	3332
+	.short	2573
+	.short	3332
+	.short	2570
+	.short	1028
+	.short	1546
+	.short	1546
 	.short	1545
-	.short	3331
-	.short	8
-	.short	2053
+	.short	3075
+	.short	7
+	.short	1797
 	.short	5
 	.short	5
-	.short	1801
+	.short	2057
 	.short	1038
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2828
-	.short	1803
+	.short	2573
+	.short	2058
 	.short	3841
-	.short	2311
-	.short	2056
-	.short	3331
-	.short	2819
-	.short	2820
+	.short	2312
+	.short	1799
+	.short	3075
+	.short	2563
+	.short	2564
 	.short	1028
 	.short	1028
 	.short	1028
@@ -14172,12 +14172,12 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3078
-	.short	1548
+	.short	3334
+	.short	1549
 	.short	1539
 	.short	1283
-	.short	2821
-	.short	2819
+	.short	2565
+	.short	2563
 	.short	1029
 	.short	1028
 	.short	1028
@@ -14207,199 +14207,95 @@ start3Bitmap:
 	.short	1028
 	.short	2306
 	.short	1028
-	.short	2820
-	.short	2821
-	.short	2571
-	.short	2560
-	.short	1035
-	.short	1540
-	.short	1027
-	.short	2820
-	.short	1291
-	.short	1291
-	.short	2560
-	.short	3328
-	.short	1288
-	.short	2056
-	.short	2056
-	.short	2571
-	.short	2827
-	.short	2828
-	.short	1028
-	.short	2820
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	1028
-	.short	1291
-	.short	1285
-	.short	1293
-	.short	5
-	.short	1285
-	.short	1280
-	.short	2827
-	.short	1035
-	.short	2820
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2827
-	.short	1034
-	.short	1035
-	.short	5
-	.short	2053
-	.short	3333
-	.short	1280
-	.short	2821
-	.short	1029
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	10
-	.short	11
+	.short	2564
+	.short	2565
 	.short	2826
-	.short	2820
-	.short	1280
-	.short	2311
-	.short	1293
-	.short	2051
-	.short	2829
-	.short	10
-	.short	2826
-	.short	1035
-	.short	2820
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1540
-	.short	1801
-	.short	3341
-	.short	1293
-	.short	2056
-	.short	1280
 	.short	2816
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	263
-	.short	513
-	.short	3331
-	.short	1291
-	.short	1024
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2306
-	.short	1028
-	.short	1028
-	.short	2826
-	.short	1280
-	.short	1285
-	.short	1035
+	.short	1034
 	.short	1540
 	.short	1027
 	.short	2564
-	.short	1280
-	.short	1280
-	.short	3336
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2312
-	.short	1028
-	.short	1035
-	.short	1028
-	.short	2571
-	.short	2560
-	.short	1028
-	.short	1028
-	.short	2820
+	.short	1290
+	.short	1290
+	.short	2816
+	.short	3072
+	.short	1287
+	.short	1799
+	.short	1799
 	.short	2826
-	.short	10
-	.short	2053
-	.short	1280
-	.short	2821
-	.short	2827
-	.short	2820
-	.short	3076
+	.short	2570
+	.short	2573
 	.short	1028
-	.short	2572
-	.short	1035
-	.short	3083
-	.short	2820
-	.short	5
-	.short	2309
-	.short	774
-	.short	1288
-	.short	2061
-	.short	2560
-	.short	1291
-	.short	2827
+	.short	2564
 	.short	1028
 	.short	1028
-	.short	1028
+	.short	2564
 	.short	1028
 	.short	1290
-	.short	2560
 	.short	1285
-	.short	2571
-	.short	2048
-	.short	3333
-	.short	774
-	.short	2821
-	.short	2821
+	.short	1292
+	.short	5
+	.short	1285
+	.short	1280
+	.short	2570
+	.short	1034
+	.short	2564
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2570
 	.short	1035
-	.short	3076
+	.short	1034
+	.short	5
+	.short	1797
+	.short	3077
+	.short	1280
+	.short	2565
+	.short	1029
+	.short	1034
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	11
+	.short	10
+	.short	2571
+	.short	2564
+	.short	1280
+	.short	2312
+	.short	1292
+	.short	1795
+	.short	2572
+	.short	11
+	.short	2571
+	.short	1034
+	.short	2564
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1540
-	.short	2053
-	.short	2056
-	.short	2061
-	.short	2056
+	.short	2057
+	.short	3084
+	.short	1292
+	.short	1799
+	.short	1280
 	.short	2560
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	264
+	.short	513
+	.short	3075
+	.short	1290
 	.short	1024
 	.short	1028
 	.short	1028
@@ -14411,11 +14307,115 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2306
+	.short	1028
+	.short	1028
+	.short	2571
+	.short	1280
+	.short	1285
+	.short	1034
+	.short	1540
+	.short	1027
 	.short	2820
-	.short	3335
-	.short	3341
+	.short	1280
+	.short	1280
+	.short	3079
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	2311
+	.short	1028
+	.short	1034
+	.short	1028
+	.short	2826
+	.short	2816
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2571
+	.short	11
+	.short	1797
+	.short	1280
+	.short	2565
+	.short	2570
+	.short	2564
+	.short	3332
+	.short	1028
+	.short	2829
+	.short	1034
+	.short	3338
+	.short	2564
+	.short	5
+	.short	2309
 	.short	774
-	.short	2827
+	.short	1287
+	.short	1804
+	.short	2816
+	.short	1290
+	.short	2570
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1291
+	.short	2816
+	.short	1285
+	.short	2826
+	.short	1792
+	.short	3077
+	.short	774
+	.short	2565
+	.short	2565
+	.short	1034
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1540
+	.short	1797
+	.short	1799
+	.short	1804
+	.short	1799
+	.short	2816
+	.short	1024
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	3080
+	.short	3084
+	.short	774
+	.short	2570
 	.short	1028
 	.short	1028
 	.short	1028
@@ -14448,60 +14448,60 @@ start3Bitmap:
 	.short	2306
 	.short	1028
 	.short	1028
-	.short	2821
-	.short	2820
-	.short	3341
+	.short	2565
+	.short	2564
+	.short	3084
 	.short	1029
 	.short	1540
 	.short	515
 	.short	1281
-	.short	2061
-	.short	2061
-	.short	2061
-	.short	2061
-	.short	2056
+	.short	1804
+	.short	1804
+	.short	1804
+	.short	1804
+	.short	1799
 	.short	1539
-	.short	3075
-	.short	2820
-	.short	10
-	.short	2821
-	.short	2053
-	.short	3336
-	.short	2827
-	.short	2821
-	.short	3078
+	.short	3331
+	.short	2564
+	.short	11
+	.short	2565
+	.short	1797
+	.short	3079
+	.short	2570
+	.short	2565
+	.short	3334
 	.short	773
-	.short	2826
-	.short	2828
-	.short	2820
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
 	.short	2571
-	.short	1035
-	.short	2826
-	.short	5
-	.short	2053
-	.short	2061
 	.short	2573
-	.short	13
-	.short	2821
-	.short	1035
-	.short	3084
-	.short	1036
+	.short	2564
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2826
+	.short	1034
+	.short	2571
+	.short	5
+	.short	1797
+	.short	1804
+	.short	2828
+	.short	12
+	.short	2565
+	.short	1034
+	.short	3341
+	.short	1037
 	.short	1028
 	.short	527
-	.short	779
-	.short	2054
-	.short	2061
-	.short	1293
-	.short	3328
-	.short	1288
-	.short	3592
+	.short	778
+	.short	1798
+	.short	1804
+	.short	1292
+	.short	3072
+	.short	1287
+	.short	3591
 	.short	527
-	.short	779
+	.short	778
 	.short	1030
 	.short	1028
 	.short	1028
@@ -14510,32 +14510,32 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	1028
-	.short	10
-	.short	1291
-	.short	2048
-	.short	2056
-	.short	2056
-	.short	520
-	.short	3075
-	.short	3083
-	.short	1035
-	.short	1028
-	.short	1028
+	.short	11
+	.short	1290
+	.short	1792
+	.short	1799
+	.short	1799
+	.short	519
+	.short	3331
+	.short	3338
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	780
-	.short	524
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	781
+	.short	525
 	.short	3589
 	.short	513
-	.short	3083
-	.short	1035
+	.short	3338
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -14565,65 +14565,83 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1803
+	.short	2058
 	.short	1039
 	.short	1028
-	.short	2821
-	.short	4
-	.short	2061
-	.short	1029
-	.short	1548
-	.short	2053
-	.short	3341
-	.short	2056
-	.short	2061
-	.short	1288
-	.short	3328
-	.short	2821
-	.short	2821
-	.short	774
-	.short	2821
-	.short	1285
-	.short	3341
-	.short	2056
-	.short	1293
-	.short	10
-	.short	3077
 	.short	2565
-	.short	1280
-	.short	2827
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1035
-	.short	1539
-	.short	2571
-	.short	1280
+	.short	4
+	.short	1804
+	.short	1029
+	.short	1549
+	.short	1797
+	.short	3084
+	.short	1799
+	.short	1804
+	.short	1287
+	.short	3072
+	.short	2565
+	.short	2565
+	.short	774
+	.short	2565
+	.short	1285
+	.short	3084
+	.short	1799
+	.short	1292
+	.short	11
+	.short	3333
 	.short	2821
-	.short	5
-	.short	3333
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	2827
-	.short	1035
-	.short	1036
-	.short	2564
-	.short	2827
-	.short	2826
-	.short	1295
-	.short	3333
-	.short	1293
-	.short	3333
-	.short	13
-	.short	1291
-	.short	2573
-	.short	3584
-	.short	2827
+	.short	1280
+	.short	2570
 	.short	1028
-	.short	3076
-	.short	1035
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1034
+	.short	1539
+	.short	2826
+	.short	1280
+	.short	2565
+	.short	5
+	.short	3077
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	2570
+	.short	1034
+	.short	1037
+	.short	2820
+	.short	2570
+	.short	2571
+	.short	1295
+	.short	3077
+	.short	1292
+	.short	3077
+	.short	12
+	.short	1290
+	.short	2828
+	.short	3584
+	.short	2570
+	.short	1028
+	.short	3332
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	11
+	.short	1797
+	.short	1797
+	.short	3847
+	.short	526
+	.short	1545
+	.short	2573
+	.short	1034
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
@@ -14632,28 +14650,10 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	2820
-	.short	10
-	.short	2053
-	.short	2053
-	.short	3848
-	.short	526
-	.short	1545
-	.short	2828
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2564
-	.short	780
+	.short	781
 	.short	2310
-	.short	263
-	.short	2827
+	.short	264
+	.short	2570
 	.short	1028
 	.short	1028
 	.short	1028
@@ -14688,60 +14688,60 @@ start3Bitmap:
 	.short	516
 	.short	1025
 	.short	1028
-	.short	2821
-	.short	2820
-	.short	2061
-	.short	3085
+	.short	2565
+	.short	2564
+	.short	1804
+	.short	3340
 	.short	1285
-	.short	2061
-	.short	3336
-	.short	2056
-	.short	2056
-	.short	1288
-	.short	1291
-	.short	1035
-	.short	1547
-	.short	3333
-	.short	1285
-	.short	3336
-	.short	2056
-	.short	2056
-	.short	5
-	.short	3082
-	.short	2827
-	.short	11
-	.short	2820
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2828
-	.short	3082
-	.short	1544
-	.short	1285
-	.short	3341
-	.short	1288
-	.short	1288
-	.short	2048
-	.short	2061
-	.short	2061
-	.short	3080
-	.short	3076
-	.short	2571
-	.short	2827
+	.short	1804
+	.short	3079
+	.short	1799
+	.short	1799
+	.short	1287
 	.short	1290
+	.short	1034
+	.short	1546
+	.short	3077
 	.short	1285
-	.short	3333
-	.short	2053
-	.short	2056
-	.short	1293
-	.short	2560
-	.short	2816
-	.short	11
-	.short	2821
-	.short	2827
+	.short	3079
+	.short	1799
+	.short	1799
+	.short	5
+	.short	3339
+	.short	2570
+	.short	10
+	.short	2564
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2573
+	.short	3339
+	.short	1543
+	.short	1285
 	.short	3084
-	.short	3076
+	.short	1287
+	.short	1287
+	.short	1792
+	.short	1804
+	.short	1804
+	.short	3335
+	.short	3332
+	.short	2826
+	.short	2570
+	.short	1291
+	.short	1285
+	.short	3077
+	.short	1797
+	.short	1799
+	.short	1292
+	.short	2816
+	.short	2560
+	.short	10
+	.short	2565
+	.short	2570
+	.short	3341
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -14750,14 +14750,14 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2821
+	.short	2565
 	.short	5
 	.short	1285
-	.short	8
-	.short	781
+	.short	7
+	.short	780
 	.short	3842
-	.short	2827
-	.short	2827
+	.short	2570
+	.short	2570
 	.short	1028
 	.short	1028
 	.short	1028
@@ -14769,10 +14769,10 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	2820
-	.short	2827
-	.short	2827
+	.short	2564
+	.short	2564
+	.short	2570
+	.short	2570
 	.short	1028
 	.short	1028
 	.short	1028
@@ -14806,57 +14806,57 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	516
-	.short	3087
-	.short	1035
-	.short	2821
-	.short	2817
-	.short	2056
-	.short	269
-	.short	2061
+	.short	3343
+	.short	1034
+	.short	2565
+	.short	2561
+	.short	1799
+	.short	268
+	.short	1804
 	.short	783
-	.short	2057
-	.short	2056
-	.short	2056
-	.short	1288
-	.short	267
+	.short	1801
+	.short	1799
+	.short	1799
+	.short	1287
+	.short	266
 	.short	260
-	.short	267
-	.short	2061
-	.short	1293
-	.short	3336
-	.short	2062
+	.short	266
+	.short	1804
+	.short	1292
+	.short	3079
+	.short	1806
 	.short	1294
-	.short	2830
-	.short	2817
+	.short	2574
+	.short	2561
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1028
 	.short	4
-	.short	2821
-	.short	264
-	.short	2061
-	.short	2061
-	.short	2056
-	.short	1293
+	.short	2565
+	.short	263
+	.short	1804
+	.short	1804
+	.short	1799
+	.short	1292
 	.short	1280
 	.short	1294
-	.short	2062
-	.short	3087
-	.short	2830
-	.short	3329
+	.short	1806
+	.short	3343
+	.short	2574
+	.short	3073
 	.short	3598
 	.short	3589
-	.short	269
-	.short	3336
+	.short	268
+	.short	3079
 	.short	777
-	.short	264
-	.short	3597
-	.short	267
-	.short	1035
+	.short	263
+	.short	3596
+	.short	266
+	.short	1034
 	.short	1028
 	.short	1038
 	.short	1028
@@ -14867,13 +14867,13 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
-	.short	3076
-	.short	1543
+	.short	1037
+	.short	3332
+	.short	1544
 	.short	3587
-	.short	3592
-	.short	2061
-	.short	2829
+	.short	3591
+	.short	1804
+	.short	2572
 	.short	3589
 	.short	518
 	.short	1028
@@ -14927,172 +14927,172 @@ start3Bitmap:
 	.short	1028
 	.short	516
 	.short	1039
-	.short	2825
-	.short	3853
+	.short	2569
+	.short	3852
 	.short	3845
-	.short	3336
-	.short	3335
-	.short	775
+	.short	3079
+	.short	3080
+	.short	776
 	.short	774
-	.short	2057
-	.short	2056
-	.short	2056
-	.short	1800
-	.short	2831
-	.short	3343
-	.short	2063
-	.short	3336
-	.short	3335
+	.short	1801
+	.short	1799
+	.short	1799
+	.short	2055
+	.short	2575
+	.short	3087
+	.short	1807
+	.short	3079
+	.short	3080
 	.short	1282
-	.short	1291
-	.short	1804
+	.short	1290
+	.short	2061
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	3844
-	.short	3851
-	.short	2820
-	.short	2831
-	.short	3848
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1805
-	.short	1797
-	.short	1803
+	.short	3850
+	.short	2564
+	.short	2575
+	.short	3847
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	2060
+	.short	2053
+	.short	2058
 	.short	1280
-	.short	2048
+	.short	1792
 	.short	3849
 	.short	3845
-	.short	2061
-	.short	1805
-	.short	2821
-	.short	7
-	.short	517
-	.short	2311
-	.short	3086
-	.short	1031
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1798
 	.short	1804
+	.short	2060
+	.short	2565
+	.short	8
+	.short	517
+	.short	2312
+	.short	3342
+	.short	1032
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2054
+	.short	2061
 	.short	2307
-	.short	3592
-	.short	1293
-	.short	2562
+	.short	3591
+	.short	1292
+	.short	2818
+	.short	3336
+	.short	1032
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2052
+	.short	2575
+	.short	2565
+	.short	1287
+	.short	1804
+	.short	1287
+	.short	1290
+	.short	778
+	.short	1794
+	.short	3077
+	.short	1804
 	.short	3079
-	.short	1031
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1796
-	.short	2831
-	.short	2821
-	.short	1288
-	.short	2061
-	.short	1288
-	.short	1291
-	.short	779
-	.short	2050
-	.short	3333
-	.short	2061
-	.short	3336
 	.short	5
 	.short	5
-	.short	2053
-	.short	3341
-	.short	3336
-	.short	1291
-	.short	2560
-	.short	2571
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	1797
 	.short	3084
+	.short	3079
+	.short	1290
+	.short	2816
+	.short	2826
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3341
 	.short	1028
 	.short	1284
-	.short	1291
-	.short	11
-	.short	13
-	.short	3333
-	.short	2061
-	.short	2056
-	.short	2056
+	.short	1290
+	.short	10
+	.short	12
+	.short	3077
+	.short	1804
+	.short	1799
+	.short	1799
 	.short	5
-	.short	2826
-	.short	1036
+	.short	2571
+	.short	1037
 	.short	1280
-	.short	3339
+	.short	3082
 	.short	1285
-	.short	2056
-	.short	2056
+	.short	1799
+	.short	1799
 	.short	5
-	.short	1034
-	.short	2820
-	.short	2826
-	.short	2311
+	.short	1035
+	.short	2564
+	.short	2571
+	.short	2312
 	.short	1030
 	.short	1028
 	.short	1028
@@ -15109,11 +15109,11 @@ start3Bitmap:
 	.short	1028
 	.short	3842
 	.short	3844
-	.short	3336
-	.short	8
+	.short	3079
+	.short	7
 	.short	1285
-	.short	2571
-	.short	3083
+	.short	2826
+	.short	3338
 	.short	1028
 	.short	1028
 	.short	1028
@@ -15164,54 +15164,52 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1030
-	.short	263
-	.short	2053
-	.short	2056
-	.short	2061
-	.short	1293
-	.short	2828
-	.short	3334
-	.short	3341
-	.short	2056
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1549
-	.short	776
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1035
 	.short	2564
-	.short	1035
+	.short	1030
+	.short	264
+	.short	1797
+	.short	1799
+	.short	1804
 	.short	1292
+	.short	2573
+	.short	3078
+	.short	3084
+	.short	1799
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1548
+	.short	775
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1034
+	.short	2820
+	.short	1034
+	.short	1293
 	.short	1280
-	.short	3328
-	.short	2056
-	.short	1288
-	.short	3341
-	.short	3336
+	.short	3072
+	.short	1799
+	.short	1287
+	.short	3084
+	.short	3079
 	.short	1280
-	.short	2826
+	.short	2571
 	.short	1028
-	.short	2828
-	.short	3341
-	.short	2061
-	.short	779
-	.short	2056
-	.short	2829
-	.short	2826
-	.short	1035
-	.short	1028
-	.short	1028
+	.short	2573
+	.short	3084
+	.short	1804
+	.short	778
+	.short	1799
+	.short	2572
+	.short	2571
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -15222,17 +15220,19 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
 	.short	1028
 	.short	1028
-	.short	1036
-	.short	2822
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1037
+	.short	2566
 	.short	3842
 	.short	769
 	.short	1541
-	.short	3075
+	.short	3331
 	.short	1029
-	.short	3076
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -15283,50 +15283,50 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	1548
-	.short	2825
-	.short	3342
-	.short	3341
-	.short	2061
+	.short	3332
+	.short	1549
+	.short	2569
+	.short	3086
+	.short	3084
+	.short	1804
 	.short	5
 	.short	5
-	.short	2821
-	.short	2061
-	.short	3336
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1288
-	.short	2829
+	.short	2565
+	.short	1804
+	.short	3079
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1287
+	.short	2572
 	.short	774
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
-	.short	3083
+	.short	1037
+	.short	3338
 	.short	1030
 	.short	1284
-	.short	2816
-	.short	3338
-	.short	2061
-	.short	2053
-	.short	2061
-	.short	3336
-	.short	3331
-	.short	3336
+	.short	2560
+	.short	3083
+	.short	1804
+	.short	1797
+	.short	1804
+	.short	3079
+	.short	3075
+	.short	3079
 	.short	1280
-	.short	3072
-	.short	2827
-	.short	10
-	.short	2056
-	.short	3341
+	.short	3328
+	.short	2570
+	.short	11
+	.short	1799
+	.short	3084
 	.short	1286
-	.short	2571
+	.short	2826
 	.short	1024
 	.short	1028
 	.short	1028
@@ -15342,238 +15342,238 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1035
-	.short	2820
-	.short	1028
-	.short	1035
-	.short	10
-	.short	1801
-	.short	1797
-	.short	1545
-	.short	1035
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	1539
-	.short	1801
-	.short	2056
-	.short	2560
-	.short	2571
-	.short	2827
-	.short	11
-	.short	3333
-	.short	2056
-	.short	2061
-	.short	1295
-	.short	3328
-	.short	2056
-	.short	2056
-	.short	3341
-	.short	2829
-	.short	1029
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2821
-	.short	2822
-	.short	3333
-	.short	3341
-	.short	2053
-	.short	2061
-	.short	1293
-	.short	2571
-	.short	1291
-	.short	2819
-	.short	3333
-	.short	2061
-	.short	13
-	.short	10
-	.short	1285
-	.short	1288
-	.short	523
-	.short	1035
-	.short	2820
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3077
-	.short	1291
-	.short	11
-	.short	10
-	.short	1285
-	.short	1035
-	.short	1035
-	.short	1028
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1028
-	.short	2820
-	.short	11
-	.short	1549
-	.short	2053
-	.short	3333
-	.short	2827
-	.short	4
+	.short	1034
 	.short	2564
-	.short	1280
-	.short	1285
-	.short	776
-	.short	2054
-	.short	1295
+	.short	1028
+	.short	1034
+	.short	11
+	.short	2057
 	.short	2053
-	.short	1288
-	.short	5
-	.short	5
+	.short	1545
+	.short	1034
 	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2571
-	.short	1035
-	.short	2820
-	.short	2821
-	.short	2061
-	.short	2056
-	.short	1288
-	.short	1280
-	.short	1285
-	.short	2560
-	.short	2820
-	.short	2820
-	.short	2054
-	.short	1280
-	.short	2061
-	.short	1285
-	.short	2560
-	.short	5
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1539
+	.short	2057
+	.short	1799
+	.short	2816
 	.short	2826
+	.short	2570
+	.short	10
+	.short	3077
+	.short	1799
+	.short	1804
+	.short	1295
+	.short	3072
+	.short	1799
+	.short	1799
+	.short	3084
+	.short	2572
+	.short	1029
+	.short	1034
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2565
+	.short	2566
+	.short	3077
+	.short	3084
+	.short	1797
+	.short	1804
+	.short	1292
+	.short	2826
+	.short	1290
+	.short	2563
+	.short	3077
+	.short	1804
+	.short	12
+	.short	11
+	.short	1285
+	.short	1287
+	.short	522
+	.short	1034
+	.short	2564
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3333
+	.short	1290
+	.short	10
+	.short	11
+	.short	1285
+	.short	1034
+	.short	1034
+	.short	1028
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	2564
+	.short	10
+	.short	1548
+	.short	1797
+	.short	3077
+	.short	2570
+	.short	4
+	.short	2820
+	.short	1280
+	.short	1285
+	.short	775
+	.short	1798
+	.short	1295
+	.short	1797
+	.short	1287
+	.short	5
+	.short	5
 	.short	1035
 	.short	1028
-	.short	2820
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2826
+	.short	1034
+	.short	2564
+	.short	2565
+	.short	1804
+	.short	1799
+	.short	1287
+	.short	1280
+	.short	1285
+	.short	2816
+	.short	2564
+	.short	2564
+	.short	1798
+	.short	1280
+	.short	1804
+	.short	1285
+	.short	2816
+	.short	5
+	.short	2571
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1034
+	.short	1028
+	.short	2564
 	.short	1028
 	.short	1028
 	.short	1028
@@ -15583,9 +15583,9 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1029
-	.short	1290
-	.short	2560
-	.short	2560
+	.short	1291
+	.short	2816
+	.short	2816
 	.short	1024
 	.short	1028
 	.short	1028
@@ -15608,7 +15608,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -15642,59 +15642,59 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2571
-	.short	2059
-	.short	2061
-	.short	3853
-	.short	3598
-	.short	1035
-	.short	1291
-	.short	1280
-	.short	3333
-	.short	2829
-	.short	2829
-	.short	3334
-	.short	2061
-	.short	2061
-	.short	8
-	.short	2821
 	.short	2826
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1035
+	.short	1802
+	.short	1804
+	.short	3852
+	.short	3598
+	.short	1034
+	.short	1290
+	.short	1280
+	.short	3077
+	.short	2572
+	.short	2572
+	.short	3078
+	.short	1804
+	.short	1804
+	.short	7
+	.short	2565
 	.short	2571
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1034
+	.short	2826
 	.short	1280
 	.short	4
 	.short	773
-	.short	2056
-	.short	2061
-	.short	2824
+	.short	1799
+	.short	1804
+	.short	2567
 	.short	1284
-	.short	2560
-	.short	2827
+	.short	2816
+	.short	2570
 	.short	1028
-	.short	2827
-	.short	3333
-	.short	1293
-	.short	1288
-	.short	2560
-	.short	2827
-	.short	2826
-	.short	1028
-	.short	1028
+	.short	2570
+	.short	3077
+	.short	1292
+	.short	1287
+	.short	2816
+	.short	2570
+	.short	2571
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
 	.short	1028
-	.short	2828
+	.short	1028
+	.short	1037
+	.short	1028
+	.short	2573
 	.short	1029
-	.short	1036
+	.short	1037
 	.short	772
-	.short	1036
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -15702,126 +15702,126 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2828
-	.short	2828
-	.short	3076
-	.short	2827
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	2573
+	.short	2573
+	.short	3332
+	.short	2570
 	.short	1034
 	.short	1028
-	.short	1291
-	.short	2056
-	.short	1544
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1035
+	.short	1028
+	.short	1290
+	.short	1799
+	.short	1543
 	.short	1033
-	.short	2828
+	.short	2573
 	.short	1028
-	.short	2053
-	.short	1288
+	.short	1797
+	.short	1287
 	.short	1280
-	.short	1036
+	.short	1037
 	.short	1028
-	.short	523
-	.short	1293
-	.short	2560
+	.short	522
+	.short	1292
+	.short	2816
 	.short	1024
-	.short	1035
-	.short	3083
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
 	.short	1034
-	.short	1291
-	.short	2061
 	.short	3338
-	.short	3336
-	.short	2829
-	.short	5
-	.short	2821
+	.short	1034
 	.short	1028
-	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1035
+	.short	1290
+	.short	1804
+	.short	3083
+	.short	3079
+	.short	2572
+	.short	5
+	.short	2565
+	.short	1028
+	.short	1037
+	.short	1028
+	.short	2820
+	.short	3082
+	.short	774
+	.short	5
+	.short	5
+	.short	2570
+	.short	1034
+	.short	1028
+	.short	1037
 	.short	1028
 	.short	2564
-	.short	3339
-	.short	774
-	.short	5
-	.short	5
-	.short	2827
-	.short	1035
-	.short	1028
-	.short	1036
-	.short	1028
-	.short	2820
 	.short	1028
 	.short	1284
 	.short	1028
-	.short	2820
-	.short	2826
+	.short	2564
+	.short	2571
 	.short	1029
-	.short	2311
+	.short	2312
 	.short	774
-	.short	1292
-	.short	1035
+	.short	1293
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -15850,7 +15850,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	780
+	.short	781
 	.short	1028
 	.short	1028
 	.short	1028
@@ -15882,43 +15882,43 @@ start3Bitmap:
 	.short	3590
 	.short	5
 	.short	1038
-	.short	3335
+	.short	3080
 	.short	261
 	.short	1539
 	.short	1033
-	.short	2820
-	.short	1803
+	.short	2564
+	.short	2058
 	.short	261
-	.short	3850
 	.short	3851
-	.short	1036
-	.short	3076
-	.short	267
-	.short	1293
-	.short	2560
-	.short	1035
+	.short	3850
+	.short	1037
+	.short	3332
+	.short	266
+	.short	1292
+	.short	2816
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1804
-	.short	1035
+	.short	2061
+	.short	1034
 	.short	3589
-	.short	1287
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	2829
-	.short	10
-	.short	2831
-	.short	1035
-	.short	1036
-	.short	1803
+	.short	1288
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	2572
+	.short	11
+	.short	2575
+	.short	1034
+	.short	1037
+	.short	2058
 	.short	1280
-	.short	1287
-	.short	779
-	.short	2817
+	.short	1288
+	.short	778
+	.short	2561
 	.short	1039
 	.short	1028
 	.short	1028
@@ -15927,11 +15927,11 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2564
-	.short	1035
-	.short	7
-	.short	1797
-	.short	1805
+	.short	2820
+	.short	1034
+	.short	8
+	.short	2053
+	.short	2060
 	.short	777
 	.short	3590
 	.short	262
@@ -15949,15 +15949,11 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -15965,16 +15961,16 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	524
-	.short	1036
-	.short	3083
-	.short	2823
-	.short	2571
-	.short	3596
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	525
+	.short	1037
+	.short	3338
+	.short	2568
+	.short	2826
+	.short	3597
 	.short	1028
 	.short	1028
 	.short	1028
@@ -15997,65 +15993,69 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
 	.short	3844
-	.short	3343
+	.short	3087
 	.short	3589
-	.short	2821
-	.short	2062
-	.short	3086
+	.short	2565
+	.short	1806
+	.short	3342
 	.short	1550
-	.short	1031
+	.short	1032
 	.short	516
 	.short	3585
-	.short	2821
+	.short	2565
 	.short	1038
 	.short	1028
 	.short	1028
-	.short	2828
-	.short	2063
+	.short	2573
+	.short	1807
 	.short	3593
-	.short	3595
+	.short	3594
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1035
-	.short	1798
-	.short	2564
-	.short	267
-	.short	3341
-	.short	2056
-	.short	2056
-	.short	3341
-	.short	3597
-	.short	1037
+	.short	1034
+	.short	2054
+	.short	2820
+	.short	266
+	.short	3084
+	.short	1799
+	.short	1799
+	.short	3084
+	.short	3596
+	.short	1036
 	.short	1038
 	.short	1028
 	.short	1028
 	.short	260
 	.short	1280
-	.short	3329
+	.short	3073
 	.short	1294
-	.short	3595
-	.short	2820
-	.short	1036
+	.short	3594
+	.short	2564
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1547
-	.short	1036
-	.short	267
-	.short	1291
+	.short	1546
+	.short	1037
+	.short	266
+	.short	1290
 	.short	256
 	.short	261
-	.short	1288
-	.short	3597
+	.short	1287
+	.short	3596
 	.short	777
 	.short	1030
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -16066,13 +16066,13 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1031
+	.short	2564
+	.short	1032
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -16087,10 +16087,10 @@ start3Bitmap:
 	.short	516
 	.short	2306
 	.short	3590
-	.short	267
+	.short	266
 	.short	3589
-	.short	3595
-	.short	3076
+	.short	3594
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -16117,23 +16117,23 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1798
+	.short	2054
 	.short	770
-	.short	2056
-	.short	525
+	.short	1799
+	.short	524
 	.short	1029
-	.short	1803
-	.short	1036
+	.short	2058
+	.short	1037
 	.short	1028
-	.short	1547
-	.short	263
-	.short	2818
-	.short	1031
-	.short	3076
-	.short	1036
+	.short	1546
+	.short	264
+	.short	2562
+	.short	1032
+	.short	3332
+	.short	1037
 	.short	3844
-	.short	2316
-	.short	1795
+	.short	2317
+	.short	2051
 	.short	1026
 	.short	1028
 	.short	1028
@@ -16144,20 +16144,20 @@ start3Bitmap:
 	.short	2310
 	.short	1289
 	.short	1295
-	.short	525
+	.short	524
 	.short	517
-	.short	3336
+	.short	3079
 	.short	1282
-	.short	3847
+	.short	3848
 	.short	3842
 	.short	1028
 	.short	1028
-	.short	2825
-	.short	3343
-	.short	3343
-	.short	1799
-	.short	1803
-	.short	3076
+	.short	2569
+	.short	3087
+	.short	3087
+	.short	2056
+	.short	2058
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -16165,15 +16165,15 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1536
-	.short	3073
-	.short	3343
+	.short	3329
+	.short	3087
 	.short	1295
-	.short	3343
-	.short	1805
-	.short	2562
-	.short	2823
+	.short	3087
+	.short	2060
+	.short	2818
+	.short	2568
 	.short	518
-	.short	1036
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -16186,14 +16186,14 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	1033
 	.short	1028
 	.short	1028
 	.short	1039
 	.short	1039
 	.short	3844
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -16206,10 +16206,10 @@ start3Bitmap:
 	.short	516
 	.short	258
 	.short	777
-	.short	3337
+	.short	3081
 	.short	1295
 	.short	1282
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -16238,82 +16238,59 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3842
-	.short	2049
-	.short	1293
+	.short	1793
+	.short	1292
 	.short	5
-	.short	2826
-	.short	2827
+	.short	2571
+	.short	2570
 	.short	1028
-	.short	1036
-	.short	523
-	.short	3599
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2572
-	.short	2572
-	.short	2825
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1028
-	.short	2820
-	.short	2820
 	.short	1037
+	.short	522
+	.short	3599
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2829
+	.short	2829
+	.short	2569
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	2564
+	.short	2564
+	.short	1036
 	.short	2310
-	.short	2061
-	.short	3341
-	.short	2821
+	.short	1804
+	.short	3084
+	.short	2565
 	.short	5
-	.short	3333
+	.short	3077
 	.short	1280
 	.short	768
-	.short	2571
-	.short	2827
-	.short	1036
-	.short	10
-	.short	3333
-	.short	1293
+	.short	2826
+	.short	2570
+	.short	1037
+	.short	11
+	.short	3077
+	.short	1292
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1035
-	.short	2820
+	.short	1034
+	.short	2564
 	.short	1028
 	.short	1536
 	.short	1539
-	.short	3341
-	.short	1288
-	.short	3341
-	.short	13
-	.short	2560
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1035
 	.short	3084
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2827
-	.short	2825
-	.short	1028
-	.short	3076
-	.short	2819
-	.short	2821
-	.short	2571
-	.short	1035
+	.short	1287
+	.short	3084
+	.short	12
+	.short	2816
 	.short	1028
 	.short	1028
 	.short	1028
@@ -16322,12 +16299,35 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2827
-	.short	523
-	.short	257
+	.short	1028
+	.short	1028
+	.short	1034
 	.short	3341
-	.short	1293
-	.short	1293
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2570
+	.short	2569
+	.short	1028
+	.short	3332
+	.short	2563
+	.short	2565
+	.short	2826
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2570
+	.short	522
+	.short	257
+	.short	3084
+	.short	1292
+	.short	1292
 	.short	1280
 	.short	1028
 	.short	1028
@@ -16356,59 +16356,59 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1547
-	.short	3330
-	.short	2056
+	.short	1546
+	.short	3074
+	.short	1799
 	.short	5
-	.short	2821
+	.short	2565
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	2828
+	.short	3332
+	.short	2573
 	.short	1286
 	.short	1039
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	2820
-	.short	1291
-	.short	2820
-	.short	3085
-	.short	3334
-	.short	781
+	.short	3332
+	.short	2564
+	.short	1290
+	.short	2564
+	.short	3340
+	.short	3078
+	.short	780
 	.short	1280
-	.short	3083
-	.short	1547
-	.short	2560
-	.short	3328
-	.short	3333
+	.short	3338
+	.short	1546
+	.short	2816
+	.short	3072
+	.short	3077
 	.short	1283
-	.short	2828
+	.short	2573
 	.short	5
-	.short	10
-	.short	2571
-	.short	1291
+	.short	11
+	.short	2826
+	.short	1290
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1036
+	.short	2564
+	.short	1037
 	.short	1284
-	.short	1291
-	.short	2827
-	.short	2061
-	.short	3341
-	.short	3331
-	.short	2829
-	.short	2821
+	.short	1290
+	.short	2570
+	.short	1804
+	.short	3084
+	.short	3075
+	.short	2572
+	.short	2565
 	.short	1285
 	.short	1028
 	.short	1028
@@ -16417,236 +16417,118 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2828
-	.short	1036
-	.short	3076
+	.short	2573
+	.short	1037
+	.short	3332
 	.short	1028
 	.short	1545
 	.short	1028
-	.short	1036
-	.short	3078
-	.short	2820
+	.short	1037
+	.short	3334
+	.short	2564
 	.short	5
 	.short	3593
 	.short	1550
 	.short	1545
-	.short	3075
-	.short	2573
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3331
 	.short	2828
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2573
 	.short	774
 	.short	1282
-	.short	2061
-	.short	3341
-	.short	2822
-	.short	2821
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	780
-	.short	3330
-	.short	3597
-	.short	2825
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2827
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1035
-	.short	2820
-	.short	2820
-	.short	1035
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2820
-	.short	3333
-	.short	1291
-	.short	2573
-	.short	3333
-	.short	2821
-	.short	11
-	.short	2828
-	.short	2826
-	.short	3333
-	.short	2053
-	.short	3077
-	.short	1035
-	.short	1035
-	.short	1035
-	.short	1028
-	.short	2827
-	.short	2820
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1035
-	.short	2826
-	.short	2571
-	.short	1280
-	.short	2061
-	.short	1285
-	.short	1549
-	.short	2051
-	.short	2560
-	.short	2827
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	3082
-	.short	3588
-	.short	1031
-	.short	1545
-	.short	2827
-	.short	1029
-	.short	2571
-	.short	1280
-	.short	2056
-	.short	1293
-	.short	1293
-	.short	1541
-	.short	1028
-	.short	2827
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2827
-	.short	10
-	.short	3341
-	.short	2309
-	.short	3591
-	.short	527
-	.short	1036
-	.short	1028
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	780
-	.short	3842
-	.short	1806
-	.short	1028
-	.short	1028
+	.short	1804
 	.short	3084
+	.short	2566
+	.short	2565
+	.short	1037
 	.short	1028
-	.short	12
-	.short	774
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1035
-	.short	2826
-	.short	1280
-	.short	2827
-	.short	1549
-	.short	1027
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	781
+	.short	3074
+	.short	3596
+	.short	2569
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	2564
-	.short	11
-	.short	2056
-	.short	2061
-	.short	1541
-	.short	515
-	.short	1028
-	.short	1292
-	.short	1280
-	.short	3333
-	.short	1285
-	.short	2571
+	.short	2570
+	.short	1034
 	.short	1028
 	.short	1028
+	.short	1034
+	.short	2564
+	.short	2564
+	.short	1034
+	.short	1034
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	3076
-	.short	1028
-	.short	2827
-	.short	3076
-	.short	2829
+	.short	2564
+	.short	2564
+	.short	3077
+	.short	1290
+	.short	2828
+	.short	3077
+	.short	2565
 	.short	10
-	.short	5
-	.short	2053
-	.short	2056
-	.short	2056
-	.short	5
-	.short	5
-	.short	1283
-	.short	1035
+	.short	2573
+	.short	2571
+	.short	3077
+	.short	1797
+	.short	3333
+	.short	1034
+	.short	1034
+	.short	1034
+	.short	1028
+	.short	2570
+	.short	2564
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1034
+	.short	2571
+	.short	2826
+	.short	1280
+	.short	1804
+	.short	1285
+	.short	1548
+	.short	1795
+	.short	2816
+	.short	2570
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -16654,20 +16536,138 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	2564
+	.short	3339
+	.short	3588
+	.short	1032
+	.short	1545
+	.short	2570
+	.short	1029
+	.short	2826
+	.short	1280
+	.short	1799
+	.short	1292
+	.short	1292
+	.short	1541
+	.short	1028
+	.short	2570
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2570
+	.short	11
+	.short	3084
+	.short	2309
+	.short	3592
+	.short	527
+	.short	1037
+	.short	1028
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	781
+	.short	3842
+	.short	2062
+	.short	1028
+	.short	1028
+	.short	3341
+	.short	1028
+	.short	13
+	.short	774
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1034
+	.short	2571
+	.short	1280
+	.short	2570
+	.short	1548
+	.short	1027
 	.short	1028
 	.short	1028
 	.short	2820
-	.short	11
-	.short	2821
-	.short	2048
-	.short	2061
+	.short	10
+	.short	1799
+	.short	1804
 	.short	1541
-	.short	2824
+	.short	515
+	.short	1028
+	.short	1293
+	.short	1280
+	.short	3077
+	.short	1285
+	.short	2826
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	3332
+	.short	1028
+	.short	2570
+	.short	3332
+	.short	2572
+	.short	11
 	.short	5
-	.short	2053
-	.short	3336
-	.short	3333
-	.short	3333
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	5
+	.short	5
+	.short	1283
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	10
+	.short	2565
+	.short	1792
+	.short	1804
+	.short	1541
+	.short	2567
+	.short	5
+	.short	1797
+	.short	3079
+	.short	3077
+	.short	3077
 	.short	3854
 	.short	1026
 	.short	1028
@@ -16678,10 +16678,10 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	2820
-	.short	10
-	.short	3333
+	.short	2564
+	.short	2564
+	.short	11
+	.short	3077
 	.short	773
 	.short	2306
 	.short	1028
@@ -16691,8 +16691,8 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	3341
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1028
@@ -16716,54 +16716,54 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1547
+	.short	1546
 	.short	1028
-	.short	1036
-	.short	1036
+	.short	1037
+	.short	1037
 	.short	1028
 	.short	1028
-	.short	3082
-	.short	780
+	.short	3339
+	.short	781
 	.short	774
 	.short	2306
 	.short	1028
 	.short	1028
-	.short	1036
-	.short	5
-	.short	1293
 	.short	1037
-	.short	2821
+	.short	5
+	.short	1292
+	.short	1036
+	.short	2565
 	.short	1030
 	.short	1028
-	.short	2820
+	.short	2564
 	.short	1284
-	.short	3328
-	.short	3336
-	.short	1291
-	.short	2828
-	.short	2822
-	.short	2571
+	.short	3072
+	.short	3079
+	.short	1290
+	.short	2573
+	.short	2566
+	.short	2826
 	.short	1280
-	.short	3336
-	.short	1291
+	.short	3079
+	.short	1290
 	.short	1280
-	.short	3076
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1028
-	.short	1035
-	.short	3077
+	.short	1034
+	.short	3333
 	.short	773
-	.short	3341
+	.short	3084
 	.short	773
-	.short	2061
-	.short	2056
-	.short	3336
-	.short	2827
+	.short	1804
+	.short	1799
+	.short	3079
+	.short	2570
 	.short	768
 	.short	1541
 	.short	1027
@@ -16776,42 +16776,19 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2564
-	.short	1291
-	.short	3341
-	.short	3336
+	.short	2820
+	.short	1290
+	.short	3084
+	.short	3079
 	.short	2318
-	.short	2061
-	.short	2053
-	.short	3333
-	.short	2053
-	.short	2056
+	.short	1804
+	.short	1797
+	.short	3077
+	.short	1797
+	.short	1799
 	.short	1280
 	.short	258
-	.short	3084
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1028
-	.short	772
-	.short	1291
-	.short	2053
 	.short	3341
-	.short	3075
-	.short	3083
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
 	.short	3332
 	.short	1028
 	.short	1028
@@ -16819,6 +16796,14 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	3332
+	.short	1028
+	.short	772
+	.short	1290
+	.short	1797
+	.short	3084
+	.short	3331
+	.short	3338
 	.short	1028
 	.short	1028
 	.short	1028
@@ -16826,205 +16811,220 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2826
-	.short	5
-	.short	5
-	.short	2573
-	.short	3083
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	2821
-	.short	1285
-	.short	3341
-	.short	2821
 	.short	1036
-	.short	1028
-	.short	1035
-	.short	10
-	.short	2058
-	.short	3341
-	.short	2821
-	.short	2820
 	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2571
+	.short	5
+	.short	5
+	.short	2828
+	.short	3338
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	2565
+	.short	1285
+	.short	3084
+	.short	2565
+	.short	1037
+	.short	1028
+	.short	1034
+	.short	11
+	.short	1803
+	.short	3084
+	.short	2565
+	.short	2564
+	.short	3332
 	.short	2310
 	.short	773
 	.short	1285
-	.short	2560
-	.short	2827
-	.short	1036
+	.short	2816
+	.short	2570
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2571
-	.short	2827
-	.short	10
-	.short	3338
-	.short	3336
-	.short	3341
-	.short	3328
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1290
+	.short	2826
+	.short	2570
+	.short	11
+	.short	3083
+	.short	3079
+	.short	3084
+	.short	3072
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1291
 	.short	2309
-	.short	2822
-	.short	1035
+	.short	2566
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	527
-	.short	779
+	.short	778
 	.short	1286
-	.short	2571
+	.short	2826
 	.short	1280
 	.short	1285
 	.short	5
-	.short	3594
-	.short	1031
-	.short	2825
-	.short	2056
-	.short	2061
-	.short	13
-	.short	2821
-	.short	2820
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	780
-	.short	2056
-	.short	3336
-	.short	13
-	.short	2821
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
+	.short	3595
+	.short	1032
+	.short	2569
+	.short	1799
+	.short	1804
+	.short	12
+	.short	2565
 	.short	2564
-	.short	5
-	.short	1293
-	.short	3336
-	.short	2568
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	781
+	.short	1799
+	.short	3079
+	.short	12
+	.short	2565
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
 	.short	2820
+	.short	5
+	.short	1292
+	.short	3079
+	.short	2823
+	.short	2564
 	.short	1028
 	.short	3598
-	.short	2826
+	.short	2571
 	.short	1285
-	.short	3341
-	.short	3341
+	.short	3084
+	.short	3084
 	.short	1024
 	.short	1028
 	.short	516
 	.short	1295
-	.short	1293
-	.short	2061
-	.short	2053
-	.short	2573
-	.short	2571
-	.short	1291
+	.short	1292
+	.short	1804
+	.short	1797
+	.short	2828
+	.short	2826
+	.short	1290
 	.short	1286
-	.short	8
+	.short	7
 	.short	5
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	2820
 	.short	1028
 	.short	2564
-	.short	1291
-	.short	10
-	.short	3336
+	.short	1028
+	.short	2820
+	.short	1290
+	.short	11
+	.short	3079
 	.short	5
-	.short	1291
+	.short	1290
 	.short	1280
 	.short	1280
-	.short	2061
-	.short	8
-	.short	1288
-	.short	2571
-	.short	2827
-	.short	1035
+	.short	1804
+	.short	7
+	.short	1287
+	.short	2826
+	.short	2570
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1035
+	.short	1034
 	.short	527
-	.short	779
-	.short	1291
+	.short	778
+	.short	1290
 	.short	1280
 	.short	1285
 	.short	1280
 	.short	1024
-	.short	2827
-	.short	2315
-	.short	3333
-	.short	2056
-	.short	2061
-	.short	2829
+	.short	2570
+	.short	2314
+	.short	3077
+	.short	1799
+	.short	1804
+	.short	2572
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17037,12 +17037,12 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	780
+	.short	781
 	.short	6
-	.short	2053
-	.short	8
-	.short	2826
-	.short	1035
+	.short	1797
+	.short	7
+	.short	2571
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17051,19 +17051,19 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	1037
-	.short	3332
-	.short	3332
+	.short	3084
+	.short	1036
+	.short	3076
+	.short	3076
 	.short	1028
 	.short	1028
-	.short	1037
+	.short	1036
 	.short	1028
-	.short	3332
-	.short	1037
+	.short	3076
+	.short	1036
 	.short	1028
-	.short	3332
-	.short	1037
+	.short	3076
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17080,51 +17080,51 @@ start3Bitmap:
 	.short	1028
 	.short	516
 	.short	1286
-	.short	1797
-	.short	2056
-	.short	269
+	.short	2053
+	.short	1799
+	.short	268
 	.short	261
-	.short	2820
-	.short	2820
-	.short	3591
-	.short	1797
-	.short	3341
-	.short	269
+	.short	2564
+	.short	2564
+	.short	3592
+	.short	2053
+	.short	3084
+	.short	268
 	.short	3845
 	.short	1028
 	.short	1028
-	.short	524
-	.short	3337
-	.short	269
-	.short	269
+	.short	525
+	.short	3081
+	.short	268
+	.short	268
 	.short	261
-	.short	1288
-	.short	3335
-	.short	263
+	.short	1287
+	.short	3080
+	.short	264
 	.short	769
 	.short	5
-	.short	2817
+	.short	2561
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2830
+	.short	2574
 	.short	1028
 	.short	1284
 	.short	1280
-	.short	1797
-	.short	3336
-	.short	3087
+	.short	2053
+	.short	3079
+	.short	3343
 	.short	262
-	.short	1291
-	.short	3335
-	.short	3329
-	.short	2817
+	.short	1290
+	.short	3080
+	.short	3073
+	.short	2561
 	.short	3845
-	.short	267
-	.short	2827
+	.short	266
+	.short	2570
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17133,18 +17133,18 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	521
-	.short	775
-	.short	3342
-	.short	1287
-	.short	3329
-	.short	3851
+	.short	776
+	.short	3086
+	.short	1288
+	.short	3073
+	.short	3850
 	.short	1038
-	.short	3079
+	.short	3336
 	.short	770
 	.short	783
 	.short	1295
-	.short	3329
-	.short	2817
+	.short	3073
+	.short	2561
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17159,9 +17159,9 @@ start3Bitmap:
 	.short	1028
 	.short	772
 	.short	3585
-	.short	269
+	.short	268
 	.short	5
-	.short	2831
+	.short	2575
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17171,19 +17171,19 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1037
+	.short	1036
 	.short	1028
-	.short	3332
-	.short	1037
-	.short	1037
-	.short	3332
-	.short	3332
+	.short	3076
+	.short	1036
+	.short	1036
+	.short	3076
+	.short	3076
 	.short	1028
-	.short	1037
-	.short	3332
+	.short	1036
+	.short	3076
 	.short	1028
-	.short	1037
-	.short	3332
+	.short	1036
+	.short	3076
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17199,28 +17199,28 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3844
-	.short	3337
-	.short	2056
-	.short	3336
-	.short	2830
+	.short	3081
+	.short	1799
+	.short	3079
+	.short	2574
 	.short	1038
 	.short	1028
-	.short	1798
+	.short	2054
 	.short	2318
-	.short	2056
-	.short	3336
+	.short	1799
+	.short	3079
 	.short	1038
 	.short	1038
 	.short	1028
 	.short	1028
 	.short	2310
-	.short	1800
+	.short	2055
 	.short	5
-	.short	2823
+	.short	2568
 	.short	5
-	.short	3336
-	.short	3335
-	.short	1543
+	.short	3079
+	.short	3080
+	.short	1544
 	.short	515
 	.short	1038
 	.short	1028
@@ -17230,19 +17230,19 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2821
+	.short	2565
 	.short	3844
 	.short	1284
-	.short	3329
-	.short	1797
-	.short	3589
-	.short	3076
 	.short	3073
-	.short	1295
-	.short	2056
+	.short	2053
+	.short	3589
+	.short	3332
 	.short	3329
+	.short	1295
+	.short	1799
+	.short	3073
 	.short	257
-	.short	3847
+	.short	3848
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17253,17 +17253,17 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	2307
-	.short	2051
-	.short	2056
-	.short	2056
-	.short	3595
-	.short	267
-	.short	269
+	.short	1795
+	.short	1799
+	.short	1799
+	.short	3594
+	.short	266
+	.short	268
 	.short	517
-	.short	3331
+	.short	3075
 	.short	774
 	.short	3590
-	.short	1803
+	.short	2058
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17277,32 +17277,32 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	514
-	.short	775
+	.short	776
 	.short	769
 	.short	1038
 	.short	1038
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
 	.short	1037
 	.short	1028
-	.short	3332
 	.short	1028
 	.short	1028
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	3332
 	.short	1028
 	.short	1028
-	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	3076
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17319,28 +17319,28 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	260
-	.short	3341
-	.short	2056
-	.short	1288
-	.short	1035
-	.short	3076
+	.short	3084
+	.short	1799
+	.short	1287
+	.short	1034
+	.short	3332
 	.short	1028
 	.short	2310
-	.short	2055
-	.short	3336
-	.short	1288
-	.short	1035
-	.short	1035
+	.short	1800
+	.short	3079
+	.short	1287
+	.short	1034
+	.short	1034
 	.short	1028
 	.short	1028
-	.short	3334
-	.short	8
-	.short	2821
+	.short	3078
+	.short	7
+	.short	2565
 	.short	4
 	.short	5
-	.short	1293
-	.short	2560
-	.short	1547
+	.short	1292
+	.short	2816
+	.short	1546
 	.short	1027
 	.short	1028
 	.short	1028
@@ -17350,117 +17350,117 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2821
-	.short	1291
-	.short	1291
-	.short	3341
+	.short	2565
+	.short	1290
+	.short	1290
+	.short	3084
 	.short	5
-	.short	2826
-	.short	2820
-	.short	3075
+	.short	2571
+	.short	2564
+	.short	3331
 	.short	1285
-	.short	3336
-	.short	1288
-	.short	1293
+	.short	3079
+	.short	1287
+	.short	1292
 	.short	1280
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2820
-	.short	1288
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	1035
-	.short	1280
-	.short	2061
-	.short	3589
-	.short	3333
-	.short	770
-	.short	2822
-	.short	1028
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1806
-	.short	1289
-	.short	1286
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
 	.short	3332
 	.short	1028
 	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
+	.short	2564
+	.short	2564
+	.short	1287
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	1034
+	.short	1280
 	.short	1804
-	.short	257
-	.short	8
-	.short	2826
-	.short	2826
+	.short	3589
+	.short	3077
+	.short	770
+	.short	2566
 	.short	1028
-	.short	2828
-	.short	1548
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	2062
+	.short	1289
+	.short	1286
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
 	.short	2061
-	.short	2056
+	.short	257
+	.short	7
+	.short	2571
+	.short	2571
+	.short	1028
+	.short	2573
+	.short	1549
+	.short	1804
+	.short	1799
 	.short	5
-	.short	2826
-	.short	3083
-	.short	2828
-	.short	2821
-	.short	779
+	.short	2571
+	.short	3338
+	.short	2573
+	.short	2565
+	.short	778
 	.short	1286
 	.short	1025
 	.short	1028
-	.short	2059
-	.short	3341
-	.short	2565
-	.short	1035
-	.short	3076
+	.short	1802
+	.short	3084
+	.short	2821
+	.short	1034
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17468,21 +17468,21 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	3
 	.short	5
-	.short	2056
-	.short	2061
+	.short	1799
+	.short	1804
 	.short	5
-	.short	2821
-	.short	3336
+	.short	2565
+	.short	3079
 	.short	1280
 	.short	1283
-	.short	13
-	.short	10
-	.short	2826
-	.short	2826
-	.short	1036
+	.short	12
+	.short	11
+	.short	2571
+	.short	2571
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17490,16 +17490,16 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	4
-	.short	2061
-	.short	1293
-	.short	2821
+	.short	1804
+	.short	1292
+	.short	2565
 	.short	5
 	.short	5
-	.short	3333
+	.short	3077
 	.short	1285
-	.short	3595
+	.short	3594
 	.short	513
 	.short	1028
 	.short	1028
@@ -17516,7 +17516,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3842
-	.short	1793
+	.short	2049
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17531,19 +17531,19 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1037
+	.short	1036
 	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1037
+	.short	3076
 	.short	1028
 	.short	1028
-	.short	1037
-	.short	3332
+	.short	1036
 	.short	1028
-	.short	1037
-	.short	3332
+	.short	1028
+	.short	1036
+	.short	3076
+	.short	1028
+	.short	1036
+	.short	3076
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17557,29 +17557,29 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1540
-	.short	1801
+	.short	2057
 	.short	1285
 	.short	1026
 	.short	1028
 	.short	1028
 	.short	4
-	.short	1549
+	.short	1548
 	.short	1539
-	.short	3333
+	.short	3077
 	.short	3589
 	.short	1029
 	.short	1028
 	.short	1028
 	.short	6
-	.short	2824
-	.short	3341
-	.short	2312
-	.short	2571
-	.short	2571
-	.short	3339
-	.short	2821
-	.short	2821
-	.short	1035
+	.short	2567
+	.short	3084
+	.short	2311
+	.short	2826
+	.short	2826
+	.short	3082
+	.short	2565
+	.short	2565
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17588,18 +17588,18 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1548
-	.short	2053
-	.short	3341
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	1288
-	.short	3341
-	.short	1288
-	.short	3334
-	.short	2819
-	.short	2821
+	.short	1549
+	.short	1797
+	.short	3084
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1287
+	.short	3084
+	.short	1287
+	.short	3078
+	.short	2563
+	.short	2565
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17610,331 +17610,59 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2571
-	.short	1291
-	.short	2056
-	.short	2824
-	.short	2819
-	.short	2061
+	.short	2826
+	.short	1290
+	.short	1799
+	.short	2567
+	.short	2563
+	.short	1804
 	.short	1280
 	.short	1285
-	.short	2560
-	.short	1028
-	.short	2820
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1548
-	.short	2825
-	.short	1806
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	11
-	.short	2061
-	.short	1288
-	.short	2317
-	.short	3591
-	.short	1035
-	.short	1028
-	.short	2820
-	.short	10
-	.short	3341
-	.short	776
-	.short	779
-	.short	2569
-	.short	5
-	.short	5
-	.short	2826
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2828
-	.short	2821
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	5
-	.short	2053
-	.short	1293
-	.short	1284
 	.short	2816
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
 	.short	1028
 	.short	2564
-	.short	3328
-	.short	2061
-	.short	2056
-	.short	1293
-	.short	3336
-	.short	2061
-	.short	1280
-	.short	2560
-	.short	2827
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1036
 	.short	1028
 	.short	3076
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3076
+	.short	3084
 	.short	1028
 	.short	3076
-	.short	1028
-	.short	1035
-	.short	2560
-	.short	2056
-	.short	781
-	.short	2306
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	2827
-	.short	3341
-	.short	2061
-	.short	3336
-	.short	2309
-	.short	2562
-	.short	3083
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2826
-	.short	2827
-	.short	3333
-	.short	2061
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	3336
-	.short	2821
-	.short	2571
-	.short	1280
-	.short	2820
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1284
-	.short	2827
-	.short	10
-	.short	1280
-	.short	2053
-	.short	2056
-	.short	2056
-	.short	774
-	.short	2061
-	.short	2560
-	.short	1035
-	.short	2827
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	1036
 	.short	1028
 	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	2828
-	.short	2821
-	.short	1285
-	.short	3336
-	.short	774
-	.short	3083
-	.short	1035
-	.short	1028
-	.short	2571
-	.short	2059
-	.short	3336
-	.short	2059
-	.short	781
-	.short	2306
-	.short	1028
 	.short	1036
 	.short	1028
 	.short	1028
@@ -17945,17 +17673,289 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1549
+	.short	2569
+	.short	2062
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	10
+	.short	1804
+	.short	1287
+	.short	2316
+	.short	3592
+	.short	1034
+	.short	1028
+	.short	2564
+	.short	11
+	.short	3084
+	.short	775
+	.short	778
+	.short	2825
+	.short	5
+	.short	5
+	.short	2571
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2573
+	.short	2565
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	5
+	.short	1797
+	.short	1292
+	.short	1284
+	.short	2560
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	2820
-	.short	2821
+	.short	3072
+	.short	1804
+	.short	1799
+	.short	1292
+	.short	3079
+	.short	1804
+	.short	1280
+	.short	2816
+	.short	2570
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	1034
+	.short	2816
+	.short	1799
+	.short	780
+	.short	2306
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	2570
+	.short	3084
+	.short	1804
+	.short	3079
+	.short	2309
+	.short	2818
+	.short	3338
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2571
+	.short	2570
+	.short	3077
+	.short	1804
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	3079
+	.short	2565
+	.short	2826
+	.short	1280
+	.short	2564
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1284
+	.short	2570
+	.short	11
+	.short	1280
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	774
+	.short	1804
+	.short	2816
+	.short	1034
+	.short	2570
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	2573
+	.short	2565
+	.short	1285
+	.short	3079
+	.short	774
+	.short	3338
+	.short	1034
+	.short	1028
+	.short	2826
+	.short	1802
+	.short	3079
+	.short	1802
+	.short	780
+	.short	2306
+	.short	1028
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2565
 	.short	5
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
 	.short	5
-	.short	2821
-	.short	3083
+	.short	2565
+	.short	3338
 	.short	1540
 	.short	1028
 	.short	1028
@@ -17966,16 +17966,16 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1291
-	.short	3328
-	.short	3341
-	.short	3336
-	.short	2056
-	.short	2056
-	.short	3336
+	.short	1290
+	.short	3072
+	.short	3084
+	.short	3079
+	.short	1799
+	.short	1799
+	.short	3079
 	.short	774
 	.short	1286
-	.short	3072
+	.short	3328
 	.short	1028
 	.short	1028
 	.short	1028
@@ -17986,18 +17986,7 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18036,28 +18025,39 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1035
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	2826
-	.short	5
-	.short	5
-	.short	2824
-	.short	2820
-	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	1034
-	.short	1291
-	.short	3333
-	.short	1288
-	.short	2059
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2571
+	.short	5
+	.short	5
+	.short	2567
+	.short	2564
+	.short	3332
+	.short	1028
+	.short	1035
+	.short	1290
+	.short	3077
+	.short	1287
+	.short	1802
 	.short	768
-	.short	2827
+	.short	2570
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18065,62 +18065,17 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	10
+	.short	11
 	.short	1285
-	.short	3333
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	3336
+	.short	3077
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	3079
 	.short	1280
 	.short	1024
-	.short	3076
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	3333
-	.short	2053
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	525
-	.short	1036
-	.short	2827
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2564
-	.short	1035
-	.short	1793
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3332
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18131,24 +18086,15 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3332
-	.short	3341
-	.short	3341
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	1028
-	.short	1028
+	.short	3077
+	.short	1797
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	524
 	.short	1037
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	3332
-	.short	3341
-	.short	3341
-	.short	3341
-	.short	3341
+	.short	2570
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18160,19 +18106,23 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1035
-	.short	1035
-	.short	2827
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	10
-	.short	1285
-	.short	1280
-	.short	2560
-	.short	1024
 	.short	2820
+	.short	1034
+	.short	2049
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18181,18 +18131,68 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3076
+	.short	3084
+	.short	3084
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	1035
-	.short	10
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
+	.short	3076
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1034
+	.short	1034
+	.short	2570
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	11
 	.short	1285
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	13
-	.short	10
+	.short	1280
+	.short	2816
+	.short	1024
+	.short	2564
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1034
+	.short	11
+	.short	1285
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	12
+	.short	11
 	.short	5
-	.short	2827
+	.short	2570
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18204,15 +18204,40 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2314
-	.short	3334
-	.short	2061
-	.short	2056
-	.short	13
-	.short	2053
-	.short	3341
+	.short	2315
+	.short	3078
+	.short	1804
+	.short	1799
+	.short	12
+	.short	1797
+	.short	3084
 	.short	5
-	.short	2818
+	.short	2562
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	2820
+	.short	2569
+	.short	2570
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18226,9 +18251,22 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3076
-	.short	2564
-	.short	2825
-	.short	2827
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3076
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18245,93 +18283,55 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3083
+	.short	3338
 	.short	1028
 	.short	1028
 	.short	514
 	.short	3585
-	.short	269
-	.short	1291
 	.short	268
-	.short	1035
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1036
-	.short	3076
-	.short	2830
-	.short	3589
-	.short	2061
-	.short	2061
-	.short	2056
-	.short	264
-	.short	1037
-	.short	2817
-	.short	2817
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	773
-	.short	2049
-	.short	2061
-	.short	2056
-	.short	8
-	.short	261
+	.short	1290
 	.short	269
-	.short	2821
+	.short	1034
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1037
+	.short	3332
+	.short	2574
+	.short	3589
+	.short	1804
+	.short	1804
+	.short	1799
+	.short	263
+	.short	1036
+	.short	2561
+	.short	2561
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	773
+	.short	1793
+	.short	1804
+	.short	1799
+	.short	7
+	.short	261
+	.short	268
+	.short	2565
 	.short	1030
 	.short	1028
 	.short	1028
@@ -18343,12 +18343,12 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	2817
-	.short	2830
-	.short	267
+	.short	3332
+	.short	2561
+	.short	2574
+	.short	266
 	.short	1026
-	.short	1035
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18370,23 +18370,23 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3332
+	.short	3076
 	.short	1028
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1037
+	.short	1036
 	.short	1028
 	.short	1028
-	.short	3332
-	.short	3341
+	.short	3076
+	.short	3084
 	.short	1028
-	.short	3332
+	.short	3076
 	.short	1028
-	.short	3341
+	.short	3084
 	.short	1028
 	.short	1028
-	.short	3332
+	.short	3076
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18407,8 +18407,8 @@ start3Bitmap:
 	.short	1540
 	.short	526
 	.short	3585
-	.short	1796
-	.short	2821
+	.short	2052
+	.short	2565
 	.short	3588
 	.short	1028
 	.short	1028
@@ -18421,17 +18421,17 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1548
-	.short	3851
-	.short	269
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2056
-	.short	2829
-	.short	3075
+	.short	1549
+	.short	3850
+	.short	268
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	1799
+	.short	2572
+	.short	3331
 	.short	1028
-	.short	3076
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18443,16 +18443,16 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3844
-	.short	2820
-	.short	781
-	.short	2056
+	.short	2564
+	.short	780
+	.short	1799
 	.short	1294
-	.short	1287
-	.short	2823
-	.short	2823
-	.short	2821
+	.short	1288
+	.short	2568
+	.short	2568
+	.short	2565
 	.short	1038
-	.short	3076
+	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18464,90 +18464,90 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3844
-	.short	2821
+	.short	2565
 	.short	3845
-	.short	1035
+	.short	1034
+	.short	1028
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1028
+	.short	1028
 	.short	1028
 	.short	1036
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3332
-	.short	1037
-	.short	3332
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	1547
-	.short	1801
-	.short	271
-	.short	3083
-	.short	10
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
+	.short	3076
+	.short	3076
+	.short	1036
+	.short	3076
+	.short	3076
+	.short	1036
 	.short	1028
 	.short	1028
 	.short	3076
 	.short	1028
-	.short	2827
-	.short	523
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1546
+	.short	2057
+	.short	271
+	.short	3338
+	.short	11
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	2570
+	.short	522
 	.short	1280
-	.short	3336
-	.short	2056
-	.short	1288
-	.short	1288
-	.short	3341
+	.short	3079
+	.short	1799
+	.short	1287
+	.short	1287
+	.short	3084
 	.short	1541
 	.short	1027
 	.short	1028
@@ -18561,31 +18561,15 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1291
-	.short	2820
-	.short	3341
-	.short	3336
-	.short	2571
-	.short	1291
-	.short	2827
-	.short	2827
-	.short	1034
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1036
-	.short	1028
-	.short	3332
-	.short	13
-	.short	1285
+	.short	2564
+	.short	1290
+	.short	2564
+	.short	3084
+	.short	3079
+	.short	2826
+	.short	1290
+	.short	2570
+	.short	2570
 	.short	1035
 	.short	1028
 	.short	1028
@@ -18597,36 +18581,12 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1028
-	.short	1028
 	.short	1037
 	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1037
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3332
+	.short	3076
+	.short	12
+	.short	1285
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18643,14 +18603,30 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2820
-	.short	1541
-	.short	2309
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
 	.short	1028
 	.short	1028
 	.short	1036
 	.short	1028
 	.short	1028
+	.short	3076
+	.short	1028
+	.short	1036
+	.short	3076
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3076
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18659,15 +18635,39 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1291
-	.short	779
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	1541
+	.short	2309
+	.short	1028
+	.short	1028
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1290
+	.short	778
 	.short	1286
-	.short	3333
-	.short	3336
-	.short	1293
+	.short	3077
+	.short	3079
+	.short	1292
 	.short	5
-	.short	2826
-	.short	2826
+	.short	2571
+	.short	2571
 	.short	1029
 	.short	1028
 	.short	1028
@@ -18681,18 +18681,16 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1291
+	.short	1290
 	.short	1280
-	.short	2571
+	.short	2826
 	.short	773
 	.short	1541
-	.short	1035
+	.short	1034
 	.short	1028
-	.short	1036
+	.short	1037
 	.short	1028
-	.short	1036
-	.short	1028
-	.short	1028
+	.short	1037
 	.short	1028
 	.short	1028
 	.short	1028
@@ -18701,448 +18699,13 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	2819
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	2563
 	.short	1285
-	.short	1293
-	.short	2821
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	3341
-	.short	1037
-	.short	3332
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2829
-	.short	1035
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2571
-	.short	1291
-	.short	3340
-	.short	2312
-	.short	2053
-	.short	13
-	.short	5
-	.short	2826
-	.short	2826
-	.short	2820
-	.short	3076
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2820
-	.short	2820
-	.short	3077
-	.short	1024
-	.short	3076
-	.short	2820
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1293
-	.short	8
-	.short	5
-	.short	3083
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	3332
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2310
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1036
-	.short	1028
-	.short	2827
-	.short	1539
-	.short	13
-	.short	2821
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2826
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3596
-	.short	2830
-	.short	1539
-	.short	1293
-	.short	1024
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	3341
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	3332
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2310
-	.short	7
-	.short	10
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	2571
-	.short	1291
-	.short	1293
-	.short	2816
-	.short	1035
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1036
-	.short	1035
-	.short	2820
-	.short	3339
-	.short	2816
-	.short	2826
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	2820
-	.short	3588
-	.short	2311
-	.short	1293
-	.short	2826
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3341
-	.short	1037
-	.short	1028
-	.short	1028
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	3332
-	.short	1028
-	.short	3332
-	.short	1037
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3076
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3334
-	.short	13
+	.short	1292
 	.short	2565
-	.short	1035
-	.short	1028
-	.short	2571
-	.short	1280
-	.short	2051
-	.short	2310
-	.short	2827
 	.short	1028
 	.short	1028
 	.short	1028
@@ -19155,10 +18718,447 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2821
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	3084
+	.short	1036
+	.short	3076
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2572
+	.short	1034
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	2826
-	.short	3331
-	.short	2829
+	.short	1290
+	.short	3085
+	.short	2311
+	.short	1797
+	.short	12
+	.short	5
+	.short	2571
+	.short	2571
+	.short	2564
+	.short	3332
+	.short	1037
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2564
+	.short	2564
+	.short	3333
+	.short	1024
+	.short	3332
+	.short	2564
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1292
+	.short	7
+	.short	5
+	.short	3338
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	3076
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2310
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1037
+	.short	1028
+	.short	2570
+	.short	1539
+	.short	12
+	.short	2565
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2571
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3597
+	.short	2574
+	.short	1539
+	.short	1292
+	.short	1024
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	3084
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	3076
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2310
+	.short	8
+	.short	11
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	2826
+	.short	1290
+	.short	1292
+	.short	2560
+	.short	1034
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1037
+	.short	1034
+	.short	2564
+	.short	3082
+	.short	2560
+	.short	2571
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2564
+	.short	3588
+	.short	2312
+	.short	1292
+	.short	2571
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3084
+	.short	1036
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	3076
+	.short	1028
+	.short	3076
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3332
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	3078
+	.short	12
+	.short	2821
+	.short	1034
+	.short	1028
+	.short	2826
+	.short	1280
+	.short	1795
+	.short	2310
+	.short	2570
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2565
+	.short	2571
+	.short	3075
+	.short	2572
 	.short	1028
 	.short	1028
 	.short	1028
@@ -19179,54 +19179,11 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1284
-	.short	1291
+	.short	1290
 	.short	1285
 	.short	1541
-	.short	1036
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	1028
-	.short	1028
-	.short	3332
-	.short	3332
-	.short	1028
-	.short	1028
 	.short	1037
 	.short	1028
-	.short	3332
 	.short	1028
 	.short	1028
 	.short	1028
@@ -19250,18 +19207,61 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	2571
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
 	.short	3076
+	.short	1028
+	.short	1028
+	.short	3076
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1036
+	.short	1028
+	.short	3076
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	1028
+	.short	2826
+	.short	3332
 	.short	1541
-	.short	2061
-	.short	1293
+	.short	1804
+	.short	1292
 	.short	0
 	.short	1028
-	.short	2828
+	.short	2573
 	.short	1285
-	.short	2821
-	.short	2821
-	.short	1035
+	.short	2565
+	.short	2565
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -19273,11 +19273,11 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	2820
+	.short	3332
+	.short	2564
 	.short	5
-	.short	3077
-	.short	2821
+	.short	3333
+	.short	2565
 	.short	5
 	.short	1028
 	.short	1028
@@ -19296,13 +19296,13 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	3076
-	.short	2571
-	.short	1291
+	.short	3332
+	.short	2826
+	.short	1290
 	.short	3589
 	.short	2318
-	.short	2822
-	.short	1035
+	.short	2566
+	.short	1034
 	.short	1028
 	.short	1028
 	.short	1028
@@ -19370,16 +19370,16 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1291
-	.short	1796
-	.short	3592
-	.short	2056
+	.short	1290
+	.short	2052
+	.short	3591
+	.short	1799
 	.short	1283
-	.short	2816
-	.short	1031
-	.short	1803
-	.short	2061
-	.short	2829
+	.short	2560
+	.short	1032
+	.short	2058
+	.short	1804
+	.short	2572
 	.short	1039
 	.short	1028
 	.short	1028
@@ -19394,11 +19394,11 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	3588
-	.short	1803
-	.short	1805
-	.short	1797
-	.short	3087
-	.short	2831
+	.short	2058
+	.short	2060
+	.short	2053
+	.short	3343
+	.short	2575
 	.short	1028
 	.short	1028
 	.short	1028
@@ -19417,11 +19417,11 @@ start3Bitmap:
 	.short	1028
 	.short	1028
 	.short	1028
-	.short	1287
-	.short	263
+	.short	1288
+	.short	264
 	.short	517
-	.short	1794
-	.short	2822
+	.short	2050
+	.short	2566
 	.short	1028
 	.short	1028
 	.short	1028
