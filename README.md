@@ -13,6 +13,7 @@
 1. **Player Movement**: Use the left, right, up, and down arrow keys to move the player (ghost) around the screen and avoid the ghost hunter.
 2. **Crosses**: Collect the crosses that randomly spawn throughout the map. Each cross collected is +1 point.
 3. **Ghost Hunter Movement**: The hunter will rapidly move throughout the map searching for the ghost with his flashlight. Avoid him.
+4. **Score**: Once the ghost collects 10 crosses, the hunter will get mad and speed up significantly, making the chase a little harder!
 
 ## Objective
 - **Player Objective**: The player’s goal is to collect as many crosses as possible before getting caught by the ghost hunter. Survive and stay out of his way!
@@ -23,4 +24,8 @@
 2. **Pause**: While in the game, press START to pause the game.
 3. **ScoreBoard**: While in the pause screen, press SELECT to bring up the scoreboard, press START to resume the game.
 4. **Lose**: In the Lose screen, press START to go back to the title screen and play again.
+
+## State machine
+1. **Animation** Animation in a state other than GAME --> made a 3 frame animation during Start Screen
+2. **Score counter** Implemented a score counter with a scoreboard accessible through the Pause screen.
 

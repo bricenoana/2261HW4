@@ -46,6 +46,4 @@ typedef struct {
 } Wall;
 
 
-
-
 #endif // GAME_H
