@@ -294,6 +294,7 @@ typedef struct {
 typedef struct {
     int x, y;
     int width, height;
+    unsigned short color;
 } Wall;
 # 4 "main.c" 2
 # 1 "font.h" 1
@@ -502,13 +503,12 @@ void goToStartState() {
         flipPage();
 
         for (volatile int i = 0; i < 30000; i++);
+            oldButtons = buttons;
+            buttons = (*(volatile unsigned short*) 0x04000130);
+            if ((!(~(oldButtons) & ((1 << 3))) && (~(buttons) & ((1 << 3)))))
+                break;
 
-        oldButtons = buttons;
-        buttons = (*(volatile unsigned short*) 0x04000130);
-        if ((!(~(oldButtons) & ((1 << 3))) && (~(buttons) & ((1 << 3)))))
-            break;
-
-        frame = (frame + 1) % 3;
+            frame = (frame + 1) % 3;
     }
 
     goToGameState();
@@ -538,8 +538,9 @@ void updateGameLoop() {
 
 void goToPauseState() {
     fillScreen4(20);
-    drawString4(136, 8, "got too stressed?", 1);
-    drawString4(130, 18, "you're paused now!", 1);
+    drawString4(10, 8, "got too stressed?", 1);
+    drawString4(10, 18, "you're paused now!", 1);
+    drawString4(10, 38, "or press SELECT to look at ScoreBoard", 1);
     waitForVBlank();
     flipPage();
 
@@ -586,7 +587,6 @@ void goToScoreboardState() {
 
     waitForVBlank();
     flipPage();
-
 
     while (1) {
         oldButtons = buttons;

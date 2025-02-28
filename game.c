@@ -54,8 +54,13 @@ void drawGame() {
 
     char scoreStr[16];
     sprintf(scoreStr, "Score: %d", score);
-    drawString4(160, 5, scoreStr, 1);
+    if (score < 10) {
+        drawString4(160, 5, scoreStr, 1);
+    } else {
+        drawString4(160, 5, scoreStr, 27);
+    }
 }
+
 
 // initialize player
 void initPlayer() {
@@ -150,7 +155,7 @@ void updatePlayer() {
 void updateHunter() {
     static int steps = 0;
     static int direction = 0;
-    int speed = 3;
+    int speed = (score >= 10) ? 3 : 2;
 
     int oldX = hunter.x;
     int oldY = hunter.y;

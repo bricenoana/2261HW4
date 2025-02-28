@@ -238,6 +238,9 @@ goToGameState:
 	.align	2
 .LC6:
 	.ascii	"you're paused now!\000"
+	.align	2
+.LC7:
+	.ascii	"or press SELECT to look at ScoreBoard\000"
 	.text
 	.align	2
 	.global	goToPauseState
@@ -257,25 +260,31 @@ goToPauseState:
 	ldr	r4, .L45+4
 	mov	r3, #1
 	mov	r1, #8
-	mov	r0, #136
+	mov	r0, #10
 	ldr	r2, .L45+8
 	mov	lr, pc
 	bx	r4
-	ldr	r7, .L45+12
 	mov	r3, #1
 	mov	r1, #18
-	mov	r0, #130
-	ldr	r2, .L45+16
+	mov	r0, #10
+	ldr	r2, .L45+12
+	mov	lr, pc
+	bx	r4
+	ldr	r7, .L45+16
+	mov	r3, #1
+	mov	r1, #38
+	mov	r0, #10
+	ldr	r2, .L45+20
 	mov	lr, pc
 	bx	r4
 	mov	lr, pc
 	bx	r7
-	ldr	r3, .L45+20
+	ldr	r3, .L45+24
 	mov	lr, pc
 	bx	r3
-	ldr	r4, .L45+24
-	ldr	r6, .L45+28
-	ldr	r5, .L45+32
+	ldr	r4, .L45+28
+	ldr	r6, .L45+32
+	ldr	r5, .L45+36
 	b	.L36
 .L35:
 	mov	lr, pc
@@ -295,13 +304,13 @@ goToPauseState:
 	tst	r3, #4
 	bne	.L35
 	mov	r2, #3
-	ldr	r3, .L45+36
+	ldr	r3, .L45+40
 	strb	r2, [r3]
 	pop	{r4, r5, r6, r7, r8, lr}
 	bx	lr
 .L44:
 	mov	r2, #1
-	ldr	r3, .L45+36
+	ldr	r3, .L45+40
 	strb	r2, [r3]
 	pop	{r4, r5, r6, r7, r8, lr}
 	bx	lr
@@ -311,8 +320,9 @@ goToPauseState:
 	.word	fillScreen4
 	.word	drawString4
 	.word	.LC5
-	.word	waitForVBlank
 	.word	.LC6
+	.word	waitForVBlank
+	.word	.LC7
 	.word	flipPage
 	.word	buttons
 	.word	oldButtons
@@ -368,10 +378,10 @@ updateGameLoop:
 	.size	updateGameLoop, .-updateGameLoop
 	.section	.rodata.str1.4
 	.align	2
-.LC7:
+.LC8:
 	.ascii	"The Hunter caught you!\000"
 	.align	2
-.LC8:
+.LC9:
 	.ascii	"Press START to try again.\000"
 	.text
 	.align	2
@@ -430,8 +440,8 @@ goToLoseState:
 .L63:
 	.word	fillScreen4
 	.word	drawString4
-	.word	.LC7
 	.word	.LC8
+	.word	.LC9
 	.word	waitForVBlank
 	.word	flipPage
 	.word	oldButtons
@@ -440,13 +450,13 @@ goToLoseState:
 	.size	goToLoseState, .-goToLoseState
 	.section	.rodata.str1.4
 	.align	2
-.LC9:
+.LC10:
 	.ascii	"High Score: %d\000"
 	.align	2
-.LC10:
+.LC11:
 	.ascii	"Scoreboard\000"
 	.align	2
-.LC11:
+.LC12:
 	.ascii	"Press START to resume\000"
 	.text
 	.align	2
@@ -525,12 +535,12 @@ goToScoreboardState:
 .L73:
 	.word	fillScreen4
 	.word	highScore
-	.word	.LC9
+	.word	.LC10
 	.word	sprintf
 	.word	drawString4
-	.word	.LC10
-	.word	waitForVBlank
 	.word	.LC11
+	.word	waitForVBlank
+	.word	.LC12
 	.word	flipPage
 	.word	buttons
 	.word	oldButtons

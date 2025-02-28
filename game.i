@@ -1263,13 +1263,6 @@ void playNoteWithDuration(NoteWithDuration *n, unsigned char duty);
 void playChannel1(unsigned short note, unsigned char length, unsigned char sweepShift, unsigned char sweepTime, unsigned char sweepDir, unsigned char envStepTime, unsigned char envDir, unsigned char duty);
 void playAnalogSound(unsigned short sound);
 # 10 "game.c" 2
-# 1 "Yay.h" 1
-# 21 "Yay.h"
-extern const unsigned short YayBitmap[128];
-
-
-extern const unsigned short YayPal[256];
-# 11 "game.c" 2
 
 extern void goToLoseState();
 
@@ -1317,8 +1310,13 @@ void drawGame() {
 
     char scoreStr[16];
     sprintf(scoreStr, "Score: %d", score);
-    drawString4(160, 5, scoreStr, 1);
+    if (score < 10) {
+        drawString4(160, 5, scoreStr, 1);
+    } else {
+        drawString4(160, 5, scoreStr, 27);
+    }
 }
+
 
 
 void initPlayer() {
@@ -1413,7 +1411,7 @@ void updatePlayer() {
 void updateHunter() {
     static int steps = 0;
     static int direction = 0;
-    int speed = 3;
+    int speed = (score >= 10) ? 3 : 2;
 
     int oldX = hunter.x;
     int oldY = hunter.y;
@@ -1514,25 +1512,5 @@ void drawBorders() {
         if (y + h > 160)
             h = 160 - y;
         drawRect4(x, y, w, h, walls[i].color);
-    }
-}
-
-void showYayAnimation() {
-    int frameDelay = 60;
-    for (int i = 0; i < frameDelay; i++) {
-        fillScreen4(0);
-        drawBorders();
-
-        drawImage4(player.x, player.y, player.width, player.height, YayBitmap);
-
-        drawImage4(hunter.x, hunter.y, hunter.width, hunter.height, ghostHunterBitmap);
-        drawCross();
-
-        char scoreStr[16];
-        sprintf(scoreStr, "Score: %d", score);
-        drawString4(160, 5, scoreStr, 1);
-
-        waitForVBlank();
-        flipPage();
     }
 }

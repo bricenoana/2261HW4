@@ -120,8 +120,9 @@ void updateGameLoop() {
 
 void goToPauseState() {
     fillScreen4(20);
-    drawString4(136, 8, "got too stressed?", 1);
-    drawString4(130, 18, "you're paused now!", 1);
+    drawString4(10, 8, "got too stressed?", 1);
+    drawString4(10, 18, "you're paused now!", 1);
+    drawString4(10, 38, "or press SELECT to look at ScoreBoard", 1);
     waitForVBlank();
     flipPage();
     

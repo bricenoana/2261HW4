@@ -175,36 +175,41 @@ updateHunter:
 	@ Function supports interworking.
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
+	ldr	r3, .L47
 	push	{r4, r5, r6, r7, r8, r9, r10, lr}
-	ldr	r8, .L45
-	ldr	r5, .L45+4
+	ldr	r8, .L47+4
+	ldr	r2, [r3]
+	ldr	r5, .L47+8
 	ldr	r3, [r8]
+	cmp	r2, #9
 	ldm	r5, {r9, r10}
+	movgt	r4, #3
+	movle	r4, #2
 	cmp	r3, #0
 	movgt	r0, r9
 	movgt	r1, r10
 	sub	sp, sp, #16
-	ble	.L43
-.L26:
+	ble	.L45
+.L27:
 	ldr	r2, [r8, #4]
 	cmp	r2, #3
 	ldrls	pc, [pc, r2, asl #2]
-	b	.L27
-.L29:
+	b	.L28
+.L30:
+	.word	.L33
 	.word	.L32
 	.word	.L31
-	.word	.L30
-	.word	.L28
-.L28:
-	sub	r0, r0, #3
+	.word	.L29
+.L29:
+	sub	r0, r0, r4
 	str	r0, [r5]
-.L27:
-	ldr	r4, .L45+8
+.L28:
+	ldr	r4, .L47+12
 	sub	r3, r3, #1
 	str	r3, [r8]
-	ldr	r6, .L45+12
+	ldr	r6, .L47+16
 	add	r7, r4, #120
-.L35:
+.L36:
 	ldmib	r4, {r2, ip, lr}
 	ldr	r3, [r4]
 	stmib	sp, {r2, ip, lr}
@@ -215,11 +220,11 @@ updateHunter:
 	bx	r6
 	cmp	r0, #0
 	add	r4, r4, #20
-	bne	.L44
+	bne	.L46
 	cmp	r4, r7
 	ldm	r5, {r0, r1}
-	bne	.L35
-.L34:
+	bne	.L36
+.L35:
 	cmp	r0, #0
 	movlt	r3, #0
 	movlt	r0, r3
@@ -240,30 +245,30 @@ updateHunter:
 	@ sp needed
 	pop	{r4, r5, r6, r7, r8, r9, r10, lr}
 	bx	lr
-.L30:
-	add	r1, r1, #3
-	str	r1, [r5, #4]
-	b	.L27
 .L31:
-	add	r0, r0, #3
-	str	r0, [r5]
-	b	.L27
-.L32:
-	sub	r1, r1, #3
+	add	r1, r1, r4
 	str	r1, [r5, #4]
-	b	.L27
-.L43:
-	ldr	r4, .L45+16
+	b	.L28
+.L32:
+	add	r0, r0, r4
+	str	r0, [r5]
+	b	.L28
+.L33:
+	sub	r1, r1, r4
+	str	r1, [r5, #4]
+	b	.L28
+.L45:
+	ldr	r6, .L47+20
 	mov	lr, pc
-	bx	r4
+	bx	r6
 	rsbs	r2, r0, #0
 	and	r2, r2, #3
 	and	r3, r0, #3
 	rsbpl	r3, r2, #0
 	str	r3, [r8, #4]
 	mov	lr, pc
-	bx	r4
-	ldr	r2, .L45+20
+	bx	r6
+	ldr	r2, .L47+24
 	smull	r3, r2, r0, r2
 	asr	r3, r0, #31
 	add	r2, r2, r0
@@ -272,17 +277,18 @@ updateHunter:
 	sub	r3, r0, r3, lsl #1
 	add	r3, r3, #10
 	ldm	r5, {r0, r1}
-	b	.L26
-.L44:
+	b	.L27
+.L46:
 	mov	r3, #0
 	mov	r1, r10
 	mov	r0, r9
 	stm	r5, {r9, r10}
 	str	r3, [r8]
-	b	.L34
-.L46:
+	b	.L35
+.L48:
 	.align	2
-.L45:
+.L47:
+	.word	score
 	.word	.LANCHOR1
 	.word	hunter
 	.word	.LANCHOR0
@@ -301,13 +307,13 @@ drawPlayer:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, lr}
-	ldr	r0, .L49
-	ldr	ip, .L49+4
+	ldr	r0, .L51
+	ldr	ip, .L51+4
 	sub	sp, sp, #8
 	add	r2, r0, #20
 	ldm	r2, {r2, r3}
 	ldm	r0, {r0, r1}
-	ldr	r4, .L49+8
+	ldr	r4, .L51+8
 	str	ip, [sp]
 	mov	lr, pc
 	bx	r4
@@ -315,9 +321,9 @@ drawPlayer:
 	@ sp needed
 	pop	{r4, lr}
 	bx	lr
-.L50:
+.L52:
 	.align	2
-.L49:
+.L51:
 	.word	player
 	.word	NormalBitmap
 	.word	drawImage4
@@ -333,13 +339,13 @@ drawHunter:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, lr}
-	ldr	r0, .L53
-	ldr	ip, .L53+4
+	ldr	r0, .L55
+	ldr	ip, .L55+4
 	sub	sp, sp, #8
 	add	r2, r0, #16
 	ldm	r2, {r2, r3}
 	ldm	r0, {r0, r1}
-	ldr	r4, .L53+8
+	ldr	r4, .L55+8
 	str	ip, [sp]
 	mov	lr, pc
 	bx	r4
@@ -347,9 +353,9 @@ drawHunter:
 	@ sp needed
 	pop	{r4, lr}
 	bx	lr
-.L54:
+.L56:
 	.align	2
-.L53:
+.L55:
 	.word	hunter
 	.word	ghostHunterBitmap
 	.word	drawImage4
@@ -366,23 +372,23 @@ drawCross:
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, r5, r6, r7, lr}
 	mov	r7, #1
-	ldr	r4, .L64
-	ldr	r6, .L64+4
+	ldr	r4, .L66
+	ldr	r6, .L66+4
 	sub	sp, sp, #12
 	add	r5, r4, #100
-.L57:
+.L59:
 	ldr	r3, [r4, #16]
 	cmp	r3, #0
-	bne	.L63
-.L56:
+	bne	.L65
+.L58:
 	add	r4, r4, #20
 	cmp	r4, r5
-	bne	.L57
+	bne	.L59
 	add	sp, sp, #12
 	@ sp needed
 	pop	{r4, r5, r6, r7, lr}
 	bx	lr
-.L63:
+.L65:
 	ldm	r4, {r0, r1}
 	mov	r3, #11
 	mov	r2, #2
@@ -397,10 +403,10 @@ drawCross:
 	sub	r0, r0, #3
 	mov	lr, pc
 	bx	r6
-	b	.L56
-.L65:
+	b	.L58
+.L67:
 	.align	2
-.L64:
+.L66:
 	.word	crosses
 	.word	drawRect4
 	.size	drawCross, .-drawCross
@@ -415,13 +421,13 @@ spawnCross:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
-	ldr	r9, .L72
-	ldr	r8, .L72+4
-	ldr	r7, .L72+8
-	ldr	fp, .L72+12
-	ldr	r10, .L72+16
+	ldr	r9, .L74
+	ldr	r8, .L74+4
+	ldr	r7, .L74+8
+	ldr	fp, .L74+12
+	ldr	r10, .L74+16
 	sub	sp, sp, #20
-.L67:
+.L69:
 	mov	lr, pc
 	bx	r9
 	smull	r2, r3, fp, r0
@@ -436,9 +442,9 @@ spawnCross:
 	asr	r5, r0, #31
 	rsb	r5, r5, r1, asr #5
 	add	r5, r5, r5, lsl #3
-	ldr	r4, .L72+20
+	ldr	r4, .L74+20
 	sub	r5, r0, r5, lsl #4
-.L68:
+.L70:
 	mov	r3, #16
 	ldmib	r4, {r0, ip, lr}
 	ldr	r1, [r4]
@@ -451,12 +457,12 @@ spawnCross:
 	bx	r7
 	cmp	r0, #0
 	add	r4, r4, #20
-	bne	.L67
+	bne	.L69
 	cmp	r4, r8
-	bne	.L68
+	bne	.L70
 	mov	r2, #16
 	mov	r1, #1
-	ldr	r3, .L72+24
+	ldr	r3, .L74+24
 	str	r2, [r3, #8]
 	str	r6, [r3]
 	str	r5, [r3, #4]
@@ -466,9 +472,9 @@ spawnCross:
 	@ sp needed
 	pop	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
 	bx	lr
-.L73:
+.L75:
 	.align	2
-.L72:
+.L74:
 	.word	rand
 	.word	.LANCHOR0+120
 	.word	collision
@@ -489,7 +495,7 @@ initCross:
 	@ frame_needed = 0, uses_anonymous_args = 0
 	@ link register save eliminated.
 	mov	r2, #16
-	ldr	r3, .L75
+	ldr	r3, .L77
 	str	r2, [r3, #8]
 	str	r2, [r3, #12]
 	str	r2, [r3, #28]
@@ -501,9 +507,9 @@ initCross:
 	str	r2, [r3, #88]
 	str	r2, [r3, #92]
 	b	spawnCross
-.L76:
+.L78:
 	.align	2
-.L75:
+.L77:
 	.word	crosses
 	.size	initCross, .-initCross
 	.align	2
@@ -521,8 +527,8 @@ initGame:
 	mov	r4, #16
 	mov	r2, #120
 	mov	r0, #0
-	ldr	r3, .L79
-	ldr	ip, .L79+4
+	ldr	r3, .L81
+	ldr	ip, .L81+4
 	str	r1, [r3]
 	str	r1, [r3, #8]
 	str	r2, [r3, #4]
@@ -532,7 +538,7 @@ initGame:
 	str	r4, [r3, #20]
 	str	r0, [r3, #16]
 	bl	initHunter
-	ldr	r3, .L79+8
+	ldr	r3, .L81+8
 	str	r4, [r3, #8]
 	str	r4, [r3, #12]
 	str	r4, [r3, #28]
@@ -544,18 +550,18 @@ initGame:
 	str	r4, [r3, #88]
 	str	r4, [r3, #92]
 	bl	spawnCross
-	ldr	r4, .L79+12
+	ldr	r4, .L81+12
 	mov	r3, #256
 	mov	r2, #83886080
 	mov	r0, #3
-	ldr	r1, .L79+16
+	ldr	r1, .L81+16
 	mov	lr, pc
 	bx	r4
 	pop	{r4, lr}
 	bx	lr
-.L80:
+.L82:
 	.align	2
-.L79:
+.L81:
 	.word	player
 	.word	score
 	.word	crosses
@@ -573,17 +579,17 @@ updateGame:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, r5, r6, lr}
-	ldr	r5, .L94
+	ldr	r5, .L96
 	sub	sp, sp, #16
 	bl	updatePlayer
 	bl	updateHunter
 	ldr	r3, [r5, #16]
 	cmp	r3, #0
-	ldr	r4, .L94+4
-	bne	.L82
-	ldr	r6, .L94+8
-.L83:
-	ldr	r3, .L94+12
+	ldr	r4, .L96+4
+	bne	.L84
+	ldr	r6, .L96+8
+.L85:
+	ldr	r3, .L96+12
 	ldr	r0, [r3, #20]
 	ldr	r1, [r3, #16]
 	ldr	r2, [r3, #4]
@@ -598,26 +604,26 @@ updateGame:
 	mov	lr, pc
 	bx	r6
 	cmp	r0, #0
-	beq	.L81
-	ldr	r3, .L94+16
-	ldr	r2, .L94+20
+	beq	.L83
+	ldr	r3, .L96+16
+	ldr	r2, .L96+20
 	ldr	r1, [r3, #8]
 	ldr	r2, [r2]
 	cmp	r2, r1
 	strgt	r2, [r3, #8]
 	mov	r0, #6
-	ldr	r3, .L94+24
+	ldr	r3, .L96+24
 	mov	lr, pc
 	bx	r3
 	mov	r2, #5
-	ldr	r3, .L94+28
+	ldr	r3, .L96+28
 	strb	r2, [r3]
-.L81:
+.L83:
 	add	sp, sp, #16
 	@ sp needed
 	pop	{r4, r5, r6, lr}
 	bx	lr
-.L82:
+.L84:
 	ldr	ip, [r5, #8]
 	add	r2, r4, #20
 	ldm	r2, {r2, r3}
@@ -628,26 +634,26 @@ updateGame:
 	str	r6, [sp, #12]
 	stm	sp, {ip, lr}
 	ldm	r4, {r0, r1}
-	ldr	r6, .L94+8
+	ldr	r6, .L96+8
 	mov	lr, pc
 	bx	r6
 	cmp	r0, #0
-	beq	.L83
-	ldr	r2, .L94+20
+	beq	.L85
+	ldr	r2, .L96+20
 	ldr	r3, [r2]
 	add	r3, r3, #1
 	str	r3, [r2]
 	mov	r0, #7
-	ldr	r3, .L94+24
+	ldr	r3, .L96+24
 	mov	lr, pc
 	bx	r3
 	mov	r3, #0
 	str	r3, [r5, #16]
 	bl	spawnCross
-	b	.L83
-.L95:
+	b	.L85
+.L97:
 	.align	2
-.L94:
+.L96:
 	.word	crosses
 	.word	player
 	.word	collision
@@ -668,11 +674,11 @@ drawBorders:
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, r5, r6, r7, lr}
-	ldr	r4, .L102
-	ldr	r6, .L102+4
+	ldr	r4, .L104
+	ldr	r6, .L104+4
 	sub	sp, sp, #12
 	add	r5, r4, #120
-.L99:
+.L101:
 	ldr	lr, [r4]
 	ldr	r2, [r4, #8]
 	add	r3, lr, r2
@@ -691,14 +697,14 @@ drawBorders:
 	mov	lr, pc
 	bx	r6
 	cmp	r4, r5
-	bne	.L99
+	bne	.L101
 	add	sp, sp, #12
 	@ sp needed
 	pop	{r4, r5, r6, r7, lr}
 	bx	lr
-.L103:
+.L105:
 	.align	2
-.L102:
+.L104:
 	.word	.LANCHOR0
 	.word	drawRect4
 	.size	drawBorders, .-drawBorders
@@ -718,8 +724,9 @@ drawGame:
 	@ args = 0, pretend = 0, frame = 16
 	@ frame_needed = 0, uses_anonymous_args = 0
 	push	{r4, lr}
-	ldr	r3, .L106
+	ldr	r4, .L110
 	sub	sp, sp, #16
+	ldr	r3, .L110+4
 	mov	r0, #0
 	mov	lr, pc
 	bx	r3
@@ -727,113 +734,35 @@ drawGame:
 	bl	drawPlayer
 	bl	drawHunter
 	bl	drawCross
-	ldr	r3, .L106+4
+	ldr	r2, [r4]
 	mov	r0, sp
-	ldr	r2, [r3]
-	ldr	r1, .L106+8
-	ldr	r3, .L106+12
+	ldr	r1, .L110+8
+	ldr	r3, .L110+12
 	mov	lr, pc
 	bx	r3
-	ldr	r4, .L106+16
+	ldr	r3, [r4]
+	cmp	r3, #9
 	mov	r2, sp
-	mov	r3, #1
+	movle	r3, #1
+	movgt	r3, #27
 	mov	r1, #5
 	mov	r0, #160
+	ldr	r4, .L110+16
 	mov	lr, pc
 	bx	r4
 	add	sp, sp, #16
 	@ sp needed
 	pop	{r4, lr}
 	bx	lr
-.L107:
+.L111:
 	.align	2
-.L106:
-	.word	fillScreen4
+.L110:
 	.word	score
+	.word	fillScreen4
 	.word	.LC0
 	.word	sprintf
 	.word	drawString4
 	.size	drawGame, .-drawGame
-	.align	2
-	.global	showYayAnimation
-	.syntax unified
-	.arm
-	.fpu softvfp
-	.type	showYayAnimation, %function
-showYayAnimation:
-	@ Function supports interworking.
-	@ args = 0, pretend = 0, frame = 16
-	@ frame_needed = 0, uses_anonymous_args = 0
-	push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
-	mov	r6, #60
-	ldr	fp, .L112
-	ldr	r5, .L112+4
-	ldr	r10, .L112+8
-	ldr	r7, .L112+12
-	ldr	r4, .L112+16
-	ldr	r9, .L112+20
-	ldr	r8, .L112+24
-	sub	sp, sp, #28
-.L109:
-	mov	r0, #0
-	mov	lr, pc
-	bx	fp
-	bl	drawBorders
-	str	r10, [sp]
-	add	r2, r5, #20
-	ldm	r2, {r2, r3}
-	ldm	r5, {r0, r1}
-	mov	lr, pc
-	bx	r7
-	str	r9, [sp]
-	add	r2, r4, #16
-	ldm	r2, {r2, r3}
-	ldm	r4, {r0, r1}
-	mov	lr, pc
-	bx	r7
-	bl	drawCross
-	ldr	r3, .L112+28
-	mov	r1, r8
-	ldr	r2, [r3]
-	add	r0, sp, #8
-	ldr	r3, .L112+32
-	mov	lr, pc
-	bx	r3
-	mov	r1, #5
-	mov	r0, #160
-	ldr	ip, .L112+36
-	add	r2, sp, #8
-	mov	r3, #1
-	mov	lr, pc
-	bx	ip
-	ldr	r3, .L112+40
-	mov	lr, pc
-	bx	r3
-	ldr	r3, .L112+44
-	mov	lr, pc
-	bx	r3
-	subs	r6, r6, #1
-	bne	.L109
-	add	sp, sp, #28
-	@ sp needed
-	pop	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
-	bx	lr
-.L113:
-	.align	2
-.L112:
-	.word	fillScreen4
-	.word	player
-	.word	YayBitmap
-	.word	drawImage4
-	.word	hunter
-	.word	ghostHunterBitmap
-	.word	.LC0
-	.word	score
-	.word	sprintf
-	.word	drawString4
-	.word	waitForVBlank
-	.word	flipPage
-	.size	showYayAnimation, .-showYayAnimation
 	.global	walls
 	.global	highScore
 	.comm	score,4,4
@@ -887,13 +816,13 @@ walls:
 	.bss
 	.align	2
 	.set	.LANCHOR1,. + 0
-	.type	steps.5049, %object
-	.size	steps.5049, 4
-steps.5049:
+	.type	steps.5047, %object
+	.size	steps.5047, 4
+steps.5047:
 	.space	4
-	.type	direction.5050, %object
-	.size	direction.5050, 4
-direction.5050:
+	.type	direction.5048, %object
+	.size	direction.5048, 4
+direction.5048:
 	.space	4
 	.type	highScore, %object
 	.size	highScore, 4
